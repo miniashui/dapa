@@ -1,0 +1,28 @@
+digraph Tower {
+    thread_signal_SPI4_IRQHandler [style=filled];
+    thread_period_1ms [style=filled];
+    thread_period_250ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_simplecontroller {
+        color = blue;
+        node [style=filled];
+        periodic;
+        result;
+        label = "monitor simplecontroller";
+    }
+    subgraph  cluster_spi4PeripheralDriver {
+        color = blue;
+        node [style=filled];
+        initialize_hardware;
+        irq;
+        request;
+        spi_shutdown_watchdog;
+        label = "monitor spi4PeripheralDriver";
+    }
+    thread_signal_SPI4_IRQHandler -> irq;
+    thread_period_1ms -> spi_shutdown_watchdog;
+    thread_period_250ms -> periodic;
+    thread_init -> initialize_hardware;
+    periodic -> request;
+    spi_shutdown_watchdog -> result;
+}

@@ -1,0 +1,43 @@
+digraph Tower {
+    thread_signal_CAN1_RX0_IRQHandler [style=filled];
+    thread_signal_CAN1_RX1_IRQHandler [style=filled];
+    thread_signal_CAN1_TX_IRQHandler [style=filled];
+    thread_period_250ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_can1PeripheralDriver {
+        color = blue;
+        node [style=filled];
+        abort;
+        abort_2;
+        abort_3;
+        init;
+        request;
+        request_2;
+        request_3;
+        rx0_irq;
+        rx1_irq;
+        tx_irq;
+        label = "monitor can1PeripheralDriver";
+    }
+    subgraph  cluster_simplecontroller {
+        color = blue;
+        node [style=filled];
+        init_2;
+        periodic;
+        result;
+        tx_complete;
+        label = "monitor simplecontroller";
+    }
+    thread_signal_CAN1_RX0_IRQHandler -> rx0_irq;
+    thread_signal_CAN1_RX1_IRQHandler -> rx1_irq;
+    thread_signal_CAN1_TX_IRQHandler -> tx_irq;
+    thread_period_250ms -> periodic;
+    thread_init -> init;
+    thread_init -> init_2;
+    rx0_irq -> result;
+    rx1_irq -> result;
+    tx_irq -> tx_complete;
+    periodic -> abort;
+    periodic -> request;
+    tx_complete -> request;
+}

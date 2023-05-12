@@ -1,0 +1,42 @@
+/home/x2/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/lib/ghc-8.2.2/include/ghcversion.h:
+  hash: e803b62244dbe2a2413f5c2cd68110a5cc21f1167bc36e77db7c55974024764b
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/cabal_macros.h
+: hash: ebce4afeda3c71fb773b4ea5f7bfa042e8969f967b331a6e73e96224a42a93c9
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/smaccm-datalink.cabal:
+  hash: 33df4ed712a4b28561519f32ab2e89e760e3414ab43b941bab6dbee40e45dd14
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client.hs:
+  hash: 1054872fca1bd64ca499c482bce06646c8d8bee6e51848efbfc51760c2c423e5
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/Async.hs:
+  hash: 4b467e80cbb470580d1dde995be36e71f567134d8b31b2303e21a721ce6034f1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/ByteString.hs:
+  hash: 71ebc2d3a4f4149641f40c3c8b1025e7d533a3c4ea491f15c379c701b9337a5e
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/Console.hs:
+  hash: 71de04643314982d8028a9e1e7b6c008138c7cdfd186f745f74f71299fa689e9
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/Loopback.hs:
+  hash: 5dcf8d709ccdf110f7132796c5d84ba2ba11f8289f9efc7168fcdb295323c204
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/Monad.hs:
+  hash: bf3805aca53980454b4d9ef6f3d3fe8552f946f0b922435510a950df079923d9
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/Opts.hs:
+  hash: e14d700abda8ce3b20fffb34bb319c2310cd8501abb7e3bd91aad4ff65071502
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/Pipes.hs:
+  hash: 28826bf140cef3dc1830a8184d22ebec1f40263bc0462a352d64c8ffafd8e000
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/Queue.hs:
+  hash: 319a99b5807bbfe62a0451face6cda4105d367eb22b60a076ca9682c51207897
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/Repl.hs:
+  hash: 313fd19b21a52792b2c5c17c38c968850616cfdaeefa5d3d199e6c61a3a51de1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Client/Serial.hs:
+  hash: e4b070f3f8efb33ef73d3cb036d8bebca25b28da5732d66378709e053a52faa7
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/HXStream/Ivory.hs:
+  hash: 66b457d0dc905c71208507cc9db0ae004a51d8d6c735f44b0e2c42390eb37ffd
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/HXStream/Ivory/Types.hs:
+  hash: df925002d52a37b59d6c6f0c40a87b379e03b0ffa46696d3fd24a8022a2897af
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/HXStream/Native.hs:
+  hash: 3c9543a587c3b9c48aa3fa7ea28ce93871721c87fcd80d10dfb94f74a5bf7652
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/HXStream/Tower.hs:
+  hash: cc3122414312c8d0ce2a2fd447ba74d5081fae36fb76c8bcc4330add4659cfdd
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Loopback.hs:
+  hash: 0bb8cae6a4ff5a64dc6dc46f867fb5f80ea3cb8b45a014049d07b87d5aad4027
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-datalink/src/SMACCMPilot/Datalink/Mode.hs:
+  hash: fcf106c922a0af7ee0b0f425bf892753b7920b1cf83ebb7b7843c0f3ad3fd16d
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

@@ -1,0 +1,49 @@
+-- File generated from Tower-AADL compiler
+
+package echoprompt
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+
+thread echoprompt
+  features
+    Input_flush: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_flush");
+        Source_Text => ("user_code/echoprompt_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_flush_0}}";
+      };
+    Input_ostream: in event data port Base_Types::Unsigned_8
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_ostream");
+        Source_Text => ("user_code/echoprompt_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_ostream_0, 1 Output_ostream_1}}";
+      };
+    Input_result: in event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_result");
+        Source_Text => ("user_code/echoprompt_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Output_flush_0: out event data port Data_Types::ivory_string_UARTBuffer
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_flush_chan_3";
+      };
+    Output_ostream_0: out event data port Data_Types::ivory_string_UARTBuffer
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_ostream_chan_3";
+      };
+    Output_ostream_1: out event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_ostream_chan_2";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Passive;
+    Dispatch_Protocol => Aperiodic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    Source_Text => ();
+end echoprompt;
+
+end echoprompt;

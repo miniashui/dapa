@@ -1,0 +1,1 @@
+AADL_LIST="thread_init.aadl,thread_period_250ms.aadl,thread_period_333ms.aadl,blinker.aadl,led.aadl,blinker_2.aadl,led_2.aadl,sys.aadl"

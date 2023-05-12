@@ -1,0 +1,59 @@
+-- File generated from Tower-AADL compiler
+
+package sys
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+  with thread_init;
+  with thread_period_1ms;
+  with thread_period_20ms;
+  with thread_period_250ms;
+  with thread_signal_I2C1_ER_IRQHandler;
+  with thread_signal_I2C1_EV_IRQHandler;
+  with i2c1PeripheralDriver;
+  with simplecontroller;
+
+process sys_process
+  
+end sys_process;
+
+process implementation sys_process.impl
+  subcomponents
+    th0: thread thread_init::thread_init;
+    th1: thread thread_period_1ms::thread_period_1ms;
+    th2: thread thread_period_20ms::thread_period_20ms;
+    th3: thread thread_period_250ms::thread_period_250ms;
+    th4: thread thread_signal_I2C1_ER_IRQHandler::thread_signal_I2C1_ER_IRQHandler;
+    th5: thread thread_signal_I2C1_EV_IRQHandler::thread_signal_I2C1_EV_IRQHandler;
+    th6: thread i2c1PeripheralDriver::i2c1PeripheralDriver;
+    th7: thread simplecontroller::simplecontroller;
+  connections
+    th7_to_th6_0: port th7.Output_periodic_0 -> th6.Input_i2c1_request;
+    th6_to_th7_1: port th6.Output_i2c1_error_irq_0 -> th7.Input_result;
+    th6_to_th7_2: port th6.Output_i2c1_event_irq_0 -> th7.Input_result;
+    th6_to_th7_3: port th6.Output_i2c1_request_0 -> th7.Input_result;
+    th6_to_th7_4: port th6.Output_i2c1_watchdog_0 -> th7.Input_result;
+    th5_to_th6_5: port th5.Output_I2C1_EV_IRQHandler -> th6.Input_i2c1_event_irq;
+    th4_to_th6_6: port th4.Output_I2C1_ER_IRQHandler -> th6.Input_i2c1_error_irq;
+    th1_to_th6_7: port th1.Output_1ms -> th6.Input_i2c1_ready_period;
+    th2_to_th6_8: port th2.Output_20ms -> th6.Input_i2c1_watchdog;
+    th3_to_th7_9: port th3.Output_250ms -> th7.Input_periodic;
+    th0_to_th6_10: port th0.Output_systemInit -> th6.Input_i2c1_init;
+end sys_process.impl;
+
+system sys
+  
+end sys;
+
+system implementation sys.impl
+  subcomponents
+    p0:process sys_process.impl;
+  properties
+    SMACCM_SYS::OS => eChronos;
+    SMACCM_SYS::HW => PIXHAWK;
+    
+end sys.impl;
+
+end sys;

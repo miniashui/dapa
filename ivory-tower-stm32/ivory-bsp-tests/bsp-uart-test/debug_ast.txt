@@ -1,0 +1,241 @@
+Tower
+  { tower_monitors =
+      [ Monitor
+          { monitor_name = Unique { unique_name = "dma" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name = Unique { unique_name = "init" , unique_fresh = 1 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_init" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "req_chan" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan
+                          { sync_chan_label = 2
+                          , sync_chan_type = TyStruct "ivory_string_UARTBuffer"
+                          }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_req_chan" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "interrupt" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSignal
+                        Signal
+                          { signal_deadline = Microseconds 50
+                          , signal_name = "USART2_IRQHandler"
+                          , signal_number = 38
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_interrupt_chan_4" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 4 , sync_chan_type = TyWord Word8 }
+                          , emitter_bound = 1
+                          }
+                      , Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_interrupt_chan_3" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 3 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_interrupt" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      , Monitor
+          { monitor_name =
+              Unique { unique_name = "uart_unbuffer" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name =
+                      Unique { unique_name = "uart_byte_tosend" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan { sync_chan_label = 5 , sync_chan_type = TyWord Word8 }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_uart_byte_tosend" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "uart_tx_flush" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 10000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_uart_tx_flush_chan_2" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 2
+                                , sync_chan_type = TyStruct "ivory_string_UARTBuffer"
+                                }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_uart_tx_flush" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "uart_tx_res" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync SyncChan { sync_chan_label = 3 , sync_chan_type = TyBool }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_uart_tx_res" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      , Monitor
+          { monitor_name =
+              Unique { unique_name = "echoprompt" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name = Unique { unique_name = "init" , unique_fresh = 2 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 1000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique { unique_name = "emitter_init_2_chan_5" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 5 , sync_chan_type = TyWord Word8 }
+                          , emitter_bound = 32
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_init_2" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "istream" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan { sync_chan_label = 4 , sync_chan_type = TyWord Word8 }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_istream_chan_1" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 1 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      , Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_istream_chan_5" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 5 , sync_chan_type = TyWord Word8 }
+                          , emitter_bound = 32
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_istream" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      , Monitor
+          { monitor_name =
+              Unique { unique_name = "settableLED" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name =
+                      Unique { unique_name = "hardwareinit" , unique_fresh = 1 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_hardwareinit" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "newoutput" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync SyncChan { sync_chan_label = 1 , sync_chan_type = TyBool }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_newoutput" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      ]
+  , tower_syncchans =
+      [ SyncChan { sync_chan_label = 1 , sync_chan_type = TyBool }
+      , SyncChan
+          { sync_chan_label = 2
+          , sync_chan_type = TyStruct "ivory_string_UARTBuffer"
+          }
+      , SyncChan { sync_chan_label = 3 , sync_chan_type = TyBool }
+      , SyncChan { sync_chan_label = 4 , sync_chan_type = TyWord Word8 }
+      , SyncChan { sync_chan_label = 5 , sync_chan_type = TyWord Word8 }
+      ]
+  , tower_signals =
+      [ Signal
+          { signal_deadline = Microseconds 50
+          , signal_name = "USART2_IRQHandler"
+          , signal_number = 38
+          }
+      ]
+  , tower_periods =
+      [ Period
+          { period_dt = Microseconds 1000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      , Period
+          { period_dt = Microseconds 10000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      ]
+  }

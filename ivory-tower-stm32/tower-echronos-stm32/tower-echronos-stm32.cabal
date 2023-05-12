@@ -1,0 +1,33 @@
+name:                tower-echronos-stm32
+version:             0.0.1.0
+author:              Galois, Inc.
+maintainer:          leepike@galois.com
+category:            Language
+build-type:          Simple
+cabal-version:       >= 1.10
+license:             BSD3
+
+data-files: support/px_mkfw.py,
+            support/px_uploader.py,
+            support/px4fmu-v1.prototype,
+            support/px4fmu-v2.prototype
+
+library
+  exposed-modules: Tower.AADL.Build.EChronos
+
+  other-modules:   Paths_tower_echronos_stm32
+
+  build-depends: base >= 4.6
+               , filepath
+               , ivory >= 0.1.0.2
+               , ivory-artifact
+               , ivory-backend-c
+               , ivory-hw
+               , ivory-bsp-stm32
+               , tower
+               , tower-aadl
+
+  hs-source-dirs:       src
+  default-language:     Haskell2010
+  ghc-options:          -Wall -fno-warn-orphans
+

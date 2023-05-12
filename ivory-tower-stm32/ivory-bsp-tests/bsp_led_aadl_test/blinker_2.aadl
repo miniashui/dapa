@@ -1,0 +1,28 @@
+-- File generated from Tower-AADL compiler
+
+package blinker_2
+public
+  with Base_Types;
+  with Data_Model;
+  with SMACCM_SYS;
+
+thread blinker_2
+  features
+    Input_per_2: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_per_2");
+        Source_Text => ("user_code/blinker_2_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_per_2_0}}";
+      };
+    Output_per_2_0: out event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_per_2_chan_2";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Passive;
+    Dispatch_Protocol => Aperiodic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    Source_Text => ();
+end blinker_2;
+
+end blinker_2;

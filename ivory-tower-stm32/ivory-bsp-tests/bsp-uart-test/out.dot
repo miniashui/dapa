@@ -1,0 +1,47 @@
+digraph Tower {
+    thread_signal_USART2_IRQHandler [style=filled];
+    thread_period_1ms [style=filled];
+    thread_period_10ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_dma {
+        color = blue;
+        node [style=filled];
+        init;
+        interrupt;
+        req_chan;
+        label = "monitor dma";
+    }
+    subgraph  cluster_echoprompt {
+        color = blue;
+        node [style=filled];
+        init_2;
+        istream;
+        label = "monitor echoprompt";
+    }
+    subgraph  cluster_settableLED {
+        color = blue;
+        node [style=filled];
+        hardwareinit;
+        newoutput;
+        label = "monitor settableLED";
+    }
+    subgraph  cluster_uart_unbuffer {
+        color = blue;
+        node [style=filled];
+        uart_byte_tosend;
+        uart_tx_flush;
+        uart_tx_res;
+        label = "monitor uart_unbuffer";
+    }
+    thread_signal_USART2_IRQHandler -> interrupt;
+    thread_period_1ms -> init_2;
+    thread_period_10ms -> uart_tx_flush;
+    thread_init -> init;
+    thread_init -> hardwareinit;
+    interrupt -> istream;
+    interrupt -> uart_tx_res;
+    init_2 -> uart_byte_tosend;
+    istream -> newoutput;
+    istream -> uart_byte_tosend;
+    uart_tx_flush -> req_chan;
+}

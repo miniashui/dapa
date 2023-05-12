@@ -1,0 +1,6 @@
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/ivory-px4-hw.cabal:
+  hash: a13862acadf7d55ad90d0fc0fd313962bfaa812ec6378664c023443cc22f4122
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/tests/MPU6000AADLTest.hs:
+  hash: e59347c9e24cc27ead1aab8303fa42560420b0a44894a3978e49e313f9802885
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/tests/SMACCMPilot/Hardware/Tests/MPU6000.hs:
+  hash: 5566421bf6a1a5ef2ca58f82f7fdf206036119a500489bd415d85b23302fc06e

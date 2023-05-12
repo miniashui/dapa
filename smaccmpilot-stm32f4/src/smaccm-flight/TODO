@@ -1,0 +1,6 @@
+BUGS:
+
+- accel cal seems to work, but the euler angles seem to be wrong sometimes?
+- no-motion calculation seems to happen on the SPI interrupt, should we move the
+  heavier parts of that task to a periodic function?
+

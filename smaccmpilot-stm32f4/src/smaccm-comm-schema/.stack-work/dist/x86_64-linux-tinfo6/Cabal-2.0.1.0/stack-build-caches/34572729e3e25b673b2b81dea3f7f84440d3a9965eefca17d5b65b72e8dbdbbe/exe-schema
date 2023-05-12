@@ -1,0 +1,8 @@
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/schema/autogen/Paths_schema.hs
+: hash: f6eb601745f23856bfb795fe11046dafc78d7453f0b8cf0aafb7357a9a06f309
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/Main.hs:
+  hash: 5582ea699800cf70d32bbe5cdc7c553fcf1ac56e89a110687fad6857766245ea
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/package.yaml:
+  hash: 307684d4184a8924de0c2ffa0c27490cd3f0ded1a8a76dc22f9feb02b2d7ec3b
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/schema.cabal:
+  hash: db0e152818d3ebb9700d4ccc2eae24bda7a6ded7b9c77a24b545e84002ed5bfd

@@ -1,0 +1,27 @@
+-- File generated from Tower-AADL compiler
+
+package thread_init
+public
+  with Base_Types;
+  with Data_Model;
+  with SMACCM_SYS;
+
+thread thread_init
+  features
+    Output_systemInit: out event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_systemInit";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Active;
+    Dispatch_Protocol => Sporadic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    SMACCM_SYS::Sends_Events_To => "{{1 Output_systemInit}}";
+    Stack_Size => 1024 bytes;
+    Priority => 1;
+    SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_systemInit");
+    Source_Text => ("user_code/callback_systemInit.c");
+    Initialize_Entrypoint_Source_Text => "callback_systemInit";
+end thread_init;
+
+end thread_init;

@@ -1,0 +1,142 @@
+/home/x2/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/lib/ghc-8.2.2/include/ghcversion.h:
+  hash: e803b62244dbe2a2413f5c2cd68110a5cc21f1167bc36e77db7c55974024764b
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/Paths_smaccm_commsec.hs
+: hash: 527c25a14657c6dcac67df8de6307be6baeedfd2bea96db9a8b87c3012c34176
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/cabal_macros.h
+: hash: fa0429778d5865783f7905b8b3e93974f25bb141ed851128c2f0427cfe0fb9c9
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/smaccm-commsec.cabal:
+  hash: 6defcbf83fe008e9b3b9cb7b9ea2f113351ba19f031c1dc0fdba350848b770e8
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/Ivory.hs:
+  hash: 97d48c40f9e3772e0303e8de07fe973ada2b61898105f12f7955fc96c73072eb
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/Ivory/Artifacts.hs:
+  hash: 940d37c22077926f5d37551735f7279678ec02c2748676a583c77e52cd9e414e
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/Ivory/Error.hs:
+  hash: bc8ec462421389733d948ca6be2600faf971a4dd96607c1f24fadede65ffd99b
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/Ivory/Import.hs:
+  hash: 1981f3b4848eca86fb0668973757e7e56503a5254381324d7f7cbd3260b566b4
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/Ivory/Import/Types.hs:
+  hash: c59db45c0cd574fabed29872f3719ea2eaace6b8114ffee35153eef9f37f7667
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/Ivory/Module.hs:
+  hash: 3e862dcd18ed38b734492ce0e77e8ff2398e64b176148b7158d89a6afc1db456
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/Ivory/Types/SymmetricKey.hs:
+  hash: b73191ad39b944df620f174dba9793f1a16524d67b2160a1fe777cd7feee3f94
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/KeyExchange.hs:
+  hash: 624d17148534d55123c7b08060df42ce5744ef3214074326304c2805635de283
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/Sizes.hs:
+  hash: 4da70ae38ffe5525455463b5d3075e702f89a0283dd9f0333f3a6e570dfff204
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/SymmetricKey.hs:
+  hash: 28b54fb8ccbb2e25628b02a7724b31fe4583c9f0fddddc10e3fc854f5e7726d5
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/src/SMACCMPilot/Commsec/Tower.hs:
+  hash: 5eb34c40899435e988b0d7adacf729e5650fd616201349eb6bb4a62b7ab20b18
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/aes.h:
+  hash: d92f7da4d7133992356cf031556ef6b373bc2d4e04340960287ae093b114b4ed
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/aes_modes.c:
+  hash: e219929df0a23d494d0c43d365d2f633695358494e52838afa4d97aba810465d
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/aescrypt.c:
+  hash: ed153c640c64cf5d1368afba18b62a1d060a91c948ea06dd2ee420661b7947fc
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/aeskey.c:
+  hash: 67f663c10914ecb75630f37023bfc7c2494511cf58465c3845cd27070b1b1fd6
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/aesopt.h:
+  hash: 64238caf351b5990b146b66de8d07a645f0a69efa8804f0da87deb5ea709dca2
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/aestab.c:
+  hash: fff26d6e6953e512c4c475b66b5dbad9bdc5410c977960f2adfc6a0fcdc13ee1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/aestab.h:
+  hash: 40375e13ab01afab6461028d45d65af90e1819fa966c46a868714a6d9fa71d98
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/brg_endian.h:
+  hash: 8115d261101435953d19690d6e16e0b2511f158a928ed83f98998548ebe3865f
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/brg_types.h:
+  hash: e248e257b8cf4d1ba144d80a8c604b835dae77e5352867a4b6d1b81293ffadc9
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/gcm.c:
+  hash: aa05f58731c90a09c7842f5d9bcbdbd77c7aa044a06741f863c17e525165cb4c
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/gcm.h:
+  hash: 36c262a783b8ae4fecabb852541dd864cd35d97fcc47309824509ee29b3bb432
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/gf128mul.c:
+  hash: 867954f4d60d11e93bf0a3cac5715f0e6e9ab55205d79828c484966ddb7e6000
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/gf128mul.h:
+  hash: b6b1b7c204e2256475efd93b844dfe1bb34ab3137406603117a93e6170abb15d
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/gf_convert.c:
+  hash: 41e38f6e4ee27aaa19c9aecc383489112938fe9d6cfb910feec33e07a45fff77
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/gf_mul_lo.h:
+  hash: a0007fe29d6c4e2548e0fd2b7cf6c7677a04ee8f6410cfb5a5ef23098b6883b3
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/aes/mode_hdr.h:
+  hash: 28b969d79b221b54f79de103b86e6e612b18d9d4da0962807d4794b9f25bd896
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/curve25519/LICENSE.md:
+  hash: 2a3552ea6500c8ed1b73bb16e5d86261c63fdd40936c67d06036c6058abce969
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/curve25519/Makefile:
+  hash: df6c09bcd12952684b4ab704fead1c3dc72cb5bbc814b4394019b7a0bcc6b51e
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/curve25519/README:
+  hash: 66917adafc1fdfae28ae02e789a3179f56162a33a17b9494bc8f7675803ed543
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/curve25519/curve25519-donna.c:
+  hash: 371d2d41bf33d5372cb1bb8805e909f56a8cd001d8c12d858904dee891238f8c
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/curve25519/curve25519-donna.h:
+  hash: 19189b65dc97ddaba26f304057efbe04c7d95402a20ccf609572792fb007a130
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/curve25519/curve25519-donna.podspec:
+  hash: 1b791f5a8c45ea65e6445af66c633ddb04305094e7d5c52bbdfe9c12eaa68f2e
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/curve25519/test-curve25519.c:
+  hash: a079eaa727071b999d537b9fd78d9de942e31e659afa0662121a594acd38a7c5
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/curve25519/test-noncanon.c:
+  hash: 2c0a33d0dbd9c62f7a99dd99ca2cd05acce631577331e24ccdf9319c9d782abc
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/curve25519/test-sc-curve25519.c:
+  hash: 20fd7f92f579d06af515180c99de03378f951076353559d6b7f2e649c3c364a8
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/README.md:
+  hash: ce7e04079bf12928d5e66126b4becd6aedcb6ba94f2f44dbc81b93cf7f4e5133
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/curve25519-donna-32bit.h:
+  hash: f92c32aa69d5a015a81b96bfd75063061447bcc60b79d7fa48f4056262addd39
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/curve25519-donna-64bit.h:
+  hash: 200b6f43ab3ef2a4c835a79c3795d169f4762f19b51af1f950952587f6573310
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/curve25519-donna-helpers.h:
+  hash: a3cd2e774f9f57cfe16ac7b010085590464c602b9eb64e704d48b25860a7e9a1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/curve25519-donna-sse2.h:
+  hash: fa8e7894e269b0667c18d0ec9c66025468c0d1fd2b7e370d026d2239c95d8758
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-32bit-sse2.h:
+  hash: c7b3658eb060f1ece83865a979bb48125ff45cc65f70ade96e51377c2109ab71
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-32bit-tables.h:
+  hash: 4487a16e12cd57252df91364ad820cc5eb93d91cbc602fc21d96c676134754bc
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-64bit-sse2.h:
+  hash: 086a0b7418114ed12141c9fcbb19d30a47fc2e14f97532874418c85920767bf6
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-64bit-tables.h:
+  hash: 417c853c5ffddfc8b3e244096985fb919e872d9d4cc02e4f6c2047a1c5ec599c
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-64bit-x86-32bit.h:
+  hash: faa56400228b031de42b230e3d12192963bf863583f93f0ede5b93b843920e73
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-64bit-x86.h:
+  hash: 70c13b515c2a674673378ecc7a15d41f2a24b5d79df6ec33d5e8e965293436bb
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-basepoint-table.h:
+  hash: 0bfcde5ac42fe07700b9c04b280d932c888d91a73597130201ff11dcfe629e3d
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-impl-base.h:
+  hash: 243eee2c096612090bf724ca530590664605df1ca11744da09fe830a160c159a
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-portable-identify.h:
+  hash: bc3f37b7106dfac8594367b598747664d65e1a3ed5125d70c525649785070a6d
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna-portable.h:
+  hash: 0499d9b7497e1dc7346c1b060d1019bc93536dcc18a2b7815336dc67901487a6
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-donna.h:
+  hash: b53f69909a80a6930879aa093a41831aa6f3f6e443187f159eacc96cb7e6294e
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-hash-custom.h:
+  hash: 4403f88d9a30aee0dc3b30eeba35fc6a513b7eba1efd1e4ed1811e8cf2794831
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519-hash.h:
+  hash: d1ee2991539feb3bd1bade01dfabb2a9d6a4c86e9f9deda7da1df45c831f732e
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519.c:
+  hash: b47b65e9ad1acfa7c2f98a6e6f0923f1bed08797fa812b750bd465d2c489f8d0
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/ed25519.h:
+  hash: 4319bd544bf4ca724707b8f9129e1d6876a2426303e857d8dc8f924e5cfcb82f
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/modm-donna-32bit.h:
+  hash: 56716eb2f1eb1c5c5de494110b4ef912392ea7217a0e05608e3c70c236460ee1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/modm-donna-64bit.h:
+  hash: 1e320582deefcd5547bc9b036f639bd8248c01b0f4cfa1d8f7e1703dc7eea3ac
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/regression.h:
+  hash: 0575f870ab0c7c95970fbed795a5f83143b55b63ea967b50b6c2a6fdeba7f385
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/test-internals.c:
+  hash: 14c9805089f61f847f18761a3180219a8481f8916a8fe3288686e2aa0f735ceb
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/test-ticks.h:
+  hash: 89edcd5f1d94783979c857e91f04e51f63041b5e074a958b085dafef55f56613
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/ed25519/test.c:
+  hash: 52b18517e4e99a5cd40f2140b095833668e4bad2e380aa833d86ccbe98d50376
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/gec-ke.c:
+  hash: bea93adc9e254b0a115154228af341d7deb6ce06a03090f6adc12ebf195215d4
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/gec-ke.h:
+  hash: a35d4bae31875901d2655bd758cd3eea51bdb8409c49afbdf7739184dd31a334
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/gec.c:
+  hash: 1a9ffec5b45d8945c0b4d7ae00116ffc3d60409c3a4e5a8e21e70f27aaa6b554
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-commsec/support/gec.h:
+  hash: fcbfd26128b69178c22b50834432e10aed32eb9751c8e24470ef58f28526ec8c
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

@@ -1,0 +1,99 @@
+-- File generated from Tower-AADL compiler
+
+package can1PeripheralDriver
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+
+thread can1PeripheralDriver
+  features
+    Input_init: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_init");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_request: in event data port Data_Types::can_message
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_request");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_abort: in event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_abort");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_request_2: in event data port Data_Types::can_message
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_request_2");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_abort_2: in event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_abort_2");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_request_3: in event data port Data_Types::can_message
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_request_3");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_abort_3: in event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_abort_3");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_tx_irq: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_tx_irq");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_tx_irq_0, 1 Output_tx_irq_1, 1 Output_tx_irq_2}}";
+      };
+    Input_rx0_irq: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_rx0_irq");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{3 Output_rx0_irq_0}}";
+      };
+    Input_rx1_irq: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_rx1_irq");
+        Source_Text => ("user_code/can1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{3 Output_rx1_irq_0}}";
+      };
+    Output_tx_irq_0: out event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_tx_irq_chan_3";
+      };
+    Output_tx_irq_1: out event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_tx_irq_chan_6";
+      };
+    Output_tx_irq_2: out event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_tx_irq_chan_9";
+      };
+    Output_rx0_irq_0: out event data port Data_Types::can_message
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_rx0_irq_chan_1";
+      };
+    Output_rx1_irq_0: out event data port Data_Types::can_message
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_rx1_irq_chan_1";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Passive;
+    Dispatch_Protocol => Aperiodic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    Source_Text => ();
+end can1PeripheralDriver;
+
+end can1PeripheralDriver;

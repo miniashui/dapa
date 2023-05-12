@@ -1,0 +1,51 @@
+-- File generated from Tower-AADL compiler
+
+package sys
+public
+  with Base_Types;
+  with Data_Model;
+  with SMACCM_SYS;
+  with thread_init;
+  with thread_period_250ms;
+  with thread_period_333ms;
+  with blinker;
+  with led;
+  with blinker_2;
+  with led_2;
+
+process sys_process
+  
+end sys_process;
+
+process implementation sys_process.impl
+  subcomponents
+    th0: thread thread_init::thread_init;
+    th1: thread thread_period_250ms::thread_period_250ms;
+    th2: thread thread_period_333ms::thread_period_333ms;
+    th3: thread blinker::blinker;
+    th4: thread led::led;
+    th5: thread blinker_2::blinker_2;
+    th6: thread led_2::led_2;
+  connections
+    th3_to_th4_0: port th3.Output_per_0 -> th4.Input_newoutput;
+    th5_to_th6_1: port th5.Output_per_2_0 -> th6.Input_newoutput_2;
+    th1_to_th3_2: port th1.Output_250ms -> th3.Input_per;
+    th2_to_th5_3: port th2.Output_333ms -> th5.Input_per_2;
+    th0_to_th4_4: port th0.Output_systemInit -> th4.Input_hardwareinit;
+    th0_to_th6_5: port th0.Output_systemInit -> th6.Input_hardwareinit_2;
+end sys_process.impl;
+
+system sys
+  
+end sys;
+
+system implementation sys.impl
+  subcomponents
+    p0:process sys_process.impl;
+  properties
+    SMACCM_SYS::OS => eChronos;
+    SMACCM_SYS::HW => PIXHAWK;
+    
+end sys.impl;
+
+end sys;

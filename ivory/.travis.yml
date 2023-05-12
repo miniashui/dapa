@@ -1,0 +1,44 @@
+# This file has been generated -- see https://github.com/hvr/multi-ghc-travis
+language: c
+sudo: false
+
+git:
+  submodules: false
+
+cache:
+  directories:
+    - $HOME/.stack
+
+matrix:
+  include:
+    - env: GHCVER=7.10.3 STACK_YAML=stack.yaml
+      addons: {apt: {packages: [ghc-7.10.3], sources: [hvr-ghc]}}
+    - env: GHCVER=8.0.2 STACK_YAML=stack-8.0.2.yaml
+      addons: {apt: {packages: [ghc-8.0.2], sources: [hvr-ghc]}}
+
+before_install:
+ # Download and unpack the stack executable
+ - mkdir -p ~/.local/bin
+ - export PATH=$HOME/.local/bin:$PATH
+ - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
+# - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+ - git submodule update --init --recursive
+ - unset CC
+ - export PATH=/opt/ghc/$GHCVER/bin:$PATH
+
+
+install:
+ - stack --version
+ - echo "$(ghc --version) [$(ghc --print-project-git-commit-id 2> /dev/null || echo '?')]"
+
+# Here starts the actual work to be performed for the package under test;
+# any command which exits with a non-zero exit code causes the build to fail.
+script:
+ - make travis-test
+
+# notifications:
+#   slack:
+#     secure: IQnBCQNqSYIoHv9c668lpWTnJHCWhVTLLcdxIPFFxpiyoPQQO1JPhFHLdyhB2T/W4b7mVeU1X32PJ1jRDHVEbMTcPGoBS1lstI7avTkeDQ1b8ILut6GnjmaGWWpCYimoWgAZeM1IBdfJ6jbDA861sQkSnJEb79UidLE8xyRkXAk=
+#     secure: AcS89vo55VciqY8nSD8KWrAuMfTnKqJmbthYNaAfoqiVqXTi4PJaFriWNshjjxRTkzi+N9/qSv+iVXVC4jGX53ALb+JZHkQHCyYj8pU4Ce9xaGzXkmRQ6N6MmpARoNXrqh9Z+oJJsni5OQefh6EgKopJW5sXDTGlutezf0QsmNw=
+
+# EOF

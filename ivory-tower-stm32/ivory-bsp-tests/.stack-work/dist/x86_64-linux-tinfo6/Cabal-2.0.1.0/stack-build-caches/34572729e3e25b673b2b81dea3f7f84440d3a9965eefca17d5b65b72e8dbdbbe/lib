@@ -1,0 +1,26 @@
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/CAN/TestApp.hs:
+  hash: 057a8a2170db33f2435c88f4934c2bf10349fff3f54b6b3ecd4e8f9475870379
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/DMAUART/TestApp.hs:
+  hash: c1fa3bd602437f5c4339068764a47ee7a0821f7d874c04ed1ee3f68e2eb5ba96
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/I2C/TestApp.hs:
+  hash: 38412a633edbb5f4c2f765cc2cad6c37a21a4184f1ae60f30fc35c56c394f510
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/LED.hs:
+  hash: 85be145a721a3cc6db343a1dda80199f3d6c5adb8927bdf011c6d23c63199859
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/LED/Blink.hs:
+  hash: cee2098b5d81360705dd83f9707f46d1fc5d21ab1f0a8a10712b9bfedf487794
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/LED/TestApp.hs:
+  hash: 236df5401cb410e15e172f8158566c97754319cd6a2853487a5110648f959d52
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/Platforms.hs:
+  hash: 13db87b9c58cbb2c2e1f66376cfdf1890afed487b79e2e0889abd36fbc6f075a
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/RNG.hs:
+  hash: a0cc45f03d517de49d09d130e4fd62f0327b8dc0e5af7ec9969aff42935e3d3e
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/SPI/TestApp.hs:
+  hash: 2f9fbc7cf594bfe46588601b1b919871d9e287cbd08fb6dcff7edf44142e23be
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/UART/Buffer.hs:
+  hash: 1a90efb73803274a9987787115a54951ec17e39dc078a3ff378a79d8c623b42c
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/UART/TestApp.hs:
+  hash: b3f7fd8ec57ae251435dc23ee819b6b78eee83af5f15a0fd85334b970e8aa5e2
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/BSP/Tests/UART/Types.hs:
+  hash: 45c9181509d6a7ab334a884cc7b234f8a73a82e4a1d5e4d3aa534829e52bb937
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-tests/ivory-bsp-tests.cabal:
+  hash: b72cb574a53e79fa8f56b3c323171522c28bcc80e007a27781ae86137781727d

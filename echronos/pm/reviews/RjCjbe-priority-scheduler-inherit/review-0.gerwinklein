@@ -1,0 +1,16 @@
+RTOS Task Review
+=======================
+
+Task name: RjCjbe-priority-scheduler-inherit
+Version reviewed: 026fe18b707afaa68891b870380a7d4118058196
+Reviewer: gerwinklein
+Date: 2013-08-30
+Conclusion: Accepted
+
+Overall comments:
+All good.
+
+Specific comments
+=================
+
+-

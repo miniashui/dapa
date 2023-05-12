@@ -1,0 +1,55 @@
+digraph Tower {
+    thread_signal_USART2_IRQHandler [style=filled];
+    thread_period_1ms [style=filled];
+    thread_period_5ms [style=filled];
+    thread_period_333ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_blinker {
+        color = blue;
+        node [style=filled];
+        per;
+        label = "monitor blinker";
+    }
+    subgraph  cluster_dma {
+        color = blue;
+        node [style=filled];
+        init;
+        interrupt;
+        req_chan;
+        label = "monitor dma";
+    }
+    subgraph  cluster_led {
+        color = blue;
+        node [style=filled];
+        hardwareinit;
+        newoutput;
+        label = "monitor led";
+    }
+    subgraph  cluster_randReporter {
+        color = blue;
+        node [style=filled];
+        init_2;
+        rands;
+        result;
+        label = "monitor randReporter";
+    }
+    subgraph  cluster_rngPeripheral {
+        color = blue;
+        node [style=filled];
+        rngInit;
+        rngPoll;
+        label = "monitor rngPeripheral";
+    }
+    thread_signal_USART2_IRQHandler -> interrupt;
+    thread_period_1ms -> init_2;
+    thread_period_5ms -> rngPoll;
+    thread_period_333ms -> per;
+    thread_init -> hardwareinit;
+    thread_init -> init;
+    thread_init -> rngInit;
+    per -> newoutput;
+    interrupt -> result;
+    init_2 -> req_chan;
+    rands -> req_chan;
+    rngPoll -> rands;
+}

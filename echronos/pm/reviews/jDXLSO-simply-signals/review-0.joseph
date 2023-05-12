@@ -1,0 +1,29 @@
+RTOS Task Review
+=======================
+
+Task name: jDXLSO-simply-signals
+Version reviewed: ef4733e58ceca50d71e92b213daf1a5280eeb65d
+Reviewer: joseph
+Date: 2013-10-29
+Conclusion: Rework
+
+Overall comments:
+
+
+Specific comments
+=================
+
+Location: signal.c:83
+Comment: This should be SignalSet
+
+[[(benno): Agree. Fixed.]]
+
+Location: signal.c:16
+Comment: I think this should be SignalSet (given we want to remove SignalId and there are no uses of it within the api)
+
+[[(benno): I think this follows the aim of the user manual and the task description.]]
+
+Location: signal.c:7
+Comment: The intention was to get rid of this, no?
+
+[[(benno): No; see task description and user-manual.]]

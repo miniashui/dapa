@@ -1,0 +1,10 @@
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-artifact/ivory-artifact.cabal:
+  hash: 547dc083b98597ada7a1627c17f3c17bdd169c429efcb80f311b9beb2b43452f
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-artifact/src/Ivory/Artifact.hs:
+  hash: bd52dfa9d71c7515330313f3f121b5f623e8aeaa20965cf97ef5d65c4c9886e2
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-artifact/src/Ivory/Artifact/Location.hs:
+  hash: 52a1c79aa5d3b4923cfe9835358536e49b52f719fb898728b79c12f7a86407ab
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-artifact/src/Ivory/Artifact/Template.hs:
+  hash: 520037536b8859ff5dd762fec4fb79503ce0e46863a79f1316cd6356b8b9857f
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-artifact/src/Ivory/Artifact/Transformer.hs:
+  hash: 16c9c1170a28ff86f5f55da4e00605f97b8af0213f6c60ad18a7df64565d60b0

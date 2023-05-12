@@ -1,0 +1,55 @@
+-- File generated from Tower-AADL compiler
+
+package simplecontroller
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+
+thread simplecontroller
+  features
+    Input_init_2: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_init_2");
+        Source_Text => ("user_code/simplecontroller_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_periodic: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_periodic");
+        Source_Text => ("user_code/simplecontroller_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_periodic_0, 1 Output_periodic_1}}";
+      };
+    Input_tx_complete: in event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_tx_complete");
+        Source_Text => ("user_code/simplecontroller_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_tx_complete_0}}";
+      };
+    Input_result: in event data port Data_Types::can_message
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_result");
+        Source_Text => ("user_code/simplecontroller_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Output_periodic_0: out event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_periodic_chan_4";
+      };
+    Output_periodic_1: out event data port Data_Types::can_message
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_periodic_chan_2";
+      };
+    Output_tx_complete_0: out event data port Data_Types::can_message
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_tx_complete_chan_2";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Passive;
+    Dispatch_Protocol => Aperiodic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    Source_Text => ();
+end simplecontroller;
+
+end simplecontroller;

@@ -1,0 +1,10 @@
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/odroid-mini/SMACCMPilotODROIDMini.hs:
+  hash: ae08a305ab9daa2c67afad2fab4c0c3605ab6c09f144e60088fef3087eaf3dee
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/odroid-mini/SMACCMTypes/CAN.hs:
+  hash: 782c1555b76f6c294564cf019596375bc1f98980790b3d047292788048a59daa
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/odroid-mini/SMACCMTypes/Camera.hs:
+  hash: c7cc9e97c11726c5ee2794868f57a278311c6607291b596720c6beb9eb78238f
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/odroid-mini/SMACCMTypes/UARTPacket.hs:
+  hash: 9c4b18263082c63afaa01e30145b517ecb19866792b16cc925487f12b6caa9ff
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/smaccm-flight.cabal:
+  hash: 9288d14c91312c7557b8daa719019a2aafe5f8f5fc4393552c5637467f51b339

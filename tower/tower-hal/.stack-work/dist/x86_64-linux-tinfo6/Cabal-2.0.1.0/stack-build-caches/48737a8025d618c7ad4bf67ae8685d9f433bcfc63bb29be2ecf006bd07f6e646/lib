@@ -1,0 +1,28 @@
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/CAN.hs:
+  hash: 49aa28995bfed9457b71d57e28919a8b0f3b140efd2acca0d2f62884b3409442
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/CAN/Fragment.hs:
+  hash: 39f2a059e86c20e4400d08fe6846c7db28e88eb308317489d942ae2fbdce5492
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/CAN/Sched.hs:
+  hash: d078212a26addc9e227dde846c0ed20508695fff541885668b4ada39611d973b
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/I2C.hs:
+  hash: 93dfece28c3cc385fd2f0bf05f1b42f08caf6d930506349aa504439fd915d79e
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/I2C/DeviceAddr.hs:
+  hash: a268117f8d7ffdc8d4e76020aa4a0853f6a5691de0c62604e2e6d072c331c2b5
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/Interface.hs:
+  hash: cfff6810f70c5d5ce474704d653daed236de2aab03296a8e66db59bd669ab915
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/SPI.hs:
+  hash: e9e73ceab6bdcc0578fecf10e5dba2d46efafd1838381b3bd7b26e597164881f
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/SPI/DeviceHandle.hs:
+  hash: db55342f10095cfb06b2aa9258e59f358f34f919fbbcf8b8ee2df88836591457
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/Sched.hs:
+  hash: 0d11e2b9485cefd5c25b47a2b582c4233e11f7d2b5831feaf8eeeea1acd0f137
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/Sched/Internal.hs:
+  hash: 615e1f8413a0b8a9a8ca9ce539d50f3865de91055692dd879e40dfc93d1692e2
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/SchedAsync.hs:
+  hash: 262ef8839daf2008be9e2b629c6c2292f9cf2c67ee77fa892f6af1fb7b656d4e
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/Bus/UART.hs:
+  hash: 4165e5a007916d13fae85102455227046a595f1a0731729762547e162d9444fd
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/src/Ivory/Tower/HAL/RingBuffer.hs:
+  hash: 6bf85fb3306a53d08588fb7d0283586fd198ab5f580f4248390e379d04267014
+/home/x2/FlyCube/smaccmpilot-build/tower/tower-hal/tower-hal.cabal:
+  hash: c3e4e0c1d8c1804af0cb01b0d478c971594240253b256562285244253d1cf3d5

@@ -1,0 +1,34 @@
+/home/x2/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/lib/ghc-8.2.2/include/ghcversion.h:
+  hash: e803b62244dbe2a2413f5c2cd68110a5cc21f1167bc36e77db7c55974024764b
+? /home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/cabal_macros.h
+: hash: c9081c3e036277eacda53542a2f16d9e9a5b0b3806ca103975667d1a6a8597dc
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/ivory-opts.cabal:
+  hash: b7937493312b46af2f332cd8f1c0a2a63f28faa9eb157559f82abf3f26433c3a
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/AssertFold.hs:
+  hash: 186953525fc68b5d051ccb26a2e2a827c305cb2091369eec0514d2bf394c2716
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/BitShift.hs:
+  hash: d2ef72b848d00b9f5853715511cece3409de83864389414c5cbebfc8ca40248c
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/CFG.hs:
+  hash: b54d6e958ee4f112239255f718ff4713b0ee186e71d76797ae0dec1dd001ae57
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/CSE.hs:
+  hash: aad6fe64b697e8a7d339b168de83f1b830ab57d5124dd3229be2feef2a6b0160
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/ConstFold.hs:
+  hash: ddd6568adc4bea26474943e5f948850d4c24facc4520218b10c0dd8c5a51399d
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/ConstFoldComp.hs:
+  hash: 7f81bca200f8df236bbf1865a4ff8d0bfcab0002fa100eb7a46cb635a42a6087
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/DivZero.hs:
+  hash: 8454a512c6c91a3445116911eed402cb72862968066968f5660a6af868faa9aa
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/FP.hs:
+  hash: 4313e26bdead32bf1a35097464147fa2f9d29a4ea37e5ea7e1e877feafe34596
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/Index.hs:
+  hash: 7f826b9ae7a155cb10a2d9a60d043200679b0b4bce1ab57ed09ae8ec97a15f3d
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/Overflow.hs:
+  hash: 0c57f1aad0dfb3544f50cc780146c4a42c95ff49f1f64416a65ef5c1f08fd95b
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/SanityCheck.hs:
+  hash: 6fe9b03841d395bb4a18b1f66f677a534484d0a115039c3d0d1797d3433c0dc0
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/TypeCheck.hs:
+  hash: 80c89a00e5d8f26b61095d417bdcb98708a3aea580aed186f53c3efff660aafa
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-opts/src/Ivory/Opts/Utils.hs:
+  hash: 8189cf8bef4912e3245adda335d463ecf49521fda10fa9bea5a71621e7acd075
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

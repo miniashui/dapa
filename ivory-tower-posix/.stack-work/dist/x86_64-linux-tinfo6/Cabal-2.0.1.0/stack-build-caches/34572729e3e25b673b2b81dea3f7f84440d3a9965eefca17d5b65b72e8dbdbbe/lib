@@ -1,0 +1,12 @@
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-posix/ivory-tower-posix.cabal:
+  hash: 18efe2118894d889a1e5b709443e4c0ae8f73a1dee536d061096782e73928d68
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-posix/src/Ivory/OS/Posix/Tower.hs:
+  hash: f4e287d5e9efa3c845af1f24aa78f04a8133932cc916d3d360ebee281e9c9ed1
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-posix/src/Ivory/OS/Posix/Tower/EventLoop.hs:
+  hash: c891ed7be9e0c58650c5cd2905a30f22db1ce8f08d135fcbfee5db3dcffb99d6
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-posix/src/Ivory/OS/Posix/Tower/IO.hs:
+  hash: 4999031671f2c5139301d1c1ff718eb9703493f110df2849c51c934d6a173c96
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-posix/src/Ivory/OS/Posix/Tower/Serial.hs:
+  hash: 2189277da3faadd0e7f07dd95273d319c3c28f2d4e3e3fdddbdaa80433b06426
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-posix/src/Ivory/OS/Posix/Tower/Signal.hs:
+  hash: 610cb2d2448473c04defb8fc02db96c515c6faefcb596bdc991d2c4d12bb2a15

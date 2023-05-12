@@ -1,0 +1,45 @@
+-- File generated from Tower-AADL compiler
+
+package dma
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+
+thread dma
+  features
+    Input_init: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_init");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_req_chan: in event data port Data_Types::ivory_string_UARTBuffer
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_req_chan");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_interrupt: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_interrupt");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_interrupt_0, 1 Output_interrupt_1}}";
+      };
+    Output_interrupt_0: out event data port Base_Types::Unsigned_8
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_interrupt_chan_4";
+      };
+    Output_interrupt_1: out event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_interrupt_chan_3";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Passive;
+    Dispatch_Protocol => Aperiodic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    Source_Text => ();
+end dma;
+
+end dma;

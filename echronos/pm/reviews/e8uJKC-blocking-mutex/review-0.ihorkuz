@@ -1,0 +1,16 @@
+RTOS Task Review
+=======================
+
+Task name: e8uJKC-blocking-mutex
+Version reviewed: 970866d1c13f38600cad47e996689b415bd77b7e
+Reviewer: ihorkuz
+Date: 2013-08-30
+Conclusion: Accepted
+
+Overall comments:
+
+Looks good.
+
+Specific comments
+=================
+

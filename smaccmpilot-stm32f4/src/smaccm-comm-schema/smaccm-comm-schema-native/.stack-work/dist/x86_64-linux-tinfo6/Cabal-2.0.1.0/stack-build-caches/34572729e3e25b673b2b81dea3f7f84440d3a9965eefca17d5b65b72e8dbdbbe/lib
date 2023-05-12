@@ -1,0 +1,158 @@
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/smaccm-comm-schema-native.cabal
+: hash: ff2a7e3245ba45a7380d3e45fce413471bab73c036ddb5ff602383eddc1ae890
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Interface/ControllableVehicle.hs
+: hash: 84c97f197ed34e8a43516ef06c3210662d0c354497a04f37d61ce8d01930a75f
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Interface/Vehicle.hs
+: hash: edaca05cd75c20dff01c959b6bcaec0b00660a706de60b00a2e9348dc81a2343
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Rpc/Base.hs
+: hash: 3db02d7594a4c70f84492e5d1802b25d16fc510981c65f3846b92bf6587cfac3
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Rpc/ControllableVehicle.hs
+: hash: 68a68a27bc285a0340c7db4f1c0f5fa207044438024e6c3f06984f0afa6d2f51
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Rpc/Vehicle.hs
+: hash: 31f21b2d02366e5c86321172c7154ff49c3053ed39ccdaf9624146a356626dde
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/AccelerometerSample.hs
+: hash: 9f04d4331e52c17bc5b41f7a316c37053c36977544572203725855c57b680134
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/AltControlDebug.hs
+: hash: 873b05b460df90d8d0fb80c815a8aa44f305b934da6c64ceac7c2d1ae96df556
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/ArmingMode.hs
+: hash: ef3b5c703a1038e77ed78097c56903d328c6fca32da91cb55200f8af1378d0f9
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/ArmingStatus.hs
+: hash: 224d26199e429fa04da531890e85cc14be506acf89bd03923ef04324030c7ff0
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/AttControlDebug.hs
+: hash: 070e456404d5543b58fb8a340d3cb168202ee1746f6db9b7d1ff4334c85a305a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/BarometerSample.hs
+: hash: 8bf13dc95057e563a888042f1931962629649b713f4097ad1c106fcf29c292f5
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/CameraTarget.hs
+: hash: 25d4a9c2e77c69b6c83037773a26b3f4716697aa8693f4fbab4ba10c4780df75
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/ControlLaw.hs
+: hash: 2c169b8683627380487dd9683884929b92bfd9f5525c8f8a733d4ad76edeeb93
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/ControlModes.hs
+: hash: d0fb708a5dd3e6fae9ee65b22fd56aef9d64018c571ca7a10a2cdfaaa366291e
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/ControlOutput.hs
+: hash: aba948a3b243dfb5d9b768201735b924ca8c2f90c62df0ef783606d7aff75db3
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/ControlSetpoint.hs
+: hash: 4704a78a16cdd8e070e66a0f50baa23a12035506f4ee9b8e1ddb73024b476c77
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/ControlSource.hs
+: hash: 66893ed54128c27ab2757690ba1c032958dd7d63e57859fb0f180ae84c561756
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/GpsFix.hs
+: hash: 4e2dd52764eb296c5a120880f6daf1c758046a3d34857feee58a1993c4e1bf20
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/GyroscopeSample.hs
+: hash: 9cdf3d0938534e1d418229304a7cd42463119962d275f4829c6b95c3d5f0b7a4
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/Heartbeat.hs
+: hash: 8dc1370bb62d0212907cfc48c7810e0d098d9b938638fc9cb8cd03bf1ba8d131
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/LidarliteSample.hs
+: hash: 230bc6104c3dd9a2c3df4e24a205b509b55fc117ef30d71ed37fba95750561df
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/MagnetometerSample.hs
+: hash: 5df9088c19f802854a7d2c6a41e4d9a63a0621793ba141eb85214095ca5dea31
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/PackedStatus.hs
+: hash: 4554e3bd58c9b522ebaad32f53d8795049b96ad015c813c78a386244c23d385e
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/PidConfig.hs
+: hash: fa99c9ef1cc896617f303e5a9acd2136b9c976eb99c8794d83889cf563fe4834
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/PidState.hs
+: hash: 416a1888edcb9674f195a90576fcee96d12aff1e82840868b0eb9a8f5febd2ee
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/PositionSample.hs
+: hash: b6a14113741a746b0e41c1066b371ffd4c844eba8269e019d8fc4f8679ecd58e
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/Px4flowIntegralSample.hs
+: hash: 7415b4d6b4012b08f5696a7221c9559b1c00e728b4d80f396eb91b774b020d75
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/Px4flowSample.hs
+: hash: b0451d7291fa93f165cc1d4530546c4546757c3a98846ef90b3e0622fae58aef
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/Px4ioAlarms.hs
+: hash: 505360f9eb368c5396c3ede8e5844ad099ea5c64857a4410399c6b0bdbbed302
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/Px4ioState.hs
+: hash: e6d183e4d6ded3421a93466f16ea602e9b76da10b0e3bea2856e337be4e9806b
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/Px4ioStatus.hs
+: hash: 773dfba4dd8940c52af317db7fcc8e610e01448981c8605df64c778e7aa88326
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/QuadcopterMotors.hs
+: hash: d8dc705ad0701f9ac54716958ac3ca45640dcd3e130b3102041b8e8a2c70354d
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/Quaternion.hs
+: hash: 2fcd76364c9089b6d805705aff3aa7a71acf84d271ddc5e3ef3c325222599705
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/RcInput.hs
+: hash: b4521cb8cc91c9671f1db4752b64dc11fbe523bf0fac51bb71aae936a588f886
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/RebootMagic.hs
+: hash: b01b6fcc5ac4dee70250e9d15795672884e1668a69a6e5d212fd947ddaacb469
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/RebootReq.hs
+: hash: 11e104e5859d6de089f9a11aede71f17796e406691016fa96dc2f71a92d5c97f
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/RgbLedSetting.hs
+: hash: f7adb5482ff7fbb641a4114805631d0e1d10568269fb5afc8d960875157329d7
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SensorsResult.hs
+: hash: 07923607bcaedbcd7d77f479ef373ac3be85454cf0078b9cc159655834f59e01
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNum.hs
+: hash: d9b855114dc85d93543fb3dbc7bb7cd8e6cf752b6b3d8cfcdc3cb563566f47be
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedAccelerometerSample.hs
+: hash: 01ba886b941485e5b996b7112f8353682ff01e93d73cf0899f5976cfc57d3d0e
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedAltControlDebug.hs
+: hash: 95995a40aef6cbdf74a1bf6a7776daa48f896ebab075c77a2d0654c1743b039a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedArmingStatus.hs
+: hash: b8ed37e3ec9db2e010fc91becbf8d89fa8d29f38deabd5324583f2b06e54f1f7
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedAttControlDebug.hs
+: hash: 54455375320cd26fc2365a40f1177807a13ee249ffe000091c58d78572e75fbd
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedBarometerSample.hs
+: hash: a021704377836fc809ab879225e2319dcebb235564dbe8f38ec09e9bcd321d3a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedCameraTarget.hs
+: hash: 0b1582624188b6a889f5f6425bbf71da6de09d1158297779bf89a2148ffd29e8
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedControlLaw.hs
+: hash: fa98ad40b6e7a44326205dfc7402fc46d61530d52d5782892a656ba8ab29a4e7
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedControlModes.hs
+: hash: a7b998023ecb92311e103fc3f7aa4e53561ff473635d9b7643976dac51f42014
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedControlOutput.hs
+: hash: 05dfdb521daa7513037692d2d22b605a7feeac229a55799dd712ca12e382e51f
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedControlSetpoint.hs
+: hash: dcf4999e31149e93809d23964cbaf53a9641f27dd46984f378d902d5d0fdad42
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedFloat.hs
+: hash: 68549726b823a7e2b1c97649fd682e5a1216a3d39590a0c198b44eb7254da1b4
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedGyroscopeSample.hs
+: hash: 1f1360c7ac74a6838983463a2a851d0521a58173da528566ba25a0c00baa6990
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedLidarliteSample.hs
+: hash: f89cff72aba43bafbdd713c65e0b3ce4db156aea053aa1f57f43d048d130ed96
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedMagnetometerSample.hs
+: hash: cfc1ae2ad0c33710b56fae3df2cb2e0385358c4e9be6f5978095a4ee96987671
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedPackedStatus.hs
+: hash: f6db569e47ab3f0b1fdf6950532034a98e2947df5a9bebb1a747840997da290f
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedPidConfig.hs
+: hash: 4cbeba36c4c26c6a7380950a390db6c6280d4f0968c3f3085204978276f2495c
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedPositionSample.hs
+: hash: b64c25f3f30f99b04d7e5ad6aea506db2339f842eb0201fd2523e0b0892f3274
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedPx4flowIntegralSample.hs
+: hash: 6d78c644ee7ed315aa1e7c93fd5fb436c6be165925447de2c0419456ff8e25e2
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedPx4flowSample.hs
+: hash: b328e0a92b63d523485b9a68d87bc8c9cd3726b3ce9cfad38f1579f32543dc02
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedPx4ioState.hs
+: hash: 8960c79de0df0cb94b0d1835ef2c183d45cedaee27bc67229a88ba69f9d4a339
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedQuadcopterMotors.hs
+: hash: dcb3a798be8da8ffa0e4255e53af30b0aba8af0415bf9b9cae63002eac0367f2
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedRcInput.hs
+: hash: ce86f49558b1c00f16a4c04a33ef3042c6840707af040ca8a036a84a99b2446a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedRebootReq.hs
+: hash: c53270bf188a16b044caa717f91fc4ff4fbb5db0a6a98f11b63df79d791c75f0
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedRgbLedSetting.hs
+: hash: 64f17da244085cff4d7c6a8d28d39ef44680fbb23127d82263d300bd78aa791e
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedSensorsResult.hs
+: hash: af03a6bf6bbb9da1471e39fef7978b29689d9053d96cd43c4bbc62b54e6925b7
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedStabConfig.hs
+: hash: 60ba64c702f0cbe5a40c973aa56587561275ef31f02c9f38d11ad73da596ff5a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedThrottleUi.hs
+: hash: 2a0261d30459062f817fd85cd01687ff7c3c1c30d9c3332cc3dbc2c4c8e79de8
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedTristate.hs
+: hash: f24d750c3e3d76f9205a1e62dec9a90d0e9cf5fab9ce8630057161e549aba52f
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedUserInput.hs
+: hash: ed53ba461ac3b43c25c82220309d436cfecdafeb1bd5da34c5df453bf22162fa
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/SequenceNumberedUserInputResult.hs
+: hash: 8ef913fb2e6ce68d1fe9e5408b7752ab3b0805905aeead84c8dc2d296d3db9b9
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/StabConfig.hs
+: hash: 70aadc50fc7b8370451ef442f17946e69c6475667e51ed4684a2d4ada2833def
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/ThrottleMode.hs
+: hash: 4a572c0250b05c225c815f45fbc89cabdd2943584efeae8ab30dd4b170efdde0
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/ThrottleUi.hs
+: hash: 5e0e7451bc31597704755f0a3177ed6dd5739ff25c7c84eaa555f34d0a3de53d
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/TimeMicros.hs
+: hash: ca4354371df9e0476838620ed18e6ba845d9ab63c45b5adca5b4bca2c8163469
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/Tristate.hs
+: hash: 707f8ee19e49806d03688f9c627fbf3e9f0833afb8aef75dd85914f26d5badf2
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/UserInput.hs
+: hash: 00d76be30843d4d5cf2e03771c858074a3f27110550176aadf863b77f3d5989f
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/UserInputResult.hs
+: hash: 68e4f0331f8ad68281c80bec65015931ce007d991541f9dbd83036161ee8eb37
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/Xyz.hs
+: hash: 5b4e1382e58b2aba57a73feb6bf2ed032d644a91ca1b5defa976c2bee55723f6
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-native/src/SMACCMPilot/Comm/Native/Types/YawMode.hs
+: hash: 01eb1915e1b900f3d77b2e01b2a0bf5b0811dc87e4949099ccf58de1a9306646

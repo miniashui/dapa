@@ -1,0 +1,327 @@
+name:                smaccm-flight
+version:             0.1.0.0
+license:             BSD3
+license-file:        LICENSE
+author:              Pat Hickey
+maintainer:          pat@galois.com
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     SMACCMPilot.Flight.Battery,
+                       SMACCMPilot.Flight.Control,
+                       SMACCMPilot.Flight.Control.Altitude,
+                       SMACCMPilot.Flight.Control.Altitude.KalmanFilter,
+                       SMACCMPilot.Flight.Control.Altitude.ThrottleUI,
+                       SMACCMPilot.Flight.Control.Attitude.Angle,
+                       SMACCMPilot.Flight.Control.Attitude.HeadingControl,
+                       SMACCMPilot.Flight.Control.Attitude.KalmanFilter,
+                       SMACCMPilot.Flight.Control.Attitude.PitchRoll,
+                       SMACCMPilot.Flight.Control.Attitude.Stabilize,
+                       SMACCMPilot.Flight.Control.Attitude.YawRate,
+                       SMACCMPilot.Flight.Control.Attitude.YawUI,
+                       SMACCMPilot.Flight.Control.PID,
+                       SMACCMPilot.Flight.Control.Yaw,
+                       SMACCMPilot.Flight.Datalink,
+                       SMACCMPilot.Flight.Datalink.CAN,
+                       SMACCMPilot.Flight.Datalink.CAN.TestServer,
+                       SMACCMPilot.Flight.Datalink.CAN.TestProxy,
+                       SMACCMPilot.Flight.Datalink.CAN.TestProxyODROID,
+                       SMACCMPilot.Flight.Datalink.ControllableVehicle,
+                       SMACCMPilot.Flight.Datalink.Commsec,
+                       SMACCMPilot.Flight.Datalink.UART,
+                       SMACCMPilot.Flight.Datalink.TestApp,
+                       SMACCMPilot.Flight.Filter,
+                       SMACCMPilot.Flight.Filter.Butterworth,
+                       SMACCMPilot.Flight.Filter.Filter,
+                       SMACCMPilot.Flight.Filter.RunningAverage,
+                       SMACCMPilot.Flight.IO,
+                       SMACCMPilot.Flight.IO.RCInput,
+                       SMACCMPilot.Flight.IO.RCInput.ArmingMachine,
+                       SMACCMPilot.Flight.IO.RCInput.Decode,
+                       SMACCMPilot.Flight.IO.RCInput.ModeSwitch,
+                       SMACCMPilot.Flight.IO.TestApp,
+                       SMACCMPilot.Flight.Law,
+                       SMACCMPilot.Flight.Law.Arming,
+                       SMACCMPilot.Flight.Law.ControlModes,
+                       SMACCMPilot.Flight.Law.UserInput,
+                       SMACCMPilot.Flight.Law.TestApp,
+                       SMACCMPilot.Flight.Light,
+                       SMACCMPilot.Flight.Motors,
+                       SMACCMPilot.Flight.Motors.Decoder,
+                       SMACCMPilot.Flight.Motors.Mixing,
+                       SMACCMPilot.Flight.PackedStatus,
+                       SMACCMPilot.Flight.Platform,
+                       SMACCMPilot.Flight.Sensors,
+                       SMACCMPilot.Flight.Sensors.DetectMotion,
+                       SMACCMPilot.Flight.Sensors.GPS,
+                       SMACCMPilot.Flight.Sensors.LIDARLite,
+                       SMACCMPilot.Flight.Sensors.PX4Flow,
+                       SMACCMPilot.Flight.Sensors.TestApp,
+                       SMACCMPilot.Flight.Standalone,
+                       SMACCMPilot.Flight.Tuning,
+                       SMACCMPilot.Flight.Tuning.TypeParsers,
+                       SMACCMPilot.Flight.Types.MaybeFloat
+  build-depends:       base >=4.6,
+                       base-compat,
+                       ivory >=0.1,
+                       ivory-px4-hw >=0.1,
+                       ivory-serialize >=0.1,
+                       ivory-stdlib >=0.1,
+                       estimator,
+                       ieee754,
+                       linear >= 1.20,
+                       tower >=0.9,
+                       tower-aadl,
+                       tower-hal,
+                       tower-config,
+                       tower-camkes-odroid,
+                       tower-freertos-stm32,
+                       tower-mini,
+                       ivory-bsp-stm32,
+                       smaccm-commsec,
+                       smaccm-datalink,
+                       smaccm-comm-schema-tower,
+                       vector >= 0.11
+  default-language:    Haskell2010
+  ghc-options:         -Wall -fconstraint-solver-iterations=0
+
+executable             can-server-test-gen
+  main-is:             CANServer.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             can_server_aadl_test_gen
+  main-is:             CANServerAADL.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-aadl,
+                       tower-freertos-stm32,
+                       tower-echronos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             can-proxy-test-gen
+  main-is:             CANProxy.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             can-proxy-odroid-test-gen
+  main-is:             CANProxyODROID.hs
+  hs-source-dirs:      tests/odroid-tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-aadl,
+                       tower-camkes-odroid,
+                       tower-config,
+                       smaccm-commsec,
+                       smaccm-datalink,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             smaccmpilot-odroid-gen
+  main-is:             SMACCMPilotODROID.hs
+  hs-source-dirs:      tests/odroid-tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-aadl,
+                       tower-camkes-odroid,
+                       tower-config,
+                       smaccm-commsec,
+                       smaccm-datalink,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             smaccmpilot-odroid-mini-gen
+  main-is:             SMACCMPilotODROIDMini.hs
+  other-modules:       SMACCMTypes.CAN,
+                       SMACCMTypes.Camera,
+                       SMACCMTypes.UARTPacket
+  hs-source-dirs:      odroid-mini
+  build-depends:       base >= 4.6,
+                       ivory,
+                       ivory-stdlib,
+                       tower >= 0.9,
+                       tower-camkes-odroid,
+                       tower-config,
+                       tower-hal,
+                       tower-mini,
+                       smaccm-commsec,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             comm-only-test-gen
+  main-is:             CommOnly.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             ppm-test-gen
+  main-is:             PPM.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             law-test-gen
+  main-is:             Law.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             sensors-test-gen
+  main-is:             Sensors.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             sensors_aadl_test_gen
+  main-is:             SensorsAADL.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-aadl,
+                       tower-freertos-stm32,
+                       tower-echronos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+
+executable             standalone-flight-gen
+  main-is:             Standalone.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             standalone_flight_echronos_gen
+  main-is:             StandaloneEchronos.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       tower >= 0.9,
+                       tower-config,
+                       tower-aadl,
+                       tower-freertos-stm32,
+                       tower-echronos-stm32,
+                       smaccm-flight
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             lidar-test-gen
+  main-is:             LIDARTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      LIDAR.LIDARApp
+  build-depends:       base >= 4.6,
+                       base-compat,
+                       monadLib,
+                       ivory,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       ivory-bsp-stm32,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw,
+                       smaccm-flight
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             hmc5883l-test-gen
+  main-is:             HMC5883LTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      HMC5883L.HMC5883LApp
+  build-depends:       base >= 4.6,
+                       base-compat,
+                       monadLib,
+                       ivory,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       ivory-bsp-stm32,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw,
+                       smaccm-flight
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable             esccal-test-gen
+  main-is:             ESCCalTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      ESCCal.ESCCalApp
+  build-depends:       base >= 4.6,
+                       base-compat,
+                       monadLib,
+                       ivory,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       ivory-bsp-stm32,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw,
+                       smaccm-flight
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+

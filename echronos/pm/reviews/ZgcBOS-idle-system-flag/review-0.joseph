@@ -1,0 +1,15 @@
+RTOS Task Review
+=======================
+
+Task name: ZgcBOS-idle-system-flag
+Version reviewed: 374f92a3a7ec808252f50831dc464d62699bb052
+Reviewer: joseph
+Date: 2013-11-01
+Conclusion: Rework
+
+Overall comments:
+
+For future reference I think it would be valuable to record the more detailed description of the fault
+in the task document.
+
+[stg: extended the task description accordingly]

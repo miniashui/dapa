@@ -1,0 +1,75 @@
+-- File generated from Tower-AADL compiler
+
+package i2c1PeripheralDriver
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+
+thread i2c1PeripheralDriver
+  features
+    Input_i2c1_init: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_i2c1_init");
+        Source_Text => ("user_code/i2c1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_i2c1_ready_period: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_i2c1_ready_period");
+        Source_Text => ("user_code/i2c1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_i2c1_ready_period_0}}";
+      };
+    Input_i2c1_watchdog: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_i2c1_watchdog");
+        Source_Text => ("user_code/i2c1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_i2c1_watchdog_0}}";
+      };
+    Input_i2c1_error_irq: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_i2c1_error_irq");
+        Source_Text => ("user_code/i2c1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_i2c1_error_irq_0}}";
+      };
+    Input_i2c1_event_irq: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_i2c1_event_irq");
+        Source_Text => ("user_code/i2c1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_i2c1_event_irq_0}}";
+      };
+    Input_i2c1_request: in event data port Data_Types::i2c_transaction_request
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_i2c1_request");
+        Source_Text => ("user_code/i2c1PeripheralDriver_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_i2c1_request_0}}";
+      };
+    Output_i2c1_ready_period_0: out event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_i2c1_ready_period_chan_3";
+      };
+    Output_i2c1_watchdog_0: out event data port Data_Types::i2c_transaction_result
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_i2c1_watchdog_chan_2";
+      };
+    Output_i2c1_error_irq_0: out event data port Data_Types::i2c_transaction_result
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_i2c1_error_irq_chan_2";
+      };
+    Output_i2c1_event_irq_0: out event data port Data_Types::i2c_transaction_result
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_i2c1_event_irq_chan_2";
+      };
+    Output_i2c1_request_0: out event data port Data_Types::i2c_transaction_result
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_i2c1_request_chan_2";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Passive;
+    Dispatch_Protocol => Aperiodic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    Source_Text => ();
+end i2c1PeripheralDriver;
+
+end i2c1PeripheralDriver;

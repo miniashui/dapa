@@ -1,0 +1,8 @@
+RTOS Task Review
+=======================
+
+Task name: 3ETmyN-fix-timer-decl-error
+Version reviewed: 3abcdb0318a5e6f3eb8788d2ea41b1f541326ada
+Reviewer: stg
+Date: 2013-10-28
+Conclusion: Accepted

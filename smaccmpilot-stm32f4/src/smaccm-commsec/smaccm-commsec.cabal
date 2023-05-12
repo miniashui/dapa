@@ -1,0 +1,104 @@
+
+name:                smaccm-commsec
+version:             0.1.0.0
+license:             BSD3
+author:              Galois, Inc.
+maintainer:          pat@galois.com
+-- copyright:
+category:            System
+build-type:          Simple
+cabal-version:       >= 1.10
+
+data-files: support/aes/aes.h,
+            support/aes/aes_modes.c
+            support/aes/aescrypt.c,
+            support/aes/aeskey.c,
+            support/aes/aestab.c,
+            support/aes/aestab.h,
+            support/aes/aesopt.h,
+            support/aes/brg_endian.h,
+            support/aes/brg_types.h,
+            support/aes/gcm.c,
+            support/aes/gcm.h,
+            support/aes/gf128mul.c,
+            support/aes/gf128mul.h,
+            support/aes/gf_convert.c,
+            support/aes/gf_mul_lo.h,
+            support/aes/mode_hdr.h,
+            support/curve25519/LICENSE.md,
+            support/curve25519/Makefile,
+            support/curve25519/README,
+            support/curve25519/curve25519-donna.c,
+            support/curve25519/curve25519-donna.h,
+            support/curve25519/curve25519-donna.podspec,
+            support/curve25519/test-curve25519.c,
+            support/curve25519/test-noncanon.c,
+            support/curve25519/test-sc-curve25519.c,
+            support/ed25519/README.md,
+            support/ed25519/curve25519-donna-32bit.h,
+            support/ed25519/curve25519-donna-64bit.h,
+            support/ed25519/curve25519-donna-helpers.h,
+            support/ed25519/curve25519-donna-sse2.h,
+            support/ed25519/ed25519-donna-32bit-sse2.h,
+            support/ed25519/ed25519-donna-32bit-tables.h,
+            support/ed25519/ed25519-donna-64bit-sse2.h,
+            support/ed25519/ed25519-donna-64bit-tables.h,
+            support/ed25519/ed25519-donna-64bit-x86-32bit.h,
+            support/ed25519/ed25519-donna-64bit-x86.h,
+            support/ed25519/ed25519-donna-basepoint-table.h,
+            support/ed25519/ed25519-donna-impl-base.h,
+            support/ed25519/ed25519-donna-portable-identify.h,
+            support/ed25519/ed25519-donna-portable.h,
+            support/ed25519/ed25519-donna.h,
+            support/ed25519/ed25519-hash-custom.h,
+            support/ed25519/ed25519-hash.h,
+            support/ed25519/ed25519.c,
+            support/ed25519/ed25519.h,
+            support/ed25519/modm-donna-32bit.h,
+            support/ed25519/modm-donna-64bit.h,
+            support/ed25519/regression.h,
+            support/ed25519/test-internals.c,
+            support/ed25519/test-ticks.h,
+            support/ed25519/test.c,
+            support/gec-ke.c,
+            support/gec-ke.h,
+            support/gec.c,
+            support/gec.h
+
+library
+  exposed-modules:     SMACCMPilot.Commsec.Ivory,
+                       SMACCMPilot.Commsec.Ivory.Artifacts,
+                       SMACCMPilot.Commsec.Ivory.Import,
+                       SMACCMPilot.Commsec.Ivory.Import.Types,
+                       SMACCMPilot.Commsec.Ivory.Error,
+                       SMACCMPilot.Commsec.Ivory.Module,
+                       SMACCMPilot.Commsec.Ivory.Types.SymmetricKey,
+                       SMACCMPilot.Commsec.Tower,
+                       SMACCMPilot.Commsec.Sizes,
+                       SMACCMPilot.Commsec.SymmetricKey,
+                       SMACCMPilot.Commsec.KeyExchange,
+                       Paths_smaccm_commsec
+  build-depends:       base >= 4.6,
+                       bytestring,
+                       filepath,
+                       ivory,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       ivory-artifact,
+                       tower,
+                       tower-config
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+executable smaccm-commsec-ivory-test-gen
+  main-is:             IvoryTest.hs
+  hs-source-dirs:      test
+  build-depends:       base,
+                       ivory,
+                       ivory-stdlib,
+                       ivory-artifact,
+                       ivory-backend-c,
+                       smaccm-commsec,
+                       bytestring
+  ghc-options:         -Wall

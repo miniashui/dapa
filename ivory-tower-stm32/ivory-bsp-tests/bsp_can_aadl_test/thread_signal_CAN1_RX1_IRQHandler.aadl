@@ -1,0 +1,34 @@
+-- File generated from Tower-AADL compiler
+
+package thread_signal_CAN1_RX1_IRQHandler
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+
+thread thread_signal_CAN1_RX1_IRQHandler
+  features
+    Input_CAN1_RX1_IRQHandler: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_CAN1_RX1_IRQHandler");
+        SMACCM_SYS::Is_ISR => true;
+        SMACCM_SYS::First_Level_Interrupt_Handler => "CAN1_RX1_IRQHandler";
+        SMACCM_SYS::Signal_Name => "external_irq_21";
+        SMACCM_SYS::Signal_Number => 21;
+        Source_Text => ("user_code/callback_CAN1_RX1_IRQHandler.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_CAN1_RX1_IRQHandler}}";
+      };
+    Output_CAN1_RX1_IRQHandler: out event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_CAN1_RX1_IRQHandler";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Active;
+    Dispatch_Protocol => Sporadic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    Stack_Size => 1024 bytes;
+    Priority => 254;
+end thread_signal_CAN1_RX1_IRQHandler;
+
+end thread_signal_CAN1_RX1_IRQHandler;

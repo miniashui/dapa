@@ -1,0 +1,37 @@
+digraph Tower {
+    thread_signal_I2C1_ER_IRQHandler [style=filled];
+    thread_signal_I2C1_EV_IRQHandler [style=filled];
+    thread_period_1ms [style=filled];
+    thread_period_20ms [style=filled];
+    thread_period_250ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_i2c1PeripheralDriver {
+        color = blue;
+        node [style=filled];
+        i2c1_error_irq;
+        i2c1_event_irq;
+        i2c1_init;
+        i2c1_ready_period;
+        i2c1_request;
+        i2c1_watchdog;
+        label = "monitor i2c1PeripheralDriver";
+    }
+    subgraph  cluster_simplecontroller {
+        color = blue;
+        node [style=filled];
+        periodic;
+        result;
+        label = "monitor simplecontroller";
+    }
+    thread_signal_I2C1_ER_IRQHandler -> i2c1_error_irq;
+    thread_signal_I2C1_EV_IRQHandler -> i2c1_event_irq;
+    thread_period_1ms -> i2c1_ready_period;
+    thread_period_20ms -> i2c1_watchdog;
+    thread_period_250ms -> periodic;
+    thread_init -> i2c1_init;
+    i2c1_error_irq -> result;
+    i2c1_event_irq -> result;
+    i2c1_request -> result;
+    i2c1_watchdog -> result;
+    periodic -> i2c1_request;
+}

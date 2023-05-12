@@ -1,0 +1,295 @@
+Tower
+  { tower_monitors =
+      [ Monitor
+          { monitor_name =
+              Unique { unique_name = "can1PeripheralDriver" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name = Unique { unique_name = "init" , unique_fresh = 1 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_init" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "request" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan
+                          { sync_chan_label = 2 , sync_chan_type = TyStruct "can_message" }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_request" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "abort" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync SyncChan { sync_chan_label = 4 , sync_chan_type = TyBool }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_abort" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "request" , unique_fresh = 2 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan
+                          { sync_chan_label = 5 , sync_chan_type = TyStruct "can_message" }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_request_2" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "abort" , unique_fresh = 2 }
+                  , handler_chan =
+                      ChanSync SyncChan { sync_chan_label = 7 , sync_chan_type = TyBool }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_abort_2" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "request" , unique_fresh = 3 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan
+                          { sync_chan_label = 8 , sync_chan_type = TyStruct "can_message" }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_request_3" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "abort" , unique_fresh = 3 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan { sync_chan_label = 10 , sync_chan_type = TyBool }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_abort_3" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "tx_irq" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSignal
+                        Signal
+                          { signal_deadline = Microseconds 88
+                          , signal_name = "CAN1_TX_IRQHandler"
+                          , signal_number = 19
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique { unique_name = "emitter_tx_irq_chan_3" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 3 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      , Emitter
+                          { emitter_name =
+                              Unique { unique_name = "emitter_tx_irq_chan_6" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 6 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      , Emitter
+                          { emitter_name =
+                              Unique { unique_name = "emitter_tx_irq_chan_9" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 9 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_tx_irq" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "rx0_irq" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSignal
+                        Signal
+                          { signal_deadline = Microseconds 88
+                          , signal_name = "CAN1_RX0_IRQHandler"
+                          , signal_number = 20
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_rx0_irq_chan_1" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 1 , sync_chan_type = TyStruct "can_message" }
+                          , emitter_bound = 3
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_rx0_irq" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "rx1_irq" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSignal
+                        Signal
+                          { signal_deadline = Microseconds 88
+                          , signal_name = "CAN1_RX1_IRQHandler"
+                          , signal_number = 21
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_rx1_irq_chan_1" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 1 , sync_chan_type = TyStruct "can_message" }
+                          , emitter_bound = 3
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_rx1_irq" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      , Monitor
+          { monitor_name =
+              Unique { unique_name = "simplecontroller" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name = Unique { unique_name = "init" , unique_fresh = 2 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_init_2" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "periodic" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 250000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_periodic_chan_4" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 4 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      , Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_periodic_chan_2" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 2 , sync_chan_type = TyStruct "can_message" }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_periodic" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "tx_complete" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync SyncChan { sync_chan_label = 3 , sync_chan_type = TyBool }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_tx_complete_chan_2" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 2 , sync_chan_type = TyStruct "can_message" }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_tx_complete" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "result" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan
+                          { sync_chan_label = 1 , sync_chan_type = TyStruct "can_message" }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_result" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      ]
+  , tower_syncchans =
+      [ SyncChan
+          { sync_chan_label = 1 , sync_chan_type = TyStruct "can_message" }
+      , SyncChan
+          { sync_chan_label = 2 , sync_chan_type = TyStruct "can_message" }
+      , SyncChan { sync_chan_label = 3 , sync_chan_type = TyBool }
+      , SyncChan { sync_chan_label = 4 , sync_chan_type = TyBool }
+      , SyncChan
+          { sync_chan_label = 5 , sync_chan_type = TyStruct "can_message" }
+      , SyncChan { sync_chan_label = 7 , sync_chan_type = TyBool }
+      , SyncChan
+          { sync_chan_label = 8 , sync_chan_type = TyStruct "can_message" }
+      , SyncChan { sync_chan_label = 10 , sync_chan_type = TyBool }
+      ]
+  , tower_signals =
+      [ Signal
+          { signal_deadline = Microseconds 88
+          , signal_name = "CAN1_RX0_IRQHandler"
+          , signal_number = 20
+          }
+      , Signal
+          { signal_deadline = Microseconds 88
+          , signal_name = "CAN1_RX1_IRQHandler"
+          , signal_number = 21
+          }
+      , Signal
+          { signal_deadline = Microseconds 88
+          , signal_name = "CAN1_TX_IRQHandler"
+          , signal_number = 19
+          }
+      ]
+  , tower_periods =
+      [ Period
+          { period_dt = Microseconds 250000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      ]
+  }

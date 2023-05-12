@@ -1,0 +1,18 @@
+RTOS Task Review
+=======================
+
+Task name: PjCpMx-fix-release-test-directory
+Version reviewed: 06366f167f693846ac438659bb5cb817edbb0b3a
+Reviewer: benno
+Date: 2013-07-16
+Conclusion: Accepted
+
+Overall comments:
+
+
+Specific comments
+=================
+
+Location: x.py:1498
+
+Instead of subprocess.check_call("tar xf {}".format(rel_file).split()) => subprocess.check_call(["tar', "xf", rel_file])

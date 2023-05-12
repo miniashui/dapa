@@ -1,0 +1,379 @@
+
+(def-newtype time_micros_t sint64_t)
+
+(def-enum (reboot_magic_t 32)
+  (linux_reboot_magic1 0xfee1dead))
+
+(def-enum arming_mode_t
+  (safe     0)
+  (armed    1))
+
+(def-enum tristate_t
+  (negative 0)
+  (neutral  1)
+  (positive 2))
+
+-- TODO: change ppm to rcinput in this enum:
+(def-enum control_source_t
+  (ppm 0)
+  (gcs 1)
+  (nav 2))
+
+(def-enum yaw_mode_t
+  (rate    0)
+  (heading 1))
+
+(def-enum throttle_mode_t
+  (direct_ui 0)
+  (alt_ui    1)
+  (alt_setpt 2))
+
+(def-enum gps_fix_t
+  (fix_none 0)
+  (fix_2d   2)
+  (fix_3d   3))
+
+(def-struct heartbeat_t
+  (time        time_micros_t)
+  (arming_mode arming_mode_t))
+
+(def-struct reboot_req_t
+  (magic reboot_magic_t))
+
+(def-struct control_modes_t
+  (ui_mode     control_source_t)
+  (yaw_mode    yaw_mode_t)
+  (thr_mode    throttle_mode_t))
+
+(def-struct control_law_t
+  (arming_mode   arming_mode_t)
+  (control_modes control_modes_t))
+
+(def-struct control_law_request_t
+  (arming_mode   tristate_t)
+  (control_modes control_modes_t))
+
+(def-struct user_input_t
+  (throttle    float_t) -- [-1.0..1.0]
+  (roll        float_t) -- [-1.0..1.0]
+  (pitch       float_t) -- [-1.0..1.0]
+  (yaw         float_t)) -- [-1.0..1.0]
+
+(def-struct user_input_result_t
+  (ui          user_input_t)
+  (source      control_source_t)
+  (time        time_micros_t))
+
+(def-struct pid_config_t
+  (p_gain   float_t)
+  (i_gain   float_t)
+  (d_gain   float_t)
+  (dd_gain  float_t) -- feedfoward gain
+  (i_min    float_t)
+  (i_max    float_t)
+  (err_max  float_t)
+  (errd_max float_t))
+
+(def-struct pid_state_t -- 28 bytes
+  (i_state   float_t) -- integrated sum
+  (d_term    float_t)
+  (dd_term   float_t) -- feedforward term
+  (p_term    float_t)
+  (i_term    float_t)
+  (angle_err float_t) -- error for PI block
+  (rate_err  float_t)) -- error for D block
+
+(def-struct throttle_ui_t
+  (sens float_t)
+  (dead float_t))
+
+(def-struct stab_config_t
+  (pos  pid_config_t)
+  (rate pid_config_t))
+
+(def-struct alt_control_debug_t -- 40+28 = 68 bytes
+  (alt_est       float_t) -- estimated altitude [m]
+  (alt_rate_est  float_t) -- estimated vertical rate [m/s]
+  (r22_gain      float_t) -- derotation coefficient
+  (ui_setp       float_t) -- reference altitude [m]
+  (ui_rate_setp  float_t) -- reference rate [m/s]
+  (pos           pid_state_t) -- pid state for alt-hold
+  (vz_fb         float_t) -- feedback part of the vertical command
+  (vz_ff         float_t) -- feedforward (nominal throttle)
+  (vz_ff_rot     float_t) -- derotated feedforward component
+  (vz_ctl        float_t)) -- command to motor mixers
+
+(def-struct att_control_debug_t -- 36 + 28 = 64 bytes 
+  (head_setpt       float_t)
+  (head_rate_est    float_t) -- estimated yaw rate
+  (head_rate_setpt  float_t)
+  (head_ctl_p       float_t)
+  (head_ctl_d       float_t)
+  (pitch_setpt      float_t)
+  (pitch_rate_setpt float_t)
+  (roll_setpt       float_t)
+  (roll_rate_setpt  float_t)
+  (att_pid          pid_state_t)) -- pid state for roll/pitch/yaw (we have space for only one PID)
+
+(def-struct xyz_t
+  (x float_t)
+  (y float_t)
+  (z float_t))
+
+(def-struct lidarlite_sample_t
+  (samplefail bool_t)
+  (distance   float_t) -- meters
+  (time       time_micros_t))
+
+(def-struct magnetometer_sample_t
+  (initfail   bool_t)
+  (samplefail bool_t)
+  (sample     xyz_t) -- Gauss
+  (time       time_micros_t))
+
+(def-struct gyroscope_sample_t
+  (initfail    bool_t)
+  (samplefail  bool_t)
+  (sample      xyz_t) -- rads/second
+  (temperature float_t) -- degrees Celsius
+  (time        time_micros_t))
+
+(def-struct barometer_sample_t
+  (initfail    bool_t)
+  (samplefail  bool_t)
+  (pressure    float_t) -- mbar
+  (temperature float_t) -- degrees Celsius
+  (time        time_micros_t))
+
+(def-struct accelerometer_sample_t
+  (initfail    bool_t)
+  (samplefail  bool_t)
+  (sample      xyz_t) -- m/s^2
+  (temperature float_t) -- degrees Celsius
+  (time        time_micros_t))
+
+(def-struct px4flow_integral_sample_t
+  (frame_count_since_last_readout uint16_t) -- number of flow measurements since last I2C readout [#frames]
+  (pixel_flow_x_integral          sint16_t) -- accumulated flow in radians*10000 around x axis since last I2C readout [rad*10000]
+  (pixel_flow_y_integral          sint16_t) -- accumulated in flow radians*10000 around y axis since last I2C readout [rad*10000]
+  (gyro_x_rate_integral           sint16_t) -- accumulated x gyro rates in radians*10000 since last I2C readout [rad*10000]
+  (gyro_y_rate_integral           sint16_t) -- accumulated y gyro rates in radians*10000 since last I2C readout [rad*10000]
+  (gyro_z_rate_integral           sint16_t) -- accumulated z gyro rates in radians*10000 since last I2C readout [rad*10000]
+  (integration_timespan           uint32_t) -- accumulation in timespan microseconds since last I2C readout [microseconds]
+  (sonar_timestamp                uint32_t) -- time since sonar last update [microseconds]
+  (ground_distance                sint16_t) -- Ground in distance meters*1000 [meters*1000]
+  (gyro_temperature               sint16_t) -- Temperature * in 100 centi-degrees Celsius [degcelsius*100]
+  (quality                        uint8_t)  -- averaged quality accumulated of flow values [0:bad quality;255: max quality]
+  (samplefail                     bool_t)
+  (time                           time_micros_t))
+
+(def-struct px4flow_sample_t
+  (frame_count                    uint16_t) -- counts created I2C frames [#frames]
+  (pixel_flow_x_sum               sint16_t) -- latest x flow measurement in pixels*10 [pixels]
+  (pixel_flow_y_sum               sint16_t) -- latest y flow measurement in pixels*10 [pixels]
+  (flow_comp_m_x                  sint16_t) -- x velocity*1000 [meters/sec]
+  (flow_comp_m_y                  sint16_t) -- y velocity*1000 [meters/sec]
+  (quality                        sint16_t) -- averaged quality accumulated of flow values [0:bad quality;255: max quality]
+  (gyro_x_rate                    sint16_t) -- latest gyro x rate [rad/sec]
+  (gyro_y_rate                    sint16_t) -- latest gyro y rate [rad/sec]
+  (gyro_z_rate                    sint16_t) -- latest gyro z rate [rad/sec]
+  (gyro_range                     uint8_t)  -- gyro range [0 .. 7] equals [50 deg/sec .. 2000 deg/sec]
+  (sonar_timestamp                uint8_t)  -- time since last sonar update [milliseconds]
+  (ground_distance                sint16_t) -- Ground distance in meters*1000 [meters].
+  (samplefail                     bool_t)
+  (time                           time_micros_t))
+
+(def-struct position_sample_t
+  (fix         gps_fix_t)
+  (num_sv      uint8_t) -- number of space vehicles
+  (dop         float_t) -- estimated dilution of precision, meters
+  (lat         sint32_t) -- degrees * 1e7
+  (lon         sint32_t) -- degrees * 1e7
+  (alt         sint32_t) -- meters * 1000 (aka mm)
+  (vnorth      sint32_t) -- m/s * 100 (aka cm/s)
+  (veast       sint32_t) -- m/s * 100 (aka cm/s)
+  (vdown       sint32_t) -- m/s * 100 (aka cm/s)
+  (vground     uint32_t) -- m/s * 100 (aka cm/s)
+  (heading     float_t) -- degrees
+  (time        time_micros_t))
+
+(def-struct quaternion_t
+  (quat_a float_t)
+  (quat_b float_t)
+  (quat_c float_t)
+  (quat_d float_t))
+
+(def-struct sensors_result_t
+  (valid     bool_t)
+  (roll      float_t) -- Roll, pitch,  yaw, in Radians
+  (pitch     float_t)
+  (yaw       float_t)
+  (omega     xyz_t) -- Radians per second
+  (attitude  quaternion_t) -- Attitude as a quaternion
+  (baro_alt  float_t) -- meters
+  (lidar_alt float_t) -- meters
+  (sonar_alt float_t) -- meters
+  (accel     xyz_t) -- g
+  (ahrs_time time_micros_t)
+  (baro_time time_micros_t)
+  (lidar_time time_micros_t))
+
+(def-struct control_setpoint_t
+  (altitude  float_t)
+  (alt_rate  float_t)
+  (roll      float_t)
+  (pitch     float_t)
+  (heading   float_t))
+
+(def-struct control_output_t
+  (armed     bool_t)
+  (throttle  float_t)
+  (roll      float_t)
+  (pitch     float_t)
+  (yaw       float_t))
+
+(def-struct quadcopter_motors_t
+  (frontleft  float_t)
+  (frontright float_t)
+  (backleft   float_t)
+  (backright  float_t))
+
+(def-struct rgb_led_setting_t
+  (red        uint8_t)
+  (green      uint8_t)
+  (blue       uint8_t))
+
+(def-struct camera_target_t
+  (valid       bool_t)
+  (bbox_l      uint16_t)
+  (bbox_r      uint16_t)
+  (bbox_t      uint16_t)
+  (bbox_b      uint16_t))
+
+(def-struct rc_input_t
+  (valid       bool_t)
+  (roll        uint16_t) -- Each channel is [1000..2000] microseconds
+  (pitch       uint16_t)
+  (throttle    uint16_t)
+  (yaw         uint16_t)
+  (switch1     uint16_t)
+  (switch2     uint16_t)
+  (time        time_micros_t))
+
+(def-struct px4io_status_t
+  (safety_off    bool_t)
+  (failsafe      bool_t)
+  (init_ok       bool_t)
+  (arm_sync      bool_t)
+  (mixer_ok      bool_t)
+  (raw_pwm       bool_t)
+  (fmu_ok        bool_t)
+  (rc_sbus       bool_t)
+  (rc_dsm        bool_t)
+  (rc_ppm        bool_t)
+  (rc_ok         bool_t)
+  (outputs_armed bool_t)
+  (override      bool_t))
+
+(def-struct px4io_alarms_t
+  (vservo_fault  bool_t)
+  (pwm_error     bool_t)
+  (rc_lost       bool_t)
+  (fmu_lost      bool_t)
+  (acc_current   bool_t)
+  (servo_current bool_t)
+  (temperature   bool_t)
+  (vbatt_low     bool_t))
+
+(def-struct px4io_state_t
+  (comm_ok bool_t)
+  (status  px4io_status_t)
+  (alarms  px4io_alarms_t)
+  (rc_in   rc_input_t)
+  (time    time_micros_t))
+
+(def-struct arming_status_t
+  (rcinput    tristate_t)
+  (telem      tristate_t)
+  (px4io      tristate_t)
+  (sens_valid tristate_t))
+
+-- This is a redundant copy of parts of many other structs, for use in the demo
+-- heads-up display.
+(def-struct packed_status_t
+  (valid           bool_t)
+  (roll            float_t) -- Roll, pitch,  yaw, in Radians
+  (pitch           float_t)
+  (yaw             float_t)
+  (alt_est         float_t) -- meters
+  (fix             gps_fix_t)
+  (num_sv          uint8_t) -- number of space vehicles
+  (lat             sint32_t) -- degrees * 1e7
+  (lon             sint32_t) -- degrees * 1e7
+  (alt             sint32_t) -- meters * 1000 (aka mm)
+  (vground         uint32_t) -- m/s * 100 (aka cm/s)
+  (heading         float_t) -- degrees
+  (rcinput         tristate_t)
+  (telem           tristate_t)
+  (px4io           tristate_t)
+  (sens_valid      tristate_t)
+  (arming_mode     arming_mode_t)
+  (control_modes   control_modes_t)
+  (battery_voltage float_t))
+
+(def-interface vehicle_i ()
+  (heartbeat               (stream         heartbeat_t))
+  (packed_status           (attr read      packed_status_t))
+  (control_law             (attr read      control_law_t))
+  (rc_input                (attr read      rc_input_t))
+  (user_input              (attr read      user_input_result_t))
+  (sensors_output          (attr read      sensors_result_t))
+  (gyro_output             (attr read      gyroscope_sample_t))
+  (accel_output            (attr read      accelerometer_sample_t))
+  (baro_output             (attr read      barometer_sample_t))
+  (lidarlite_output        (attr read      lidarlite_sample_t))
+  (mag_output              (attr read      magnetometer_sample_t))
+  (px4flow_int_output      (attr read      px4flow_integral_sample_t))
+  (px4flow_output          (attr read      px4flow_sample_t))
+  (gps_output              (attr read      position_sample_t))
+  (control_setpoint        (attr read      control_setpoint_t))
+  (control_output          (attr read      control_output_t))
+  (motor_output            (attr read      quadcopter_motors_t))
+  (att_control_debug       (attr read      att_control_debug_t))
+  (alt_control_debug       (attr read      alt_control_debug_t))
+  (px4io_state             (attr read      px4io_state_t))
+  (arming_status           (attr read      arming_status_t))
+  (battery_voltage         (attr read      float_t)))
+
+(def-interface controllable_vehicle_i (vehicle_i)
+  (reboot_req              (attr write reboot_req_t))
+  -- Parameter for altitude hold mode: what % throttle yields a hover?
+  (nominal_throttle        (attr readwrite float_t))
+  (altitude_rate_pid       (attr readwrite pid_config_t))
+  (altitude_position_pid   (attr readwrite pid_config_t))
+  (throttle_ui             (attr readwrite throttle_ui_t))
+  -- You might reasonably ask: hey, why do we use a pair of rate/pos pid_configs
+  -- via stab_config in some places, and two separate attributes in other
+  -- places? The answer is: basically, just to reduce the amount of changes to
+  -- legacy (phase 1) smaccmpilot control code.
+  -- It sure would be cool if the types/attr hierarchy wasn't artificailly
+  -- heterogeneous, i.e. we could treat the entire tree of attrs as one giant
+  -- structure, and take create attr read/writers or types from the structure
+  -- arbitrarily.
+  (attitude_roll_stab      (attr readwrite stab_config_t))
+  (attitude_pitch_stab     (attr readwrite stab_config_t))
+  (yaw_rate_pid            (attr readwrite pid_config_t))
+  (yaw_position_pid        (attr readwrite pid_config_t))
+
+  -- Use to set control law, when safety input permits the GCS to set the
+  -- control law:
+  (arming_request          (attr readwrite tristate_t))
+  (control_modes_request   (attr readwrite control_modes_t))
+  -- Use to set user input, when safety input permits the GCS to set the
+  -- user input:
+  (user_input_request  (attr readwrite user_input_t))
+
+  -- Control rgb led:
+  (rgb_led             (attr readwrite rgb_led_setting_t))
+  -- Camera target input:
+  (camera_target_input (attr read camera_target_t)))

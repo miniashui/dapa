@@ -1,0 +1,220 @@
+/home/x2/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/lib/ghc-8.2.2/include/ghcversion.h:
+  hash: e803b62244dbe2a2413f5c2cd68110a5cc21f1167bc36e77db7c55974024764b
+? /home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/Paths_ivory_bsp_stm32.hs
+: hash: 7ba36ca221c750e408e0b8de8bd53ad3ec45a34a97cdbd9a79c756968ea62e27
+? /home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/cabal_macros.h
+: hash: 97eb65dea7df2e8ea886cfbe0af063fe8821acb7a5f8eb786f87aae493ab37f1
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/ivory-bsp-stm32.cabal:
+  hash: 4ec512819dbe2fe837eefa05b905ac0f5f318ba03f10134beccead4a2234e189
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/ARMv7M/Exception.hs:
+  hash: 4ccb8533850638314a8cb71fd16a3c37fe3d13eb07ef4b11cea567991a11bad1
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/ARMv7M/MemoryMap.hs:
+  hash: 7b5cb3421f8ec7e0bfc7c703abc2c73ee810222aa825000ca139c8cd452ccbbd
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/ARMv7M/SysTick.hs:
+  hash: ebc794276acbed05eaa1bdbeb60114c28140507df159a9e181eeee04838c5e62
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/ARMv7M/SystemControl/NVIC.hs:
+  hash: 90184270d05dbf6e1e06d81c1ffe69c95ce327f5e70b5f446d9e489da25d2496
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/ClockConfig.hs:
+  hash: 6bd8fc964ddd44bf0d2700c678790aa8e91c986c4ee4d55db79b6bb1adfc08d4
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/ClockConfig/Init.hs:
+  hash: f2c97a1b4c9e4cd0abbb6093009d1792fd7c02d5c6445cc1b703c1e9a441874f
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Config.hs:
+  hash: 9b6b04d250c093ab0d68327d4bb754708ddf2b6cfd23ecc1c4f8fb648658e08e
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Driver/CAN.hs:
+  hash: 119f17d5d9b241acf3db3642cb38583a6384e4bd3ca2f21740be198c280c6268
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Driver/DMA.hs:
+  hash: 66542acea35046d7ea93274a9997d9f02f8cfc0820949f22853153e545f71f05
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Driver/I2C.hs:
+  hash: 44ec16865b6564319d525f8a6f026906b037722a4207ec5710ceb4eb6b64e97c
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Driver/I2C/I2CDriverState.hs:
+  hash: 7d159587e2bb95a17f2766ba9aa8dd6e77753c62d9f4d4d12d7c84423364a491
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Driver/RNG.hs:
+  hash: 09b62df98f98031f91bbe8255393587e2890949dfe9ad620b26f02cd82c224b4
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Driver/SPI.hs:
+  hash: 8edcca2c999e505152ac1f728dc46084d4031e0e6cba882591055cd4cd38d88d
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Driver/UART.hs:
+  hash: 4fa8953446468fbe072c87d9da057ecb6344619f4dd12f657a0233d2d8c1600e
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Driver/UART/DMA.hs:
+  hash: db7dba30d2dbbe1186368a4b88c8e26429a19af2cabe6e69b08a672f09bec164
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Driver/UART/DMA/Synchronous.hs:
+  hash: 54e21440fc9176dc3bc60db95ff3c4bdabc9b39b6dad2b9415091779a46dc55d
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Interrupt.hs:
+  hash: 7449a670db6c9183e301d0e88faf129b6054c676279206827406576c3321b46c
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/LinkerScript.hs:
+  hash: c11eabcd2dd384a56ca6a5f96cf02f63a429e70ffef273051ee49fd000b6b4cf
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/MemoryMap.hs:
+  hash: 2b1c8a94ec39552c150c00d839945bcfd38e3fb2a747e075e082eb0fa195edd5
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/ADC.hs:
+  hash: f74cbf782bfb285194323ef580bf5821c994be7413f61bd82d91e7462dae301f
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/ADC/Peripheral.hs:
+  hash: 9e14033c84ad29002a950120fed62665b253034d77ef72ab8ab584e838df9c8a
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/ADC/RegTypes.hs:
+  hash: 2ace2775b98d5d4502d9051dad55aec9ee438b2831cc4a34aa3ad882ea4e7b5d
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/ADC/Regs.hs:
+  hash: 109fbbdf4df1bb1cb2db1c1d3600ac017e137295afc1065c165c1a713287979c
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/ATIM18.hs:
+  hash: 6773555741fe32ba08510b0380effd7ff6c6eec7aee80ebed4e6351c531f09e2
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/ATIM18/Peripheral.hs:
+  hash: e766c00e066452f06cc4469bb890c0ade49512e65f5671931235ff4a74942da3
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/ATIM18/RegTypes.hs:
+  hash: ae591ea7df61e4ddaa43c62736c19b7f24deb4ffc04d2196ee651fda86b1fc82
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/ATIM18/Regs.hs:
+  hash: 32668309835220a6c957fdde2dfdedf9891fc18555559f36f918cf12c7e1330b
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/CAN.hs:
+  hash: bd0dddddaaf41848ccbc4c57988add845074998b897c199357970bec78805233
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/CAN/Filter.hs:
+  hash: b77fd7f3e1ec57ad83974389e57e03aa6f05bf7b1e65d91984ab1400cbe9bfc4
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/CAN/Peripheral.hs:
+  hash: 87fadd35608986c1c2cf06111e3030a3ef3113ca59df04f6703c694d0cada06c
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/CAN/Regs.hs:
+  hash: d980f1e457676ecd4398504855de9fef3bfe5278d59fe0ce889becaba8090441
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/DMA.hs:
+  hash: 1b4dfa9b37eb697eeb40fef7e4df17aceedadf76cf8de437677fd34eef1bc6fb
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/DMA/Artifacts.hs:
+  hash: d14ddc38e003ba7ecedfb7ba07ca62f2c900b851bec7c5cd1be9487e6d0db615
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/DMA/Peripheral.hs:
+  hash: 15dd9b161cbc648ebef9f3fcdea4274afdf45c4cd61ab7ff6ee97a6e7c926c42
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/DMA/Regs.hs:
+  hash: 7a7efb4628c9e10d32783b4ae7063d86554194935f3365839504fdce002acb0d
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/DMA/Types.hs:
+  hash: 19cf4829b046d944c0e5622ef704a9cdd04ea321aee774e157a07327663ba1df
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/Flash.hs:
+  hash: 8d895699ba63ca58e45992b47866c584374fad8b7e100d0146fbedfd36fe774b
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/Flash/Regs.hs:
+  hash: bd521e36f869949d7918200dddd2504f180431aafa61fcef3feccdc4d89875f8
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/GPIOF4.hs:
+  hash: 6562bbfff94c0adc9e54001074bd838baca068ab21b77a9a0296ad882abafe43
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/GPIOF4/Peripheral.hs:
+  hash: 7e694de686fa4a4b5811ae37e875f7fb1c067463f62965e08250642396d3ce97
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/GPIOF4/RegTypes.hs:
+  hash: 0165cac9e2775f52864fe4db842b5388d5c122fcea15a176d6c2696c9479923b
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/GPIOF4/Regs.hs:
+  hash: 577e12c6e09d21a55a32344e798fe613fb7fe6200957155b3acdd25268df131f
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/GPIOF4/TH.hs:
+  hash: 03da68868ead6c9716583e7c7406420220699ca501fd17260957a2de28aba70b
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/GTIM2345.hs:
+  hash: c8190524e175f7d0635b3e9eb084f5f95eba7b7c27034761370ae2f5058b991f
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/GTIM2345/Peripheral.hs:
+  hash: 80e042e24d3324455ff69d664c83ef8d9c2b4bda0f7f003bcdfdf6cb14cd8775
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/GTIM2345/RegTypes.hs:
+  hash: 5899180902df1094592f5e923feb8449eb716bf6a1fb8dbf923288cbbe330f97
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/GTIM2345/Regs.hs:
+  hash: 07854266f73a03e8b3b360ee9b4fc1bbcda9d0ad30c8b0cdcd754765158bdf89
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/I2C.hs:
+  hash: 859e3850649c37f0f3ad703d5723ca527ff53e5da586d3899779190459ea62d4
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/I2C/Peripheral.hs:
+  hash: 1f03a1fce6092da768f49387e9abb4871be479f848bdba5fa4f41be8fe5fc878
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/I2C/Regs.hs:
+  hash: 40da23fb60f4928a4c6dd31c3a824bac7f2f68ec3b699dc27fd7a963891b9cc1
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/PWR.hs:
+  hash: c5c1e56b63c69b1d40ff35d4a782febd3541c67d88bb736fa86e423459be9c0f
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/PWR/RegTypes.hs:
+  hash: 9f0dbafc082fd80e4befa1097c6f4b60f2d4c53fb7abe3d1d42040686c4e009f
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/PWR/Regs.hs:
+  hash: 7efdff6d031f60ae3fd8c676ebcd7acb3da13e2123c6ab7364398b41b400cfdf
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/RCC.hs:
+  hash: c880dbeff4b2f0991b266f5b71ee7bb4c7348f53960f2042050377bf61a9d1b9
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/RCC/RegTypes.hs:
+  hash: 8647c17d6256ba9489eaec8a850c6c2ada28164acab7cf7110f3605a5cf4cb18
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/RCC/Regs.hs:
+  hash: 3f565dadb3cfd849550ebd92f3cc8fd1257102f41b63ca460da1e95845c6c64d
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/RNG.hs:
+  hash: 849626eeb403d174b86c5a5074f14a912033aec87b211a5631aa93fde09cc0ae
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/RNG/Peripheral.hs:
+  hash: b5c7377786299fd6c090eff98ff393527b3a9e9248fb0e67812c48f528a92015
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/RNG/Regs.hs:
+  hash: 28a3e9fbdb220f67246eab3c4a67e0e78e7f065d11b69001d5ba465575be5eb1
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/SPI.hs:
+  hash: 523c375fb49cd4b95ec4ccd0e8512926b416fb96034bfb6840317b74b7435b67
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/SPI/Peripheral.hs:
+  hash: 662eb731ae1df821d564459cf85612c35354209855f3ea380f44e5769cb043c4
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/SPI/RegTypes.hs:
+  hash: 724f5aff718ea5bdf860be25ba47d59c8f67f1db9696f7bba184e19508db2e27
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/SPI/Regs.hs:
+  hash: 45cc56bf3c77fbd465adb160e300750b83b32619a5029a05b65fa17e19bc4ddd
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/UART.hs:
+  hash: 06391f847e4647295d1578c6a223509fabd17c50f79c33ad69f0a8fdbc7c0b2c
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/UART/DMA.hs:
+  hash: 19f3a307ebe4be28a6662a24213d9a87cac09533e357c795a1d5b4a898060689
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/UART/Peripheral.hs:
+  hash: 1ee800bce76a8071a5a661d6acade0db81c842f764a75209f55a3ca4f28aa426
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/UART/Regs.hs:
+  hash: 563497a4bbda98fa5d287d8fb4cd67c7867f6f37cf05feb05bce7a622565d298
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Peripheral/UART/Types.hs:
+  hash: 8e1e0e1a9a3459370c1af9757d4af48e158b22953032589b60e77f0ae94284dc
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/Processor.hs:
+  hash: 8e2cfdd7a9df7223949313ba7220a36dedc268f00018ff85b86b05d0edda2a3d
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32/VectorTable.hs:
+  hash: bf1ee441fac42bb9977ee94a1716af6b34b0f863dbff5be664b800d2f3123fbe
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/ATIM18.hs:
+  hash: 390356fba32e23843dae2ab3b767392453b10da77941152fd73f594000a305fb
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/CAN.hs:
+  hash: 0eaceae4fa0a1dc29505baa2c2566c585dea18a445df31c7c0e8092caaef1532
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/GPIO.hs:
+  hash: a8a0a6117e45468db10d8e8700a4b1ddc49a2e8ce3e32e63d30f32d2139fa48d
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/GPIO/AF.hs:
+  hash: 7ce53a68e9ce75e5916a4ea8707a9c204ca869e27a589a89bee992cbfbe7ddb2
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/GPIO/Pins.hs:
+  hash: 5970c58a6133ec45c81fca3b7bf616301d75b3740373f6d727a41a7d0a79a531
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/GPIO/Ports.hs:
+  hash: 5031c02d9e77cb1ff368a83b988828ec66884d6331ac978aa23a431602c7c6c9
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/GTIM2345.hs:
+  hash: 2ade4e2451416895ff1a109b1a78a05774390d7a83ea02cdcd3a4eb94cf6e417
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/I2C.hs:
+  hash: ee772002ead62d6b6e5537d64d76d808b2e6fc4fa3ad956ba7453057b282e19c
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/Interrupt.hs:
+  hash: f292db3e72d93c905fdd5e45b43b11fc53fb5ae984d8f6d5aa4e3845a653a7cf
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/MemoryMap.hs:
+  hash: 84db44696a6d9bd80696dc10dc76ce87d01bdebc247f229ed8b37c34774edec5
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/RCC.hs:
+  hash: 82e91e903576926fdaae9989db7d86d89e89e728b1544b97bcc4062a1555cb68
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/RNG.hs:
+  hash: e1b182c15a52b85fa8a13c5d186e502ffacffe6a87a26d1f76e97852f4a2be23
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/SPI.hs:
+  hash: 56e85d8c3648b43a04c91b27c05e317b6e6bac39c4c3e2fb1110c439ede9a121
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F405/UART.hs:
+  hash: c50bcc12f3b5b562f6908f6377a0e69e9292cac980a3dc69ea27fab24f130c2b
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/ADC.hs:
+  hash: 903c7bba30d4bf0029e56963c1ef74c3e9fd4bffdb035c59f2b4a3794d0172f0
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/ATIM18.hs:
+  hash: 2e7e2f1f2501f2b09d9252a1eda2affdcd48103007532ecc1dec7684338deb2b
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/CAN.hs:
+  hash: da367ea9e56987acad3d095226bde2576e86aa7547468fda7702808cc17f8f05
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/DMA.hs:
+  hash: 2aa786d5c5c4d93425f4e33a0cac794ee5d5981bfed08383cb6747609f8278aa
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/GPIO.hs:
+  hash: 1ab203cc29bd2211120fe6491426baa82c4835e7490336dd4d75c311b1a80200
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/GPIO/AF.hs:
+  hash: 1616e2df6331696e09c89af233cf79b8abfec7ad138d5041f00865f9f6e24c04
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/GPIO/Pins.hs:
+  hash: 5f8bf63b8c6f699cda258b01fc5e6a403308ef04fc1a98a47b9fb18ba3dc010f
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/GPIO/Ports.hs:
+  hash: cde4724d2193ffeb5b4e5e2325ea7e19dfd13e49c60198ddbd32416fa339f319
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/GTIM2345.hs:
+  hash: 8125ffd826f62640c33307ea6bb362cb9a1e0319e71e3b0bf2272f380f1fa5fd
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/I2C.hs:
+  hash: dbb844af23709a43b25acc172a34be9009012135b2cff9e16a4ffbad4fb297bb
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/Interrupt.hs:
+  hash: d53a6fe329f114485d01c33b9c07b066442f53c5b5f2eeebab4adf2967e6dc91
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/MemoryMap.hs:
+  hash: e16312e504982192f62e004ec957b1287a9c08ee8913e86984917d200037b9a6
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/RCC.hs:
+  hash: 9a59f577ed339ac4c00885b3d0e5f472d30f9dacf573675bae3339316bd63b17
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/RNG.hs:
+  hash: baa7843e4e95968313371610ea008af945c56f74ce355121e1f9f939ddc4f69d
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/SPI.hs:
+  hash: 2ff99a9c49ad127aaf8c6a882e2847064adc2754270433555b871badc615cd65
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/UART.hs:
+  hash: 94faceeddf6e696060293a19f9c5a2163c6249386501d1ed6185d5e07622036b
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/src/Ivory/BSP/STM32F427/UART/DMA.hs:
+  hash: 5f1614699cac78cbf822e7cefdf2fef36fe5cbbcae61f1e6a397ec15a42bad78
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/support/linker_script.lds.template:
+  hash: 4910e03bbff922cfddd3537a4564847bbd3f38b9d18af85f60e1a2e0e88d0e5d
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/support/ref_to_uint32.c:
+  hash: 7eb867877b9c921c7961e2ecc3c994353ae2a68f090acf4b1114f2e073f945bf
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/support/ref_to_uint32.h:
+  hash: b6c24fd8a2f06b0ea2a59a60c7b6d6c8a646dd8102961234fa4ede0a2f0942b8
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/ivory-bsp-stm32/support/vector_table.s.template:
+  hash: 06619a6952dac74de80db8a8342309bb6798446b9a3fb57cea015e658502960d
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

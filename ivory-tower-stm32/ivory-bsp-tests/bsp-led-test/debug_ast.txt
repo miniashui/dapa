@@ -1,0 +1,136 @@
+Tower
+  { tower_monitors =
+      [ Monitor
+          { monitor_name =
+              Unique { unique_name = "blinker" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name = Unique { unique_name = "per" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 250000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique { unique_name = "emitter_per_chan_1" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 1 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_per" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      , Monitor
+          { monitor_name = Unique { unique_name = "led" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name =
+                      Unique { unique_name = "hardwareinit" , unique_fresh = 1 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_hardwareinit" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "newoutput" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync SyncChan { sync_chan_label = 1 , sync_chan_type = TyBool }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_newoutput" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      , Monitor
+          { monitor_name =
+              Unique { unique_name = "blinker" , unique_fresh = 2 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name = Unique { unique_name = "per" , unique_fresh = 2 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 333000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique { unique_name = "emitter_per_2_chan_2" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 2 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_per_2" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      , Monitor
+          { monitor_name = Unique { unique_name = "led" , unique_fresh = 2 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name =
+                      Unique { unique_name = "hardwareinit" , unique_fresh = 2 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_hardwareinit_2" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "newoutput" , unique_fresh = 2 }
+                  , handler_chan =
+                      ChanSync SyncChan { sync_chan_label = 2 , sync_chan_type = TyBool }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_newoutput_2" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      ]
+  , tower_syncchans =
+      [ SyncChan { sync_chan_label = 1 , sync_chan_type = TyBool }
+      , SyncChan { sync_chan_label = 2 , sync_chan_type = TyBool }
+      ]
+  , tower_signals = []
+  , tower_periods =
+      [ Period
+          { period_dt = Microseconds 250000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      , Period
+          { period_dt = Microseconds 333000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      ]
+  }

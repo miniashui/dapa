@@ -1,0 +1,20 @@
+RTOS Task Review
+=======================
+
+Task name: RjCjbe-priority-scheduler-inherit
+Version reviewed: 
+Reviewer: Ihor Kuz
+Date: 2013-08-27
+Conclusion: Accept
+
+Overall comments:
+Looks fine.
+
+Specific comments
+=================
+
+Location: pm/tasks/RjCjbe-priority-scheduler-inherit:8
+Comment: typo. extra "on" in "'block on' on specific task,"
+
+Location: pm/tasks/RjCjbe-priority-scheduler-inherit:9
+Comment: typo. missing "be" in "will scheduled"

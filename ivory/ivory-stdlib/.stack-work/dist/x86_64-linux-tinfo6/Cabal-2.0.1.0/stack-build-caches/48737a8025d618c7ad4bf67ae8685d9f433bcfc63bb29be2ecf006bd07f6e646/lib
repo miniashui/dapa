@@ -1,0 +1,28 @@
+/home/x2/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/lib/ghc-8.2.2/include/ghcversion.h:
+  hash: e803b62244dbe2a2413f5c2cd68110a5cc21f1167bc36e77db7c55974024764b
+? /home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/Paths_ivory_stdlib.hs
+: hash: fa2e6bfd1e10ba8b19f666ef5d9a34de7ab4a8509f1173eb75fe1ce075a1577b
+? /home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/cabal_macros.h
+: hash: 06fd0da709f340a42d6480ff4c313dd3d2ddc3c23738c621d0872eec957298bf
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/ivory-stdlib.cabal:
+  hash: b486cb07f25b0cadb1f51fb67435e41a248223c0b30ccd3fad575b93e7f97d9f
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/src/Ivory/Stdlib.hs:
+  hash: 6a7135ad667a06e2ef70bffd070a5e823da6a29387f759c66dd94c8c15e2987e
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/src/Ivory/Stdlib/Control.hs:
+  hash: 1941ff9417df1e4ac153f1828486b59c8e745adcb99fb1e927393bdb68a56f32
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/src/Ivory/Stdlib/Init.hs:
+  hash: c29cb4aa57807375e91e4a72e3e12ee79f61907303bcef8b4e9bb190b864b882
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/src/Ivory/Stdlib/Maybe.hs:
+  hash: aa435ae3b4d9decf811785be2597f04c0a90299258797d3531de45e61d0ee043
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/src/Ivory/Stdlib/Memory.hs:
+  hash: e4daa043147bbfc91d379452c0bad7720c92446c5e2fc6e085ff8d98fc2cf37d
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/src/Ivory/Stdlib/Operators.hs:
+  hash: 9e483cba48e1f5903de5e0eba8a1dfd13d16723272415dd82b70ac4877b65031
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/src/Ivory/Stdlib/String.hs:
+  hash: e60e5b1258f739f4d55c204300cd53fb3e8be61374482d07e262403b8a5687d7
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/support/ivory_stdlib_string_prim.c:
+  hash: cd72fec57e5d153cfb60fcc4675294bbbba4659177cb11e09424752cc8e50b51
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-stdlib/support/ivory_stdlib_string_prim.h:
+  hash: 855938305d161daeb98e5ab75b9f51639bd5ed1c9df351b7df8f91428f2487b1
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

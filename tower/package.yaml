@@ -1,0 +1,11 @@
+name: towers
+version: "0.1.0.0"
+synopsis: "no"
+homepage: "no"
+license: BSD3
+author: king
+maintainer: your.email@example.com
+
+dependencies:
+ - base >=  4.7 && < 5
+ghc-options: -Wall

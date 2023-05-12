@@ -1,0 +1,65 @@
+name:                gec
+version:             0.1
+synopsis:            Key Exchange and datagram communication suitable for embedded contexts
+description:         A light-weight cryptographic library providing confidentiallity and
+                     integrity protected communications and key exchange.
+homepage:            github.com/TomMD/gec.git
+license:             BSD3
+license-file:        LICENSE
+author:              Thomas M. DuBuisson
+maintainer:          tommd@galois.com
+copyright:           Galois 2015
+category:            Cryptography
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     GEC.KeyExchange
+                     , GEC.Datagram
+                     , GEC.KeyExchange.Pure
+                     , GEC.Datagram.Pure
+  -- other-modules:       
+  other-extensions:    BangPatterns, RecordWildCards
+  build-depends:       base >= 4.7 && < 5
+                     , cipher-aes128 >= 0.7
+                     , bytestring >= 0.10
+                     , crypto-api >= 0.13
+                     , curve25519
+                     , ed25519-donna
+                     , cryptohash
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+
+Test-Suite test-KeyExchange
+    ghc-options:        -Wall
+    Type:               exitcode-stdio-1.0
+    main-is:            test/KeyExchange.hs
+    build-depends:      base
+                      , transformers
+                      , transformers-compat
+                      , bytestring
+                      , gec
+                      , entropy
+                      , curve25519
+                      , ed25519-donna
+                      , crypto-api
+                      , monadcryptorandom
+
+Test-Suite test-Datagram
+    ghc-options:        -Wall
+    Type:               exitcode-stdio-1.0
+    main-is:            test/Datagram.hs
+    build-depends:      base
+                      , transformers
+                      , bytestring
+                      , gec
+                      , entropy
+                      , curve25519
+                      , ed25519-donna
+                      , crypto-api
+                      , monadcryptorandom
+
+source-repository head
+    type:               git
+    location:           https://github.com/GaloisInc/gec

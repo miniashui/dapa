@@ -1,0 +1,6 @@
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/ivory-px4-hw.cabal:
+  hash: a13862acadf7d55ad90d0fc0fd313962bfaa812ec6378664c023443cc22f4122
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/tests/SMACCMPilot/Hardware/Tests/Ublox.hs:
+  hash: 32c9b26ba8d35cf71751f71c5bd67e5ffcc58bb36fcf7396183a562e7d7a915a
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/tests/UbloxGPSTest.hs:
+  hash: 888bff2f5730a335023012617b9e18b0c1a41bba155cfbdb6af350c128b6aacb

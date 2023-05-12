@@ -1,0 +1,94 @@
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/ADC.hs:
+  hash: b3f6264b2b8238b9be69feeda9bf93f6d193a2aaaa8c97c4d7d55aacbc52e2fe
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/CAN.hs:
+  hash: a7f3905cb1922987ae6346a3f0ef281cfb027926be9f69b505bdada9eea4a7dc
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/CANMessages.hs:
+  hash: cb5b27bd0b7a679cc0a8f7c1a0f7f746b1955620d31f1b967df642c01d1a2bc4
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/GPS/UBlox.hs:
+  hash: d94ac406759234425fbcfdc3578b0d6de5f9f8f495a51fde2b98bf006288d4d7
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/GPS/UBlox/Types.hs:
+  hash: feeff2c6afa46d3062a1b20baad39730fb513b18f66282d0c7561bf0449ef362
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/HMC5883L.hs:
+  hash: 47aa58435278a6ac14b1b967d402d016d1906efddd31b1a1a0a8d3acac8bfdff
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/HMC5883L/I2C.hs:
+  hash: c14f647862f5ea6973d997258cbe1422c57ff717c80d89f36bdca11a3eedf962
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/HMC5883L/Regs.hs:
+  hash: a300e4e68bfea79f83ef8383fcd80193a159bf83d39fce489f44a3d20d3a865d
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/L3GD20.hs:
+  hash: 1dc017ff6061e462754ce5f52e4a88ddb995413a75bdbee4affd103b3aac17a3
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/L3GD20/SPI.hs:
+  hash: 51b9fb3283944bff06bd2a41326b8b87087cfbd0bf2005c74473624c403056d3
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/LSM303D.hs:
+  hash: fad0b8fea7f81adf1ede777f085ab440b6a9d6d383291fa43e09c3ab8076456a
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/LSM303D/Regs.hs:
+  hash: be4bbf216cb8eb60b97e11187ae8bc9ee5b9421a7452eeb2a1ee564367e8eb01
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/LSM303D/SPI.hs:
+  hash: d64c1d9e138404555144aa772eecc6d6d6a7a7dd587e40556f825ded3a8ed589
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MPU6000.hs:
+  hash: 8de9fb2b6affef11e389a04076690d9c2f035625c3738c6b624de2159138ad89
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MPU6000/Regs.hs:
+  hash: c9edce7a02aea6157fecaefb029d48c5504296a3b85ba92d73bc79bf891b9b79
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MPU6000/SPI.hs:
+  hash: ca0f383b3cbb413c009d77b1a6474c90d8efd5d336152ae9074df47a6a1fbb95
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MPU6000/Types.hs:
+  hash: afb12cf77c1b3a8e3eec2e80f91db31ca0e45d1e63a1755703fb0c4df164d65e
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MS5611.hs:
+  hash: 245de2dc1d69761066cbbd2a3d77c498376810383a3247147ed1a4982382662a
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MS5611/Calibration.hs:
+  hash: 99a191a10902a7095714a8014a514af61e5a73daad5001f9f7102e5a692385be
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MS5611/I2C.hs:
+  hash: cb2c7715deb5379be855bf3df7b29ed9f2b71ea459e9ebb78bcf748b037457ca
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MS5611/Mode.hs:
+  hash: a22d8695b6a473dd5ce39beab579a7b259a65941ad878b7b5973d49cfa30d633
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MS5611/Regs.hs:
+  hash: 503cbf737722ba6c9cc199d2c5d99ed413c332bbf2b271ea55844efd13d2c038
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MS5611/SPI.hs:
+  hash: 2029c1f8f9b2dffbe2348dd0004ec752334957bb65c0692a52eff4bacc1f1e5b
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/MS5611/Types.hs:
+  hash: afdac26da753d22d3d0bc64469deefca9964278c8426f9ffc8428bc37e921f38
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PPM.hs:
+  hash: a0d55afa6c0ffb22494874a1feb605f3042e0609f863f196a5fd831af6d2a6a3
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PPM/Decode.hs:
+  hash: 9118443bbb96f5e5fbec71db60bed4eff0f7d9457f842051fc85ac38a8181d53
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PPM/Decode/Types.hs:
+  hash: 23112ee1449ea7c43f921fabc1a09790d3d5ebe83f74cd780cd43766070f8c0a
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PPM/PulseCapture.hs:
+  hash: f5a0714b2e7791de83597940b68b18fdcc8823e16d296ba8d606f3b608e980e9
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PPM/PulseCapture/Types.hs:
+  hash: 8b42d37635fa8f8213f1d2852410202abd046954ec032435a34e447bd289033b
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4FMU17.hs:
+  hash: 4cfe66b942d6c4c4e62d6bd714f7672185d36dd6ccadb3669d058cc2db961ec1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4FMU17/MotorControl.hs:
+  hash: 67f5497079ed8a1a5e0d39da0dbde41572b1fe7528018e5a05c17808ce7a646f
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4IO.hs:
+  hash: 10a6db447b0220d16da390dfc1de8317943b7d6ede6bd2638f59e2c2928b0e28
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4IO/CRC.hs:
+  hash: df5dd545123a6298a60dc7379bafda05b6820bfefec2fe0ca4b5322562ed67c4
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4IO/Pack.hs:
+  hash: ef6bb565ace4b1184b1adb9374bad424a098318a0da123ca5d545212506f4d43
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4IO/Types.hs:
+  hash: 2a3f01d3f79fc021452d2f6c5167f9f068b5418292f6dc4095ce9b33d66d3486
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4IO/Types/Buffer.hs:
+  hash: 9c1f9789146e1b46992ed914c733e36a91f89ed954fe2fda659c1ba66fbaf2ac
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4IO/Types/Regs.hs:
+  hash: 218392a1fbe8b5a17759f5be5280e975d56f3e851f39698afe0c518636142756
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4IO/Types/Request.hs:
+  hash: 77c8a7a378a367729b1ada82a9b82b318d4f9f737f827f5ebb7e05248f65f927
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/PX4IO/Types/RequestCode.hs:
+  hash: fe6e7600b930c6b79da3ad247c5b5f61abf9a2753dc7c5ee0ea626e00e2dc00c
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/Platforms.hs:
+  hash: aea28bd51a9f6f25753e397482da98ca9a30d818beb4b8f040f8be7b6c6709f3
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/Platforms/ParserUtils.hs:
+  hash: 2989648e49f08e1d4909728eab86d15d89b149289e4ddd83c93b0230ea6e5041
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/RGBLED.hs:
+  hash: 659b5465bc92feeb7a76365ea206d794d4ca24b602c8f2b378a1e93cf8067a0c
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/SensorManager.hs:
+  hash: 81e1c188c4c35888d034a879dda16d8b2435b1a7b6ada2be7c278f1298a670f4
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/Sensors.hs:
+  hash: 6449939e70d54f275bcf1ec5aea3ab0a151334d182db3114e9e9d579e4b62ac8
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Hardware/Serialize.hs:
+  hash: 986ddd99bd02fbbe223e96cc9c30c0ba42a476384dd5abc34bcad785da92f041
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/SMACCMPilot/Time.hs:
+  hash: 21b7148426fda81b971ff08a83de2c547f27b7999e5cf136e12d622fa11d6463
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/ivory-px4-hw.cabal:
+  hash: a13862acadf7d55ad90d0fc0fd313962bfaa812ec6378664c023443cc22f4122

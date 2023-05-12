@@ -1,0 +1,26 @@
+/home/x2/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/lib/ghc-8.2.2/include/ghcversion.h:
+  hash: e803b62244dbe2a2413f5c2cd68110a5cc21f1167bc36e77db7c55974024764b
+? /home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/Paths_ivory_serialize.hs
+: hash: 00be807f4a255109488c1c5d310d583643dc1015062a75673e335599989a4d21
+? /home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/cabal_macros.h
+: hash: 8f0c4bd0969a3c82133be022d3466121556bc3fabaecd3d33f55ffb345d8f020
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/ivory-serialize.cabal:
+  hash: 96ba94d5af665c0971e7c782386cb774a7e7821501bca9e6f8c4f0723fadcb01
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/src/Ivory/Serialize.hs:
+  hash: 29d7cbcd641c1705d0829a5e913175f5cf26cd2d9bf1e696c871774a5518d181
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/src/Ivory/Serialize/Atoms.hs:
+  hash: 753e7b1140c1222c4c0a64a9e8ea4d82a1fc6a68db6d39b934235182c29f21b7
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/src/Ivory/Serialize/LittleEndian.hs:
+  hash: aeda855d2bfff8f16293e18174497bcc23f97e8248f2d8e758643baf434fc885
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/src/Ivory/Serialize/PackRep.hs:
+  hash: 545dc22426bea0cf02649d28fbd1da6040a8eb1b877f422777a479c867365a13
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/src/Ivory/Serialize/Safe/BigEndian.hs:
+  hash: 1a710077acb116371bbfbbbd8f0267633a2e70a2b323678500fef5b27b699e9e
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/src/Ivory/Serialize/Safe/LittleEndian.hs:
+  hash: dffa5d23aa6a7df709b876175ab20f5ad4926612f74319ed0558d5143db784df
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/src/Ivory/Serialize/Struct.hs:
+  hash: acd7951e04589cde03c2a65a4723d8e0c14c5851d5b61975c2e9ab592bbc523c
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-serialize/support/ivory_serialize_prim.h:
+  hash: 48ccdcece84c67b889bc8efebdf5665ea1f2d97660700bf562b1e99ded3133d8
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

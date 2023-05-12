@@ -1,0 +1,37 @@
+digraph Tower {
+    thread_period_250ms [style=filled];
+    thread_period_333ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_blinker {
+        color = blue;
+        node [style=filled];
+        per;
+        label = "monitor blinker";
+    }
+    subgraph  cluster_blinker_2 {
+        color = blue;
+        node [style=filled];
+        per_2;
+        label = "monitor blinker_2";
+    }
+    subgraph  cluster_led {
+        color = blue;
+        node [style=filled];
+        hardwareinit;
+        newoutput;
+        label = "monitor led";
+    }
+    subgraph  cluster_led_2 {
+        color = blue;
+        node [style=filled];
+        hardwareinit_2;
+        newoutput_2;
+        label = "monitor led_2";
+    }
+    thread_period_250ms -> per;
+    thread_period_333ms -> per_2;
+    thread_init -> hardwareinit;
+    thread_init -> hardwareinit_2;
+    per -> newoutput;
+    per_2 -> newoutput_2;
+}

@@ -1,0 +1,110 @@
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/smaccm-flight.cabal:
+  hash: 9288d14c91312c7557b8daa719019a2aafe5f8f5fc4393552c5637467f51b339
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Battery.hs:
+  hash: 65080dbb52ca75231d47aa4ffb4b5b991b6b6ac93304a0dd6a361b3be21a8fb1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control.hs:
+  hash: e9e09c510634ab07ce561580fb3e8f3495148fe04efc8ced2ae0d9bb4bfcaafd
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Altitude.hs:
+  hash: 14bc9e06ed5c0c129157cc21479f798ef401ead565fcc9700ed901837ae90520
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Altitude/KalmanFilter.hs:
+  hash: 72c3ff3f6681f9af8e55bb062ffb288ddab1c0fcc8bb7fa613eb0c8acf3ff7d5
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Altitude/ThrottleUI.hs:
+  hash: 426af41dd9e7e20f569289f124a8887f2560ece13fa2a8593cfcf1b6f64aba58
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Attitude/Angle.hs:
+  hash: a9965b1a33cac67a72c43c9427fa696a54df67a1aaaf986067341ccd8b72fae3
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Attitude/HeadingControl.hs
+: hash: a764cc3ff18815eabf0dc4662d197f86113be7e3af24d4c059bb62a89c21b121
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Attitude/KalmanFilter.hs:
+  hash: 392a1531e1379848b5b62ec80139a28fc2228d610eaf77bca55a3616280aed50
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Attitude/PitchRoll.hs:
+  hash: 736049ef4161ab5521a0b07aa6df3969cabb7f5047b267a221bc168189b71f83
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Attitude/Stabilize.hs:
+  hash: 9fb4febb151f4964ea7279a5eca2e3243e9484ad52efcaae5aa1e6f2e70fe6ea
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Attitude/YawRate.hs:
+  hash: 78ec10515515e8bb728523bbe8c2066e5fb433f4226ea7c5f3fec88ae576ea3d
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Attitude/YawUI.hs:
+  hash: ec45ce27705803829a4c515d5d54beaeee76942fe943f49df686de9a328d04d1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/PID.hs:
+  hash: de12fd60ad834ae97d69cc9345a397210bee3744b35ecccf282811348fde62a6
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Control/Yaw.hs:
+  hash: 00090c4881eebd2a4f4f1979a10bf614db448150988316e6fedcba92d79fc960
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Datalink.hs:
+  hash: f5a75a211b1d779405d796dbad689afa60c6a107325139e324237fbfed36a0c5
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Datalink/CAN.hs:
+  hash: c1341361eba76b06d9bf40637d03b60b4e8d4cff90518d70525e2e65e2ef980e
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Datalink/CAN/TestProxy.hs:
+  hash: 2b883bf6622a022e689d7f216b4a1c5a7660c7122ae759b15bfb119bbc17ffc2
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Datalink/CAN/TestProxyODROID.hs:
+  hash: 49ac09e1e79b669d21d26468d69262d5e04e56e00695c8b2aa2b168f395c0e17
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Datalink/CAN/TestServer.hs:
+  hash: bc9c4d162f1f8070798d5ac510f00d9ea86d71c8c7f87e7fa07441a63f3257f0
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Datalink/Commsec.hs:
+  hash: 5186a88b67ef84265ed2d0803216d3e31b63079bf28315e21b6cf1408d79f8f1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Datalink/ControllableVehicle.hs:
+  hash: 80becce06286f3e700a62c7b60acf6d51c2f0dc57739e2206d613b3bfc1c1a49
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Datalink/TestApp.hs:
+  hash: 90fbd0e8c99a0fce17fddf5a685a99327ae0ef8a010e12e4790f29dbacc2712e
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Datalink/UART.hs:
+  hash: 738725a58a271a0c3cdde77b89e0b1f91ad87a4cca3b5bbb664a7cb6c8c4002d
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Filter.hs:
+  hash: 620b9618f08c50045bd2d89db532c6f5b69b4d3cc1b3d5f8b596eb9b338e3f51
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Filter/Butterworth.hs:
+  hash: e90108c55da6e84042b1fded55d9f00b3e6fd75f53ab23e22f258847c2e13f57
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Filter/Filter.hs:
+  hash: e6d3ec8105f1da72243b9ce3e58d338e69cdf9a65065e2ff134c765cf59a415f
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Filter/RunningAverage.hs:
+  hash: b33ace3f55d2e2f9ca9db4b043145d3e0987deaeccc529c3bc4ee92d061e97b9
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/IO.hs:
+  hash: 353c96dbe8e7267d917577703fa20bbc448526d39530afde0b4240d3bf519ecf
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/IO/RCInput.hs:
+  hash: 35ce4ffbc514f939ca9387ee3a704d831797e36525f633bb513773e6d1865223
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/IO/RCInput/ArmingMachine.hs:
+  hash: 9b9b33edf8eceaf1193ecfecc6a108f65ffc3f04250426c005e56197a82960ba
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/IO/RCInput/Decode.hs:
+  hash: 34b8aeadb455b2a1f241c0295f64067dea1fb247aea1de093db8a1c6a6611008
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/IO/RCInput/ModeSwitch.hs:
+  hash: 06db412a7e5e26767b142b47a76caf40654e97da22928771c6d75bafa034269f
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/IO/TestApp.hs:
+  hash: 31adfd6095405589f546e2127f527a922f7ac3883790329f4d2d563b466d87a1
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Law.hs:
+  hash: c600301e45e49539d41aa433a1d061f4b91f86b943ddd215bb197abe6550a3d3
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Law/Arming.hs:
+  hash: 03295ae90fb49b089da5c6c18ec16d623945d599ee4f2119433df30e69c0b415
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Law/ControlModes.hs:
+  hash: b6d229302b8ff3d5fcf388810b426aa157d4441689414cd9c65dd7d8bfced366
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Law/TestApp.hs:
+  hash: cae894aea0d7a79486af7c725c09a1cc4137b01d0db16c21f944ab54d3a14025
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Law/UserInput.hs:
+  hash: 227f7609548219a9e6cabe011255b57360d234dead59a884a1cabcf6169617bb
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Light.hs:
+  hash: 16360ce655471be7021b51277d867242e989a579b1acb2350c8f7659d6ba2c7a
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Motors.hs:
+  hash: aae2d32015e9729264199bd6b7777b1f9183f1dc388121b4c65a830a78100f7a
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Motors/Decoder.hs:
+  hash: 7a9844b8c36ffcafb6a6dd9733cccfcc609a8747f1c3904500df26783e155513
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Motors/Mixing.hs:
+  hash: 2e857013dfbed0cb1f4d428103c463764de539c42d50aa090b5b1b1da0852a46
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/PackedStatus.hs:
+  hash: baea993e29669964c33fbd48faf4c75a5248fe320844a27dbe27a4168d4427eb
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Platform.hs:
+  hash: 424b444b648f02d5e05095ee7894a7b7a35ae01477efb00426ef6df7e0f8e177
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Sensors.hs:
+  hash: b5b23a6042811f268b405920a578fe4ef9006ea07024433f266852d09f570134
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Sensors/DetectMotion.hs:
+  hash: 171097622e070017d8c25b5aea6decb7b9f6b478e5c13aba4c2598955f9a2b9d
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Sensors/GPS.hs:
+  hash: 5d6a0ce2bc0f6344dba23577f21c6db59e276afc414f1837a0f3dbeccf045c29
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Sensors/LIDARLite.hs:
+  hash: 8b58f52c83801b717b71440dedb98fa35989ad1315d0d1c5c7d0735effbb727b
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Sensors/PX4Flow.hs:
+  hash: f6793af2a7b381c078430d45aa38d0a909f33c64623a9de76a65561a8b941e75
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Sensors/TestApp.hs:
+  hash: 03f0ef9ff3540953f1810326d2488fc70cf2c6977f8ba26bc081374d132b2ab3
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Standalone.hs:
+  hash: 38d979f2c3a45482e90c0f9b284bc358e4563df9b1b973469c8181ea2de4ea92
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Tuning.hs:
+  hash: 68d4d452f99b7ea68301a1349660ef8852c84c4ce3163234bb13e332d439fa75
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Tuning/TypeParsers.hs:
+  hash: 7418e73e42ba97c405f05ca3bc73f1fc09d8fec198e1c9baa041bca7008b9a84
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-flight/src/SMACCMPilot/Flight/Types/MaybeFloat.hs:
+  hash: bbb149b9b8506ce84e4621a4bdd7eb265e800d4759407f0eb5d3494f29663109

@@ -1,0 +1,143 @@
+Tower
+  { tower_monitors =
+      [ Monitor
+          { monitor_name =
+              Unique { unique_name = "rngPeripheral" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name =
+                      Unique { unique_name = "rngInit" , unique_fresh = 1 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_rngInit" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "rngPoll" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 1000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_rngPoll_chan_1" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 1 , sync_chan_type = TyWord Word32 }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_rngPoll" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      , Monitor
+          { monitor_name =
+              Unique { unique_name = "i2c_fuzzer" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name = Unique { unique_name = "init" , unique_fresh = 1 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_init" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "chaos" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 90000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_chaos" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "use_rng" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync SyncChan { sync_chan_label = 2 , sync_chan_type = TyBool }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_use_rng" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "use_rng_init" , unique_fresh = 1 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_use_rng_init_chan_2" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 2 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_use_rng_init" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "use_rng_raw" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan { sync_chan_label = 1 , sync_chan_type = TyWord Word32 }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_use_rng_raw_chan_2" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 2 , sync_chan_type = TyBool }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_use_rng_raw" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      ]
+  , tower_syncchans =
+      [ SyncChan { sync_chan_label = 1 , sync_chan_type = TyWord Word32 }
+      , SyncChan { sync_chan_label = 2 , sync_chan_type = TyBool }
+      ]
+  , tower_signals = []
+  , tower_periods =
+      [ Period
+          { period_dt = Microseconds 1000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      , Period
+          { period_dt = Microseconds 90000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      ]
+  }

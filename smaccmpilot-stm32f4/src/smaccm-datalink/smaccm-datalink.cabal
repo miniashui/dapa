@@ -1,0 +1,148 @@
+
+name:                smaccm-datalink
+version:             0.1.0.0
+license:             BSD3
+author:              Galois, Inc.
+maintainer:          pat@galois.com
+-- copyright:
+category:            System
+build-type:          Simple
+cabal-version:       >= 1.10
+
+
+library
+  exposed-modules:     SMACCMPilot.Datalink.HXStream.Ivory,
+                       SMACCMPilot.Datalink.HXStream.Ivory.Types,
+                       SMACCMPilot.Datalink.HXStream.Native,
+                       SMACCMPilot.Datalink.HXStream.Tower,
+                       SMACCMPilot.Datalink.Client,
+                       SMACCMPilot.Datalink.Client.Async,
+                       SMACCMPilot.Datalink.Client.ByteString,
+                       SMACCMPilot.Datalink.Client.Opts,
+                       SMACCMPilot.Datalink.Client.Console,
+                       SMACCMPilot.Datalink.Client.Monad,
+                       SMACCMPilot.Datalink.Client.Queue,
+                       SMACCMPilot.Datalink.Client.Pipes,
+                       SMACCMPilot.Datalink.Client.Serial,
+                       SMACCMPilot.Datalink.Client.Repl,
+                       SMACCMPilot.Datalink.Client.Loopback,
+                       SMACCMPilot.Datalink.Mode
+                       SMACCMPilot.Datalink.Loopback
+  build-depends:       base >= 4.6,
+                       base-compat >= 0.6,
+                       async,
+                       bytestring,
+                       dlist,
+                       haskeline,
+                       monadLib,
+                       pipes,
+                       random,
+                       stm,
+                       transformers,
+                       unix,
+                       gec,
+                       ivory,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       tower,
+                       tower-config,
+                       tower-hal,
+                       smaccm-commsec
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite smaccm-datalink-ivory-frameloopback-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             IvoryFrameLoopback.hs
+  hs-source-dirs:      test
+  build-depends:       base,
+                       ivory,
+                       ivory-stdlib,
+                       tower,
+                       tower-hal,
+                       tower-config,
+                       tower-freertos-stm32,
+                       ivory-bsp-stm32,
+                       ivory-bsp-tests,
+                       smaccm-datalink,
+                       smaccm-commsec
+  ghc-options:         -Wall
+
+test-suite smaccm-datalink-ivory-commsecloopback-test-gen-stm32
+  type: exitcode-stdio-1.0
+  main-is:             IvoryCommsecLoopbackSTM32.hs
+  hs-source-dirs:      test
+  build-depends:       base,
+                       ivory,
+                       ivory-stdlib,
+                       tower,
+                       tower-config,
+                       tower-hal,
+                       tower-freertos-stm32,
+                       ivory-bsp-stm32,
+                       ivory-bsp-tests,
+                       smaccm-commsec,
+                       smaccm-datalink
+  ghc-options:         -Wall
+
+test-suite smaccm-datalink-ivory-commsecloopback-test-gen-odroid
+  type: exitcode-stdio-1.0
+  main-is:             IvoryCommsecLoopbackODROID.hs
+  hs-source-dirs:      test
+  build-depends:       base,
+                       ivory,
+                       ivory-stdlib,
+                       tower,
+                       tower-config,
+                       tower-hal,
+                       tower-aadl,
+                       tower-camkes-odroid,
+                       smaccm-commsec,
+                       smaccm-datalink
+  ghc-options:         -Wall
+
+test-suite smaccm-datalink-native-serial-test
+  type: exitcode-stdio-1.0
+
+  main-is:              NativeSerial.hs
+  hs-source-dirs:       test
+
+  build-depends:        base >= 4.6,
+                        bytestring,
+                        serialport,
+                        smaccm-datalink
+  default-language:     Haskell2010
+
+
+test-suite smaccm-datalink-native-frameloopback-client
+  type: exitcode-stdio-1.0
+
+  main-is:              FrameLoopbackClient.hs
+  hs-source-dirs:       test
+
+  build-depends:        base >= 4.6,
+                        smaccm-datalink
+  default-language:     Haskell2010
+
+test-suite smaccm-datalink-native-commsecloopback-client
+  type: exitcode-stdio-1.0
+
+  main-is:              CommsecLoopbackClient.hs
+  hs-source-dirs:       test
+
+  build-depends:        base >= 4.6,
+                        tower,
+                        tower-config,
+                        smaccm-commsec,
+                        smaccm-datalink
+  default-language:     Haskell2010
+
+executable smaccm-datalink-repl
+  main-is:              Repl.hs
+  hs-source-dirs:       test
+
+  build-depends:        base >= 4.6,
+                        smaccm-datalink
+  default-language:     Haskell2010
+

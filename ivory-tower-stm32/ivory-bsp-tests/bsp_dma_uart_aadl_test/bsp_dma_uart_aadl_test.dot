@@ -1,0 +1,71 @@
+digraph Tower {
+    thread_signal_DMA1_Stream5_IRQHandler [style=filled];
+    thread_signal_DMA1_Stream6_IRQHandler [style=filled];
+    thread_period_11ms [style=filled];
+    thread_period_50ms [style=filled];
+    thread_period_333ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_blinker {
+        color = blue;
+        node [style=filled];
+        per;
+        label = "monitor blinker";
+    }
+    subgraph  cluster_dma {
+        color = blue;
+        node [style=filled];
+        dmauart_hw_init;
+        dmauart_rx_init;
+        dmauart_tx_init;
+        req_chan;
+        rx_flush;
+        rx_stream_interrupt;
+        tx_stream_interrupt;
+        label = "monitor dma";
+    }
+    subgraph  cluster_echoprompt {
+        color = blue;
+        node [style=filled];
+        flush;
+        ostream;
+        result;
+        label = "monitor echoprompt";
+    }
+    subgraph  cluster_led {
+        color = blue;
+        node [style=filled];
+        hardwareinit;
+        newoutput;
+        label = "monitor led";
+    }
+    subgraph  cluster_settableLED {
+        color = blue;
+        node [style=filled];
+        hardwareinit_2;
+        newoutput_2;
+        label = "monitor settableLED";
+    }
+    subgraph  cluster_uart2_dma_rx_byte_shim {
+        color = blue;
+        node [style=filled];
+        uart2_buf_rx;
+        label = "monitor uart2_dma_rx_byte_shim";
+    }
+    thread_signal_DMA1_Stream5_IRQHandler -> rx_stream_interrupt;
+    thread_signal_DMA1_Stream6_IRQHandler -> tx_stream_interrupt;
+    thread_period_11ms -> rx_flush;
+    thread_period_50ms -> flush;
+    thread_period_333ms -> per;
+    thread_init -> hardwareinit;
+    thread_init -> dmauart_hw_init;
+    thread_init -> hardwareinit_2;
+    per -> newoutput;
+    dmauart_hw_init -> dmauart_tx_init;
+    dmauart_hw_init -> dmauart_rx_init;
+    rx_flush -> uart2_buf_rx;
+    tx_stream_interrupt -> result;
+    flush -> req_chan;
+    ostream -> req_chan;
+    ostream -> newoutput_2;
+    uart2_buf_rx -> ostream;
+}

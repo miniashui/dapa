@@ -1,0 +1,13 @@
+RTOS Task Review
+=======================
+
+Task name: BGZ3Wc-timer-implementation
+Version reviewed: 8025ff05956262785c4b97461dbd327e49023cc0
+Reviewer: stg
+Date: 2013-09-18
+Conclusion: Rework
+
+Overall comments:
+Remove declaration of undefined function timer_reload_clear() in timer.c
+
+[[(benno): Fixed.]]

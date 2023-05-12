@@ -1,0 +1,59 @@
+-- File generated from Tower-AADL compiler
+
+package sys
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+  with thread_init;
+  with thread_period_1ms;
+  with thread_period_10ms;
+  with thread_signal_USART2_IRQHandler;
+  with dma;
+  with uart_unbuffer;
+  with echoprompt;
+  with settableLED;
+
+process sys_process
+  
+end sys_process;
+
+process implementation sys_process.impl
+  subcomponents
+    th0: thread thread_init::thread_init;
+    th1: thread thread_period_1ms::thread_period_1ms;
+    th2: thread thread_period_10ms::thread_period_10ms;
+    th3: thread thread_signal_USART2_IRQHandler::thread_signal_USART2_IRQHandler;
+    th4: thread dma::dma;
+    th5: thread uart_unbuffer::uart_unbuffer;
+    th6: thread echoprompt::echoprompt;
+    th7: thread settableLED::settableLED;
+  connections
+    th6_to_th7_0: port th6.Output_istream_0 -> th7.Input_newoutput;
+    th5_to_th4_1: port th5.Output_uart_tx_flush_0 -> th4.Input_req_chan;
+    th4_to_th5_2: port th4.Output_interrupt_1 -> th5.Input_uart_tx_res;
+    th4_to_th6_3: port th4.Output_interrupt_0 -> th6.Input_istream;
+    th6_to_th5_4: port th6.Output_init_2_0 -> th5.Input_uart_byte_tosend;
+    th6_to_th5_5: port th6.Output_istream_1 -> th5.Input_uart_byte_tosend;
+    th3_to_th4_6: port th3.Output_USART2_IRQHandler -> th4.Input_interrupt;
+    th1_to_th6_7: port th1.Output_1ms -> th6.Input_init_2;
+    th2_to_th5_8: port th2.Output_10ms -> th5.Input_uart_tx_flush;
+    th0_to_th4_9: port th0.Output_systemInit -> th4.Input_init;
+    th0_to_th7_10: port th0.Output_systemInit -> th7.Input_hardwareinit;
+end sys_process.impl;
+
+system sys
+  
+end sys;
+
+system implementation sys.impl
+  subcomponents
+    p0:process sys_process.impl;
+  properties
+    SMACCM_SYS::OS => eChronos;
+    SMACCM_SYS::HW => PIXHAWK;
+    
+end sys.impl;
+
+end sys;

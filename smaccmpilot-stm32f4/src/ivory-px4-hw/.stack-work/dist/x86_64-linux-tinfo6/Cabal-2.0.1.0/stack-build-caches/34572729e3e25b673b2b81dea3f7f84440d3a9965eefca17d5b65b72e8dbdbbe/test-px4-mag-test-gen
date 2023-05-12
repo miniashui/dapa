@@ -1,0 +1,6 @@
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/ivory-px4-hw.cabal:
+  hash: a13862acadf7d55ad90d0fc0fd313962bfaa812ec6378664c023443cc22f4122
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/tests/MagTest.hs:
+  hash: 5134040310ab22cd9b75b9c0d9df07799c02a4e66982ce39188d11ca28955721
+/home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/ivory-px4-hw/tests/SMACCMPilot/Hardware/Tests/Magnetometer.hs:
+  hash: e506e31c75800dac85d6a360413d8d78c21f8ab1dc7b37a164d444e20cfb8607

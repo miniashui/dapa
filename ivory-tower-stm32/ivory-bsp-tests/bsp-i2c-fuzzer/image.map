@@ -1,0 +1,2574 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (atexit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_fini_array)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o) (__register_exitproc)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o) (__call_exitprocs)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+                              obj/tower_time.o (__aeabi_ldivmod)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              obj/tower_time.o (__aeabi_uldivmod)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+                              obj/tasks.o (memcmp)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+                              obj/queue.o (memcpy)
+
+Discarded input sections
+
+ .debug_loc     0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .debug_str     0x0000000000000000      0x1e4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .debug_loc     0x0000000000000000       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .debug_str     0x0000000000000000      0x58b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .debug_loc     0x0000000000000000       0x68 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .debug_str     0x0000000000000000      0x1dc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .debug_str     0x0000000000000000      0x582 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .debug_loc     0x0000000000000000       0xba /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .debug_str     0x0000000000000000      0x206 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .debug_loc     0x0000000000000000      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .debug_str     0x0000000000000000      0x1bb /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .debug_loc     0x0000000000000000      0x138 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .debug_str     0x0000000000000000      0x5bc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .init_array.00000
+                0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000000000000000      0x1cc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x0000000000000000       0x50 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_str     0x0000000000000000      0x5e8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000000       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .group         0x0000000000000000        0xc obj/freertos_atomic_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_atomic_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_atomic_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_atomic_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_atomic_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_atomic_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_atomic_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_atomic_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_atomic_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000000000      0xa78 obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000000000      0x16d obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000000000      0x34e obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000000000      0x113 obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000000000       0x52 obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000000000       0xe4 obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000000000       0x10 obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000000000       0x1f obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000000000      0x38b obj/freertos_semaphore_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000      0xa78 obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000       0x2e obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000      0x16d obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000      0x34e obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000      0x113 obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000       0x52 obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000       0xe4 obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000       0x10 obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000       0x1f obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000      0x38b obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000       0xb0 obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000000000       0x7f obj/freertos_mutex_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000      0xa78 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000      0x34e obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000      0x16d obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000      0x113 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000       0x52 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000       0xe4 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000       0x10 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000       0x1f obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000      0x38b obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000000000       0x2e obj/freertos_task_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000      0xa78 obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000      0x34e obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000      0x16d obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000      0x113 obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000       0x52 obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000       0xe4 obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000       0x10 obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000       0x1f obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000      0x38b obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000       0xc0 obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000000000       0x70 obj/freertos_time_wrapper.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .group         0x0000000000000000        0xc obj/list.o
+ .debug_macro   0x0000000000000000      0xa78 obj/list.o
+ .debug_macro   0x0000000000000000       0x18 obj/list.o
+ .debug_macro   0x0000000000000000       0x22 obj/list.o
+ .debug_macro   0x0000000000000000       0x52 obj/list.o
+ .debug_macro   0x0000000000000000       0x94 obj/list.o
+ .debug_macro   0x0000000000000000       0x35 obj/list.o
+ .debug_macro   0x0000000000000000       0x34 obj/list.o
+ .debug_macro   0x0000000000000000       0x16 obj/list.o
+ .debug_macro   0x0000000000000000       0x43 obj/list.o
+ .debug_macro   0x0000000000000000       0x57 obj/list.o
+ .debug_macro   0x0000000000000000       0x34 obj/list.o
+ .debug_macro   0x0000000000000000       0x10 obj/list.o
+ .debug_macro   0x0000000000000000       0x52 obj/list.o
+ .debug_macro   0x0000000000000000      0x182 obj/list.o
+ .debug_macro   0x0000000000000000      0x356 obj/list.o
+ .debug_macro   0x0000000000000000      0x34e obj/list.o
+ .debug_macro   0x0000000000000000      0x113 obj/list.o
+ .debug_macro   0x0000000000000000       0x52 obj/list.o
+ .debug_macro   0x0000000000000000       0xe4 obj/list.o
+ .debug_macro   0x0000000000000000       0x10 obj/list.o
+ .debug_macro   0x0000000000000000       0x1f obj/list.o
+ .debug_macro   0x0000000000000000      0x38b obj/list.o
+ .debug_macro   0x0000000000000000       0xc0 obj/list.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .group         0x0000000000000000        0xc obj/queue.o
+ .debug_macro   0x0000000000000000      0xa78 obj/queue.o
+ .debug_macro   0x0000000000000000       0x18 obj/queue.o
+ .debug_macro   0x0000000000000000       0x22 obj/queue.o
+ .debug_macro   0x0000000000000000       0x52 obj/queue.o
+ .debug_macro   0x0000000000000000       0x94 obj/queue.o
+ .debug_macro   0x0000000000000000       0x35 obj/queue.o
+ .debug_macro   0x0000000000000000       0x34 obj/queue.o
+ .debug_macro   0x0000000000000000       0x16 obj/queue.o
+ .debug_macro   0x0000000000000000      0x10e obj/queue.o
+ .debug_macro   0x0000000000000000       0x86 obj/queue.o
+ .debug_macro   0x0000000000000000       0x16 obj/queue.o
+ .debug_macro   0x0000000000000000       0x43 obj/queue.o
+ .debug_macro   0x0000000000000000       0x57 obj/queue.o
+ .debug_macro   0x0000000000000000       0x34 obj/queue.o
+ .debug_macro   0x0000000000000000       0x10 obj/queue.o
+ .debug_macro   0x0000000000000000       0x52 obj/queue.o
+ .debug_macro   0x0000000000000000      0x182 obj/queue.o
+ .debug_macro   0x0000000000000000      0x356 obj/queue.o
+ .debug_macro   0x0000000000000000       0x16 obj/queue.o
+ .debug_macro   0x0000000000000000       0x29 obj/queue.o
+ .debug_macro   0x0000000000000000       0x16 obj/queue.o
+ .debug_macro   0x0000000000000000       0x35 obj/queue.o
+ .debug_macro   0x0000000000000000      0x34e obj/queue.o
+ .debug_macro   0x0000000000000000      0x113 obj/queue.o
+ .debug_macro   0x0000000000000000       0x52 obj/queue.o
+ .debug_macro   0x0000000000000000       0xe4 obj/queue.o
+ .debug_macro   0x0000000000000000       0x10 obj/queue.o
+ .debug_macro   0x0000000000000000       0x1f obj/queue.o
+ .debug_macro   0x0000000000000000      0x38b obj/queue.o
+ .debug_macro   0x0000000000000000       0xc0 obj/queue.o
+ .debug_macro   0x0000000000000000       0x70 obj/queue.o
+ .debug_macro   0x0000000000000000       0xb0 obj/queue.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .group         0x0000000000000000        0xc obj/tasks.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x18 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x22 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x52 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x94 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x35 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x34 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x16 obj/tasks.o
+ .debug_macro   0x0000000000000000      0x10e obj/tasks.o
+ .debug_macro   0x0000000000000000       0x86 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x16 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x43 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x57 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x34 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x10 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x52 obj/tasks.o
+ .debug_macro   0x0000000000000000      0x182 obj/tasks.o
+ .debug_macro   0x0000000000000000      0x356 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x16 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x29 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x16 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x35 obj/tasks.o
+ .debug_macro   0x0000000000000000      0x34e obj/tasks.o
+ .debug_macro   0x0000000000000000      0x113 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x52 obj/tasks.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x10 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x1f obj/tasks.o
+ .debug_macro   0x0000000000000000      0x38b obj/tasks.o
+ .debug_macro   0x0000000000000000       0xc0 obj/tasks.o
+ .debug_macro   0x0000000000000000       0x70 obj/tasks.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .group         0x0000000000000000        0xc obj/timers.o
+ .debug_macro   0x0000000000000000      0xa78 obj/timers.o
+ .debug_macro   0x0000000000000000       0x18 obj/timers.o
+ .debug_macro   0x0000000000000000       0x22 obj/timers.o
+ .debug_macro   0x0000000000000000       0x52 obj/timers.o
+ .debug_macro   0x0000000000000000       0x94 obj/timers.o
+ .debug_macro   0x0000000000000000       0x35 obj/timers.o
+ .debug_macro   0x0000000000000000       0x34 obj/timers.o
+ .debug_macro   0x0000000000000000       0x16 obj/timers.o
+ .debug_macro   0x0000000000000000      0x10e obj/timers.o
+ .debug_macro   0x0000000000000000       0x86 obj/timers.o
+ .debug_macro   0x0000000000000000       0x16 obj/timers.o
+ .debug_macro   0x0000000000000000       0x43 obj/timers.o
+ .debug_macro   0x0000000000000000       0x57 obj/timers.o
+ .debug_macro   0x0000000000000000       0x34 obj/timers.o
+ .debug_macro   0x0000000000000000       0x10 obj/timers.o
+ .debug_macro   0x0000000000000000       0x52 obj/timers.o
+ .debug_macro   0x0000000000000000      0x182 obj/timers.o
+ .debug_macro   0x0000000000000000      0x356 obj/timers.o
+ .debug_macro   0x0000000000000000       0x16 obj/timers.o
+ .debug_macro   0x0000000000000000       0x29 obj/timers.o
+ .debug_macro   0x0000000000000000      0x34e obj/timers.o
+ .debug_macro   0x0000000000000000      0x113 obj/timers.o
+ .debug_macro   0x0000000000000000       0x52 obj/timers.o
+ .debug_macro   0x0000000000000000       0xe4 obj/timers.o
+ .debug_macro   0x0000000000000000       0x10 obj/timers.o
+ .debug_macro   0x0000000000000000       0x1f obj/timers.o
+ .debug_macro   0x0000000000000000      0x38b obj/timers.o
+ .debug_macro   0x0000000000000000       0xc0 obj/timers.o
+ .debug_macro   0x0000000000000000       0x70 obj/timers.o
+ .debug_macro   0x0000000000000000       0xb0 obj/timers.o
+ .debug_macro   0x0000000000000000       0x97 obj/timers.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .group         0x0000000000000000        0xc obj/port.o
+ .debug_macro   0x0000000000000000      0xa78 obj/port.o
+ .debug_macro   0x0000000000000000      0x16d obj/port.o
+ .debug_macro   0x0000000000000000      0x34e obj/port.o
+ .debug_macro   0x0000000000000000      0x113 obj/port.o
+ .debug_macro   0x0000000000000000       0x52 obj/port.o
+ .debug_macro   0x0000000000000000       0xe4 obj/port.o
+ .debug_macro   0x0000000000000000       0x10 obj/port.o
+ .debug_macro   0x0000000000000000       0x1f obj/port.o
+ .debug_macro   0x0000000000000000      0x38b obj/port.o
+ .debug_macro   0x0000000000000000       0xc0 obj/port.o
+ .debug_macro   0x0000000000000000       0x70 obj/port.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/heap_1.o
+ .debug_macro   0x0000000000000000      0xa78 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x18 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x22 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x52 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x94 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x35 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x34 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x16 obj/heap_1.o
+ .debug_macro   0x0000000000000000      0x10e obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x86 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x16 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x43 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x57 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x34 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x10 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x52 obj/heap_1.o
+ .debug_macro   0x0000000000000000      0x182 obj/heap_1.o
+ .debug_macro   0x0000000000000000      0x356 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x16 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x29 obj/heap_1.o
+ .debug_macro   0x0000000000000000      0x34e obj/heap_1.o
+ .debug_macro   0x0000000000000000      0x113 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x52 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0xe4 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x10 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x1f obj/heap_1.o
+ .debug_macro   0x0000000000000000      0x38b obj/heap_1.o
+ .debug_macro   0x0000000000000000       0xc0 obj/heap_1.o
+ .debug_macro   0x0000000000000000       0x70 obj/heap_1.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/syscalls.o
+ .debug_macro   0x0000000000000000      0xa78 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x22 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x52 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x18 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x94 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x35 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x34 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x57 obj/syscalls.o
+ .debug_macro   0x0000000000000000      0x356 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x16 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x43 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x34 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x52 obj/syscalls.o
+ .debug_macro   0x0000000000000000      0x182 obj/syscalls.o
+ .debug_macro   0x0000000000000000       0x35 obj/syscalls.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x113 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x1f obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x38b obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0xb0 obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x7f obj/tower_user_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x113 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x1f obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000      0x38b obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0xb0 obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x0000000000000000       0x7f obj/tower_gen_thread_period_1ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x113 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x1f obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x38b obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0xb0 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x7f obj/tower_user_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x113 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x1f obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000      0x38b obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0xb0 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x0000000000000000       0x7f obj/tower_gen_thread_period_90ms.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0x113 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x1f obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000      0x38b obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0xb0 obj/tower_user_thread_init.o
+ .debug_macro   0x0000000000000000       0x7f obj/tower_user_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0x113 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x1f obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000      0x38b obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0xb0 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000000000       0x7f obj/tower_gen_thread_init.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_state_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x113 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x1f obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000      0x38b obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0xb0 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000000000       0x7f obj/tower_gen_monitor_i2c_fuzzer.o
+ .group         0x0000000000000000        0xc obj/tower_state_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_state_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0x113 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x1f obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000      0x38b obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0xb0 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000000000       0x7f obj/tower_gen_monitor_rngPeripheral.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/tower_init.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_init.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_init.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_init.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_init.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_init.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_init.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_init.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_init.o
+ .debug_macro   0x0000000000000000      0x113 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0xe4 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x1f obj/tower_init.o
+ .debug_macro   0x0000000000000000      0x38b obj/tower_init.o
+ .debug_macro   0x0000000000000000       0xb0 obj/tower_init.o
+ .debug_macro   0x0000000000000000       0x7f obj/tower_init.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/stm32_main.o
+ .debug_macro   0x0000000000000000      0xa78 obj/stm32_main.o
+ .debug_macro   0x0000000000000000      0x34e obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x22 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x52 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x18 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x94 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x35 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x34 obj/stm32_main.o
+ .debug_macro   0x0000000000000000      0x16d obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x16 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x43 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x57 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x34 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x10 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x52 obj/stm32_main.o
+ .debug_macro   0x0000000000000000      0x182 obj/stm32_main.o
+ .debug_macro   0x0000000000000000      0x356 obj/stm32_main.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x16 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x35 obj/stm32_main.o
+ .debug_macro   0x0000000000000000      0x10c obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x2e obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x22 obj/stm32_main.o
+ .debug_macro   0x0000000000000000       0x5e obj/stm32_main.o
+ .debug_macro   0x0000000000000000      0x188 obj/stm32_main.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/tower_time.o
+ .debug_macro   0x0000000000000000      0xa78 obj/tower_time.o
+ .debug_macro   0x0000000000000000      0x34e obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x18 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x94 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_time.o
+ .debug_macro   0x0000000000000000      0x16d obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x43 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x57 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x34 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x10 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x52 obj/tower_time.o
+ .debug_macro   0x0000000000000000      0x182 obj/tower_time.o
+ .debug_macro   0x0000000000000000      0x356 obj/tower_time.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x16 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x35 obj/tower_time.o
+ .debug_macro   0x0000000000000000      0x10c obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x2e obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x22 obj/tower_time.o
+ .debug_macro   0x0000000000000000       0x5e obj/tower_time.o
+ .debug_macro   0x0000000000000000      0x188 obj/tower_time.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0xa78 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0x34e obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x22 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x18 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x94 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x35 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x34 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0x16d obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x16 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x43 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x57 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x34 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x10 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0x182 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0x356 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0x1a9 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x16 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x35 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0x10c obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x2e obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x22 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x5e obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0x188 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0x113 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x52 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0xe4 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x10 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x1f obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000      0x38b obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0xc0 obj/stm32_freertos_init.o
+ .debug_macro   0x0000000000000000       0x70 obj/stm32_freertos_init.o
+ .group         0x0000000000000000        0xc obj/stm32_freertos_user_assert.o
+ .debug_macro   0x0000000000000000      0xa78 obj/stm32_freertos_user_assert.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x0000000008000000 0x0000000000200000 xr
+sram             0x0000000020000000 0x0000000000030000 xrw
+ccsram           0x0000000010000000 0x0000000000010000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                0x0000000020030000                _estack = 0x20030000
+                0x0000000000000000                _min_heap_size = 0x0
+                0x0000000000000400                _min_stack_size = 0x400
+
+.isr_vector     0x0000000008000000      0x1ac
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x1ac obj/vector_table.o
+                0x0000000008000000                g_vectors
+                0x00000000080001ac                . = ALIGN (0x4)
+
+.text           0x00000000080001ac     0x3370
+ *(.text .text.*)
+ .text          0x00000000080001ac        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .text          0x00000000080001ac       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x0000000008000234       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                0x0000000008000234                _stack_init
+                0x000000000800023c                _mainCRTStartup
+                0x000000000800023c                _start
+ .text          0x00000000080002a4        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+                0x00000000080002a4                atexit
+ .text          0x00000000080002b0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+                0x00000000080002b0                exit
+ .text          0x00000000080002d0       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+                0x00000000080002d0                __libc_fini_array
+ .text          0x00000000080002fc        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .text          0x00000000080002fc       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+                0x00000000080002fc                __libc_init_array
+ .text          0x0000000008000344       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+                0x0000000008000344                memset
+ .text          0x00000000080003e8       0x68 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+                0x00000000080003e8                __register_exitproc
+ .text          0x0000000008000450       0xb8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+                0x0000000008000450                __call_exitprocs
+ .text.startup  0x0000000008000508       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .text          0x000000000800051c        0x8 obj/freertos_atomic_wrapper.o
+                0x000000000800051c                ivory_freertos_begin_atomic
+                0x0000000008000520                ivory_freertos_end_atomic
+ .text          0x0000000008000524       0x80 obj/freertos_semaphore_wrapper.o
+                0x0000000008000524                ivory_freertos_binary_semaphore_create
+                0x0000000008000540                ivory_freertos_binary_semaphore_takeblocking
+                0x000000000800055c                ivory_freertos_binary_semaphore_give
+                0x0000000008000576                ivory_freertos_binary_semaphore_give_from_isr
+ .text          0x00000000080005a4       0x4e obj/freertos_mutex_wrapper.o
+                0x00000000080005a4                ivory_freertos_mutex_create
+                0x00000000080005bc                ivory_freertos_mutex_takeblocking
+                0x00000000080005d8                ivory_freertos_mutex_give
+ .text          0x00000000080005f2       0x2c obj/freertos_task_wrapper.o
+                0x00000000080005f2                ivory_freertos_task_create
+ .text          0x000000000800061e       0x10 obj/freertos_time_wrapper.o
+                0x000000000800061e                ivory_freertos_time_delay
+                0x0000000008000622                ivory_freertos_time_delayuntil
+                0x0000000008000626                ivory_freertos_time_gettickcount
+                0x000000000800062a                ivory_freertos_time_gettickrate_ms
+ .text          0x000000000800062e       0x80 obj/list.o
+                0x000000000800062e                vListInitialise
+                0x0000000008000644                vListInitialiseItem
+                0x000000000800064a                vListInsertEnd
+                0x0000000008000662                vListInsert
+                0x0000000008000690                uxListRemove
+ .text          0x00000000080006ae      0x800 obj/queue.o
+                0x00000000080007b6                xQueueGenericReset
+                0x0000000008000834                xQueueGenericCreate
+                0x0000000008000890                xQueueGenericSend
+                0x00000000080009e6                xQueueCreateMutex
+                0x0000000008000a3c                xQueueGenericSendFromISR
+                0x0000000008000af4                xQueueGiveFromISR
+                0x0000000008000b7e                xQueueGenericReceive
+                0x0000000008000ce4                xQueueReceiveFromISR
+                0x0000000008000d72                xQueuePeekFromISR
+                0x0000000008000de8                uxQueueMessagesWaiting
+                0x0000000008000e12                uxQueueSpacesAvailable
+                0x0000000008000e40                uxQueueMessagesWaitingFromISR
+                0x0000000008000e58                vQueueDelete
+                0x0000000008000e70                xQueueIsQueueEmptyFromISR
+                0x0000000008000e8e                xQueueIsQueueFullFromISR
+ *fill*         0x0000000008000eae        0x2 
+ .text          0x0000000008000eb0     0x1274 obj/tasks.o
+                0x0000000008000f44                xTaskGenericCreate
+                0x00000000080010fc                vTaskDelete
+                0x00000000080011b0                uxTaskPriorityGet
+                0x00000000080011d0                uxTaskPriorityGetFromISR
+                0x0000000008001200                vTaskPrioritySet
+                0x00000000080012dc                vTaskResume
+                0x0000000008001364                xTaskResumeFromISR
+                0x0000000008001404                vTaskStartScheduler
+                0x0000000008001468                vTaskEndScheduler
+                0x0000000008001488                vTaskSuspendAll
+                0x000000000800149c                xTaskGetTickCount
+                0x00000000080014a8                xTaskGetTickCountFromISR
+                0x00000000080014b8                uxTaskGetNumberOfTasks
+                0x00000000080014c4                xTaskIncrementTick
+                0x00000000080015c0                xTaskResumeAll
+                0x000000000800169c                vTaskDelayUntil
+                0x0000000008001744                vTaskDelay
+                0x0000000008001820                vTaskSwitchContext
+                0x00000000080018bc                vTaskSuspend
+                0x0000000008001970                vTaskPlaceOnEventList
+                0x00000000080019d4                vTaskPlaceOnUnorderedEventList
+                0x0000000008001a58                xTaskRemoveFromEventList
+                0x0000000008001ad4                xTaskRemoveFromUnorderedEventList
+                0x0000000008001b58                vTaskSetTimeOutState
+                0x0000000008001b80                xTaskCheckForTimeOut
+                0x0000000008001bf0                vTaskMissedYield
+                0x0000000008001c00                xTaskGetCurrentTaskHandle
+                0x0000000008001c0c                vTaskPriorityInherit
+                0x0000000008001ca0                xTaskPriorityDisinherit
+                0x0000000008001d30                uxTaskResetEventItemValue
+                0x0000000008001d48                pvTaskIncrementMutexHeldCount
+                0x0000000008001d60                ulTaskNotifyTake
+                0x0000000008001df8                xTaskNotifyWait
+                0x0000000008001eb4                xTaskNotify
+                0x0000000008001f7c                xTaskNotifyFromISR
+                0x0000000008002068                vTaskNotifyGiveFromISR
+ .text          0x0000000008002124        0x0 obj/timers.o
+ .text          0x0000000008002124      0x2d0 obj/port.o
+                0x000000000800217c                pxPortInitialiseStack
+                0x00000000080021a0                SVCall_Handler
+                0x00000000080021c0                vPortEndScheduler
+                0x00000000080021e4                vPortEnterCritical
+                0x0000000008002224                vPortExitCritical
+                0x000000000800224c                PendSV_Handler
+                0x00000000080022ac                SysTick_Handler
+                0x00000000080022dc                vPortSetupTimerInterrupt
+                0x00000000080022f0                xPortStartScheduler
+                0x0000000008002398                vPortValidateInterruptPriority
+ .text          0x00000000080023f4       0x84 obj/heap_1.o
+                0x00000000080023f4                pvPortMalloc
+                0x0000000008002440                vPortFree
+                0x0000000008002456                vPortInitialiseBlocks
+                0x0000000008002464                xPortGetFreeHeapSize
+ .text          0x0000000008002478       0x48 obj/syscalls.o
+                0x0000000008002478                _sbrk
+                0x0000000008002494                link
+                0x000000000800249a                _close
+                0x00000000080024a0                _fstat
+                0x00000000080024aa                _isatty
+                0x00000000080024ae                _lseek
+                0x00000000080024b2                _read
+                0x00000000080024b6                _exit
+                0x00000000080024b8                _kill
+                0x00000000080024ba                _getpid
+ .text          0x00000000080024c0      0x138 obj/tower_user_thread_period_1ms.o
+                0x00000000080024c0                callback_use_rng_raw_thread_period_1ms
+                0x00000000080024e0                callback_use_rng_thread_period_1ms
+                0x00000000080025cc                callback_rngPoll_thread_period_1ms
+ .text          0x00000000080025f8       0xa4 obj/tower_gen_thread_period_1ms.o
+                0x00000000080025f8                loop_thread_period_1ms
+                0x0000000008002674                emitter_use_rng_raw_chan_2_thread_period_1ms_emit
+                0x0000000008002688                emitter_rngPoll_chan_1_thread_period_1ms_emit
+ .text          0x000000000800269c      0x384 obj/tower_user_thread_period_90ms.o
+                0x000000000800269c                callback_chaos_thread_period_90ms
+ .text          0x0000000008002a20       0x3c obj/tower_gen_thread_period_90ms.o
+                0x0000000008002a20                loop_thread_period_90ms
+ .text          0x0000000008002a5c      0x1dc obj/tower_user_thread_init.o
+                0x0000000008002a5c                callback_use_rng_init_thread_init
+                0x0000000008002a72                callback_use_rng_thread_init
+                0x0000000008002b60                callback_init_thread_init
+                0x0000000008002c10                callback_rngInit_thread_init
+ .text          0x0000000008002c38       0x68 obj/tower_gen_thread_init.o
+                0x0000000008002c38                loop_thread_init
+                0x0000000008002c8c                emitter_use_rng_init_chan_2_thread_init_emit
+ .text          0x0000000008002ca0        0x0 obj/tower_state_monitor_i2c_fuzzer.o
+ .text          0x0000000008002ca0       0x24 obj/tower_gen_monitor_i2c_fuzzer.o
+                0x0000000008002ca0                monitor_init_i2c_fuzzer
+                0x0000000008002cac                monitor_lock_i2c_fuzzer
+                0x0000000008002cb8                monitor_unlock_i2c_fuzzer
+ .text          0x0000000008002cc4        0x0 obj/tower_state_monitor_rngPeripheral.o
+ .text          0x0000000008002cc4       0x24 obj/tower_gen_monitor_rngPeripheral.o
+                0x0000000008002cc4                monitor_init_rngPeripheral
+                0x0000000008002cd0                monitor_lock_rngPeripheral
+                0x0000000008002cdc                monitor_unlock_rngPeripheral
+ .text          0x0000000008002ce8       0x40 obj/tower_init.o
+                0x0000000008002ce8                tower_entry
+ .text          0x0000000008002d28      0x13c obj/stm32_main.o
+                0x0000000008002d28                Reset_Handler
+ .text          0x0000000008002e64       0x1e obj/tower_time.o
+                0x0000000008002e64                tower_get_time
+ *fill*         0x0000000008002e82        0x2 
+ .text          0x0000000008002e84       0x68 obj/stm32_freertos_init.o
+                0x0000000008002e8c                init_relocate
+                0x0000000008002ee0                init_libc
+                0x0000000008002ee4                vApplicationStackOverflowHook
+ .text.startup  0x0000000008002eec       0x28 obj/stm32_freertos_init.o
+                0x0000000008002eec                main
+ .text          0x0000000008002f14       0x14 obj/vector_table.o
+ .text.defaultExceptionHandler
+                0x0000000008002f28        0x2 obj/vector_table.o
+                0x0000000008002f28                RTC_Alarm_IRQHandler
+                0x0000000008002f28                HASH_RNG_IRQHandler
+                0x0000000008002f28                EXTI2_IRQHandler
+                0x0000000008002f28                TIM8_CC_IRQHandler
+                0x0000000008002f28                UART8_IRQHandler
+                0x0000000008002f28                SPI4_IRQHandler
+                0x0000000008002f28                TIM1_CC_IRQHandler
+                0x0000000008002f28                DMA2_Stream5_IRQHandler
+                0x0000000008002f28                HardFault_Handler
+                0x0000000008002f28                DMA1_Stream5_IRQHandler
+                0x0000000008002f28                PVD_IRQHandler
+                0x0000000008002f28                SDIO_IRQHandler
+                0x0000000008002f28                LCD_TFT_ER_IRQHandler
+                0x0000000008002f28                TAMP_STAMP_IRQHandler
+                0x0000000008002f28                CAN2_RX1_IRQHandler
+                0x0000000008002f28                EXTI3_IRQHandler
+                0x0000000008002f28                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008002f28                TIM1_UP_TIM10_IRQHandler
+                0x0000000008002f28                TIM8_UP_TIM13_IRQHandler
+                0x0000000008002f28                I2C3_ER_IRQHandler
+                0x0000000008002f28                LCD_TFT_IRQHandler
+                0x0000000008002f28                EXTI0_IRQHandler
+                0x0000000008002f28                I2C2_EV_IRQHandler
+                0x0000000008002f28                DMA1_Stream2_IRQHandler
+                0x0000000008002f28                CAN1_RX0_IRQHandler
+                0x0000000008002f28                FPU_IRQHandler
+                0x0000000008002f28                OTG_HS_WKUP_IRQHandler
+                0x0000000008002f28                UsageFault_Handler
+                0x0000000008002f28                CAN2_SCE_IRQHandler
+                0x0000000008002f28                MemoryManagment_Handler
+                0x0000000008002f28                DMA2_Stream2_IRQHandler
+                0x0000000008002f28                SPI1_IRQHandler
+                0x0000000008002f28                TIM6_DAC_IRQHandler
+                0x0000000008002f28                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008002f28                DCMI_IRQHandler
+                0x0000000008002f28                CAN2_RX0_IRQHandler
+                0x0000000008002f28                DMA2_Stream3_IRQHandler
+                0x0000000008002f28                USART6_IRQHandler
+                0x0000000008002f28                USART3_IRQHandler
+                0x0000000008002f28                CRYP_IRQHandler
+                0x0000000008002f28                CAN1_RX1_IRQHandler
+                0x0000000008002f28                UART5_IRQHandler
+                0x0000000008002f28                DMA2_Stream0_IRQHandler
+                0x0000000008002f28                TIM4_IRQHandler
+                0x0000000008002f28                I2C1_EV_IRQHandler
+                0x0000000008002f28                DMA1_Stream6_IRQHandler
+                0x0000000008002f28                DMA1_Stream1_IRQHandler
+                0x0000000008002f28                UART4_IRQHandler
+                0x0000000008002f28                TIM3_IRQHandler
+                0x0000000008002f28                RCC_IRQHandler
+                0x0000000008002f28                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008002f28                EXTI15_10_IRQHandler
+                0x0000000008002f28                ADC_IRQHandler
+                0x0000000008002f28                DMA1_Stream7_IRQHandler
+                0x0000000008002f28                SPI5_IRQHandler
+                0x0000000008002f28                TIM7_IRQHandler
+                0x0000000008002f28                CAN2_TX_IRQHandler
+                0x0000000008002f28                TIM5_IRQHandler
+                0x0000000008002f28                DMA2_Stream7_IRQHandler
+                0x0000000008002f28                I2C3_EV_IRQHandler
+                0x0000000008002f28                EXTI9_5_IRQHandler
+                0x0000000008002f28                RTC_WKUP_IRQHandler
+                0x0000000008002f28                ETH_WKUP_IRQHandler
+                0x0000000008002f28                SPI2_IRQHandler
+                0x0000000008002f28                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008002f28                DMA1_Stream0_IRQHandler
+                0x0000000008002f28                CAN1_TX_IRQHandler
+                0x0000000008002f28                NonMaskable_Handler
+                0x0000000008002f28                EXTI4_IRQHandler
+                0x0000000008002f28                FSMC_IRQHandler
+                0x0000000008002f28                ETH_IRQHandler
+                0x0000000008002f28                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008002f28                WWDG_IRQHandler
+                0x0000000008002f28                SPI6_IRQHandler
+                0x0000000008002f28                TIM2_IRQHandler
+                0x0000000008002f28                OTG_FS_WKUP_IRQHandler
+                0x0000000008002f28                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008002f28                OTG_HS_IRQHandler
+                0x0000000008002f28                DMA2D_IRQHandler
+                0x0000000008002f28                EXTI1_IRQHandler
+                0x0000000008002f28                UART7_IRQHandler
+                0x0000000008002f28                USART2_IRQHandler
+                0x0000000008002f28                I2C2_ER_IRQHandler
+                0x0000000008002f28                DMA2_Stream1_IRQHandler
+                0x0000000008002f28                CAN1_SCE_IRQHandler
+                0x0000000008002f28                FLASH_IRQHandler
+                0x0000000008002f28                DMA2_Stream4_IRQHandler
+                0x0000000008002f28                BusFault_Handler
+                0x0000000008002f28                USART1_IRQHandler
+                0x0000000008002f28                OTG_FS_IRQHandler
+                0x0000000008002f28                SPI3_IRQHandler
+                0x0000000008002f28                DMA1_Stream4_IRQHandler
+                0x0000000008002f28                I2C1_ER_IRQHandler
+                0x0000000008002f28                DebugMonitor_Handler
+                0x0000000008002f28                DMA2_Stream6_IRQHandler
+                0x0000000008002f28                SAI1_IRQHandler
+                0x0000000008002f28                DMA1_Stream3_IRQHandler
+ .text          0x0000000008002f2a        0x4 obj/stm32_freertos_user_assert.o
+                0x0000000008002f2a                ivory_user_assert_hook
+ *fill*         0x0000000008002f2e        0x2 
+ .text          0x0000000008002f30       0xa0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+                0x0000000008002f30                __aeabi_ldivmod
+ .text          0x0000000008002fd0       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008002fd0                __aeabi_uldivmod
+ .text          0x0000000008003000      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000000008003000                __udivmoddi4
+ .text          0x00000000080032d0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x00000000080032d0                __aeabi_ldiv0
+                0x00000000080032d0                __aeabi_idiv0
+ .text          0x00000000080032d4       0x64 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+                0x00000000080032d4                memcmp
+ .text          0x0000000008003338      0x134 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+                0x0000000008003338                memcpy
+ .text          0x000000000800346c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x000000000800346c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fixup)
+ *(.gnu.warning)
+ *(.rodata .rodata.*)
+ .rodata        0x000000000800346c       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .rodata        0x0000000008003490        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+                0x0000000008003490                _global_impure_ptr
+ .rodata.str1.1
+                0x0000000008003494        0x5 obj/tasks.o
+ .rodata        0x0000000008003499       0x14 obj/tasks.o
+ .rodata.str1.1
+                0x00000000080034ad       0x25 obj/tower_init.o
+ .rodata.str1.1
+                0x00000000080034d2        0xa obj/stm32_freertos_init.o
+ .rodata        0x00000000080034dc       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ *(.glue_7)
+ .glue_7        0x0000000008003500        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008003500        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0000000008003500        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0000000008003500        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ *(.gnu.linkonce.t.*)
+ *(.got)
+ *(.gcc_except_table)
+ *(.gnu.linkonce.r.*)
+ *(.init)
+ .init          0x0000000008003504        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008003504                _init
+ .init          0x0000000008003508        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x0000000008003510        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008003510                _fini
+ .fini          0x0000000008003514        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x000000000800351c                . = ALIGN (0x4)
+                0x000000000800351c                _etext = ABSOLUTE (.)
+
+.vfp11_veneer   0x000000000800351c        0x0
+ .vfp11_veneer  0x000000000800351c        0x0 linker stubs
+
+.v4_bx          0x000000000800351c        0x0
+ .v4_bx         0x000000000800351c        0x0 linker stubs
+
+.iplt           0x000000000800351c        0x0
+ .iplt          0x000000000800351c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ARM.extab      0x000000000800351c        0x0
+ *(.ARM.extab*)
+ .ARM.extab     0x000000000800351c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x000000000800351c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000000800351c                __exidx_start = ABSOLUTE (.)
+
+.ARM.exidx      0x000000000800351c        0x8
+ *(.ARM.exidx*)
+ .ARM.exidx     0x000000000800351c        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                                         0x10 (size before relaxing)
+ .ARM.exidx     0x0000000008003524        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                                          0x8 (size before relaxing)
+                0x0000000008003524                __exidx_end = ABSOLUTE (.)
+
+.rel.dyn        0x0000000008003524        0x0
+ .rel.iplt      0x0000000008003524        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.preinit_array  0x0000000008003524        0x0
+                0x0000000008003524                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000008003524                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000008003524        0x4
+                0x0000000008003524                PROVIDE (__init_array_start = .)
+ *(.init_array)
+ .init_array    0x0000000008003524        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008003528                PROVIDE (__init_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.data           0x0000000010000000      0x440 load address 0x0000000008003528
+                0x0000000008003528                _sidata = LOADADDR (.data)
+                0x0000000010000000                _sdata = ABSOLUTE (.)
+ *(.data .data.*)
+ .data          0x0000000010000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000010000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000010000000                __dso_handle
+ .data          0x0000000010000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x0000000010000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .data          0x0000000010000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .data          0x0000000010000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ *fill*         0x0000000010000004        0x4 
+ .data          0x0000000010000008      0x430 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+                0x0000000010000008                _impure_ptr
+ .data          0x0000000010000438        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .data          0x0000000010000438        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .data          0x0000000010000438        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .data          0x0000000010000438        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000010000438        0x0 obj/freertos_atomic_wrapper.o
+ .data          0x0000000010000438        0x0 obj/freertos_semaphore_wrapper.o
+ .data          0x0000000010000438        0x0 obj/freertos_mutex_wrapper.o
+ .data          0x0000000010000438        0x0 obj/freertos_task_wrapper.o
+ .data          0x0000000010000438        0x0 obj/freertos_time_wrapper.o
+ .data          0x0000000010000438        0x0 obj/list.o
+ .data          0x0000000010000438        0x0 obj/queue.o
+ .data          0x0000000010000438        0x4 obj/tasks.o
+ .data          0x000000001000043c        0x0 obj/timers.o
+ .data          0x000000001000043c        0x4 obj/port.o
+ .data          0x0000000010000440        0x0 obj/heap_1.o
+ .data          0x0000000010000440        0x0 obj/syscalls.o
+ .data          0x0000000010000440        0x0 obj/tower_user_thread_period_1ms.o
+ .data          0x0000000010000440        0x0 obj/tower_gen_thread_period_1ms.o
+ .data          0x0000000010000440        0x0 obj/tower_user_thread_period_90ms.o
+ .data          0x0000000010000440        0x0 obj/tower_gen_thread_period_90ms.o
+ .data          0x0000000010000440        0x0 obj/tower_user_thread_init.o
+ .data          0x0000000010000440        0x0 obj/tower_gen_thread_init.o
+ .data          0x0000000010000440        0x0 obj/tower_state_monitor_i2c_fuzzer.o
+ .data          0x0000000010000440        0x0 obj/tower_gen_monitor_i2c_fuzzer.o
+ .data          0x0000000010000440        0x0 obj/tower_state_monitor_rngPeripheral.o
+ .data          0x0000000010000440        0x0 obj/tower_gen_monitor_rngPeripheral.o
+ .data          0x0000000010000440        0x0 obj/tower_init.o
+ .data          0x0000000010000440        0x0 obj/stm32_main.o
+ .data          0x0000000010000440        0x0 obj/tower_time.o
+ .data          0x0000000010000440        0x0 obj/stm32_freertos_init.o
+ .data          0x0000000010000440        0x0 obj/vector_table.o
+ .data          0x0000000010000440        0x0 obj/stm32_freertos_user_assert.o
+ .data          0x0000000010000440        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000010000440        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000010000440        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000010000440        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000010000440        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .data          0x0000000010000440        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+ .data          0x0000000010000440        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x0000000010000440        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.gnu.linkonce.d.*)
+                0x0000000010000440                _edata = ABSOLUTE (.)
+
+.fini_array     0x0000000010000440        0x4 load address 0x0000000008003968
+ .fini_array    0x0000000010000440        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.tm_clone_table
+                0x0000000010000444        0x0 load address 0x000000000800396c
+ .tm_clone_table
+                0x0000000010000444        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .tm_clone_table
+                0x0000000010000444        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+
+.igot.plt       0x0000000010000444        0x0 load address 0x000000000800396c
+ .igot.plt      0x0000000010000444        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000010000444                . = ALIGN (0x4)
+
+.bss            0x0000000020000000    0x181a0
+                0x0000000020000000                _sbss = ABSOLUTE (.)
+                0x0000000020000000                __bss_start__ = ABSOLUTE (_sbss)
+ *(.bss .bss.*)
+ .bss           0x0000000020000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x0000000020000000       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x000000002000001c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x000000002000001c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .bss           0x000000002000001c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .bss           0x000000002000001c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .bss           0x000000002000001c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .bss           0x000000002000001c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .bss           0x000000002000001c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .bss           0x000000002000001c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .bss           0x000000002000001c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .bss           0x000000002000001c        0x0 obj/freertos_atomic_wrapper.o
+ .bss           0x000000002000001c        0x0 obj/freertos_semaphore_wrapper.o
+ .bss           0x000000002000001c        0x0 obj/freertos_mutex_wrapper.o
+ .bss           0x000000002000001c        0x0 obj/freertos_task_wrapper.o
+ .bss           0x000000002000001c        0x0 obj/freertos_time_wrapper.o
+ .bss           0x000000002000001c        0x0 obj/list.o
+ .bss           0x000000002000001c        0x0 obj/queue.o
+ .bss           0x000000002000001c       0xe8 obj/tasks.o
+                0x0000000020000048                pxCurrentTCB
+ .bss           0x0000000020000104        0x0 obj/timers.o
+ .bss           0x0000000020000104        0x8 obj/port.o
+ .bss           0x000000002000010c    0x18008 obj/heap_1.o
+ .bss           0x0000000020018114        0x4 obj/syscalls.o
+ .bss           0x0000000020018118        0x0 obj/tower_user_thread_period_1ms.o
+ .bss           0x0000000020018118        0xd obj/tower_gen_thread_period_1ms.o
+ .bss           0x0000000020018125        0x0 obj/tower_user_thread_period_90ms.o
+ .bss           0x0000000020018125        0x0 obj/tower_gen_thread_period_90ms.o
+ .bss           0x0000000020018125        0x0 obj/tower_user_thread_init.o
+ *fill*         0x0000000020018125        0x3 
+ .bss           0x0000000020018128        0x5 obj/tower_gen_thread_init.o
+ *fill*         0x000000002001812d        0x3 
+ .bss           0x0000000020018130       0x68 obj/tower_state_monitor_i2c_fuzzer.o
+                0x0000000020018130                use_rng_cont
+                0x0000000020018178                last_value
+                0x000000002001817c                scl_pattern
+                0x0000000020018180                sda_pattern
+                0x0000000020018188                next_run
+                0x0000000020018190                next_delay
+ .bss           0x0000000020018198        0x4 obj/tower_gen_monitor_i2c_fuzzer.o
+                0x0000000020018198                lock_i2c_fuzzer
+ .bss           0x000000002001819c        0x0 obj/tower_state_monitor_rngPeripheral.o
+ .bss           0x000000002001819c        0x4 obj/tower_gen_monitor_rngPeripheral.o
+                0x000000002001819c                lock_rngPeripheral
+ .bss           0x00000000200181a0        0x0 obj/tower_init.o
+ .bss           0x00000000200181a0        0x0 obj/stm32_main.o
+ .bss           0x00000000200181a0        0x0 obj/tower_time.o
+ .bss           0x00000000200181a0        0x0 obj/stm32_freertos_init.o
+ .bss           0x00000000200181a0        0x0 obj/vector_table.o
+ .bss           0x00000000200181a0        0x0 obj/stm32_freertos_user_assert.o
+ .bss           0x00000000200181a0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000200181a0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000200181a0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000200181a0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000200181a0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .bss           0x00000000200181a0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000200181a0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x00000000200181a0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x00000000200181a0                . = ALIGN (0x4)
+                0x00000000200181a0                _ebss = ABSOLUTE (.)
+                0x00000000200181a0                __bss_end__ = ABSOLUTE (_ebss)
+
+._user_heap_stack
+                0x0000000010000444      0x400
+                0x0000000010000444                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (end = .)
+                0x0000000010000444                PROVIDE (_end = .)
+                0x0000000010000444                . = (. + _min_heap_size)
+                0x0000000010000844                . = (. + _min_stack_size)
+ *fill*         0x0000000010000444      0x400 
+                0x0000000010000844                . = ALIGN (0x4)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x33
+ *(.comment)
+ .comment       0x0000000000000000       0x33 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000033       0x34 obj/freertos_atomic_wrapper.o
+ .comment       0x0000000000000033       0x34 obj/freertos_semaphore_wrapper.o
+ .comment       0x0000000000000033       0x34 obj/freertos_mutex_wrapper.o
+ .comment       0x0000000000000033       0x34 obj/freertos_task_wrapper.o
+ .comment       0x0000000000000033       0x34 obj/freertos_time_wrapper.o
+ .comment       0x0000000000000033       0x34 obj/list.o
+ .comment       0x0000000000000033       0x34 obj/queue.o
+ .comment       0x0000000000000033       0x34 obj/tasks.o
+ .comment       0x0000000000000033       0x34 obj/timers.o
+ .comment       0x0000000000000033       0x34 obj/port.o
+ .comment       0x0000000000000033       0x34 obj/heap_1.o
+ .comment       0x0000000000000033       0x34 obj/syscalls.o
+ .comment       0x0000000000000033       0x34 obj/tower_user_thread_period_1ms.o
+ .comment       0x0000000000000033       0x34 obj/tower_gen_thread_period_1ms.o
+ .comment       0x0000000000000033       0x34 obj/tower_user_thread_period_90ms.o
+ .comment       0x0000000000000033       0x34 obj/tower_gen_thread_period_90ms.o
+ .comment       0x0000000000000033       0x34 obj/tower_user_thread_init.o
+ .comment       0x0000000000000033       0x34 obj/tower_gen_thread_init.o
+ .comment       0x0000000000000033       0x34 obj/tower_state_monitor_i2c_fuzzer.o
+ .comment       0x0000000000000033       0x34 obj/tower_gen_monitor_i2c_fuzzer.o
+ .comment       0x0000000000000033       0x34 obj/tower_state_monitor_rngPeripheral.o
+ .comment       0x0000000000000033       0x34 obj/tower_gen_monitor_rngPeripheral.o
+ .comment       0x0000000000000033       0x34 obj/tower_init.o
+ .comment       0x0000000000000033       0x34 obj/stm32_main.o
+ .comment       0x0000000000000033       0x34 obj/tower_time.o
+ .comment       0x0000000000000033       0x34 obj/stm32_freertos_init.o
+ .comment       0x0000000000000033       0x34 obj/stm32_freertos_user_assert.o
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000052       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x000000000000006e       0x34 obj/freertos_atomic_wrapper.o
+ .ARM.attributes
+                0x00000000000000a2       0x34 obj/freertos_semaphore_wrapper.o
+ .ARM.attributes
+                0x00000000000000d6       0x34 obj/freertos_mutex_wrapper.o
+ .ARM.attributes
+                0x000000000000010a       0x34 obj/freertos_task_wrapper.o
+ .ARM.attributes
+                0x000000000000013e       0x34 obj/freertos_time_wrapper.o
+ .ARM.attributes
+                0x0000000000000172       0x34 obj/list.o
+ .ARM.attributes
+                0x00000000000001a6       0x34 obj/queue.o
+ .ARM.attributes
+                0x00000000000001da       0x34 obj/tasks.o
+ .ARM.attributes
+                0x000000000000020e       0x39 obj/timers.o
+ .ARM.attributes
+                0x0000000000000247       0x34 obj/port.o
+ .ARM.attributes
+                0x000000000000027b       0x34 obj/heap_1.o
+ .ARM.attributes
+                0x00000000000002af       0x34 obj/syscalls.o
+ .ARM.attributes
+                0x00000000000002e3       0x34 obj/tower_user_thread_period_1ms.o
+ .ARM.attributes
+                0x0000000000000317       0x34 obj/tower_gen_thread_period_1ms.o
+ .ARM.attributes
+                0x000000000000034b       0x34 obj/tower_user_thread_period_90ms.o
+ .ARM.attributes
+                0x000000000000037f       0x34 obj/tower_gen_thread_period_90ms.o
+ .ARM.attributes
+                0x00000000000003b3       0x34 obj/tower_user_thread_init.o
+ .ARM.attributes
+                0x00000000000003e7       0x34 obj/tower_gen_thread_init.o
+ .ARM.attributes
+                0x000000000000041b       0x39 obj/tower_state_monitor_i2c_fuzzer.o
+ .ARM.attributes
+                0x0000000000000454       0x34 obj/tower_gen_monitor_i2c_fuzzer.o
+ .ARM.attributes
+                0x0000000000000488       0x39 obj/tower_state_monitor_rngPeripheral.o
+ .ARM.attributes
+                0x00000000000004c1       0x34 obj/tower_gen_monitor_rngPeripheral.o
+ .ARM.attributes
+                0x00000000000004f5       0x34 obj/tower_init.o
+ .ARM.attributes
+                0x0000000000000529       0x34 obj/stm32_main.o
+ .ARM.attributes
+                0x000000000000055d       0x34 obj/tower_time.o
+ .ARM.attributes
+                0x0000000000000591       0x34 obj/stm32_freertos_init.o
+ .ARM.attributes
+                0x00000000000005c5       0x21 obj/vector_table.o
+ .ARM.attributes
+                0x00000000000005e6       0x34 obj/stm32_freertos_user_assert.o
+ .ARM.attributes
+                0x000000000000061a       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x0000000000000638       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000656       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000000000000068a       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000000006a8       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000000000006dc       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000000000006f8       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x000000000000072a       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+
+.debug_abbrev   0x0000000000000000     0x30de
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_abbrev  0x0000000000000014       0xb7 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x00000000000000cb      0x20c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .debug_abbrev  0x00000000000002d7       0xcf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .debug_abbrev  0x00000000000003a6      0x1b8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .debug_abbrev  0x000000000000055e       0xcc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .debug_abbrev  0x000000000000062a       0xb4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .debug_abbrev  0x00000000000006de      0x23f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x000000000000091d      0x2b2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000000bcf       0x6a obj/freertos_atomic_wrapper.o
+ .debug_abbrev  0x0000000000000c39      0x107 obj/freertos_semaphore_wrapper.o
+ .debug_abbrev  0x0000000000000d40       0xeb obj/freertos_mutex_wrapper.o
+ .debug_abbrev  0x0000000000000e2b      0x138 obj/freertos_task_wrapper.o
+ .debug_abbrev  0x0000000000000f63       0xea obj/freertos_time_wrapper.o
+ .debug_abbrev  0x000000000000104d      0x102 obj/list.o
+ .debug_abbrev  0x000000000000114f      0x2fb obj/queue.o
+ .debug_abbrev  0x000000000000144a      0x417 obj/tasks.o
+ .debug_abbrev  0x0000000000001861       0x29 obj/timers.o
+ .debug_abbrev  0x000000000000188a      0x256 obj/port.o
+ .debug_abbrev  0x0000000000001ae0      0x175 obj/heap_1.o
+ .debug_abbrev  0x0000000000001c55      0x17b obj/syscalls.o
+ .debug_abbrev  0x0000000000001dd0      0x1e5 obj/tower_user_thread_period_1ms.o
+ .debug_abbrev  0x0000000000001fb5      0x196 obj/tower_gen_thread_period_1ms.o
+ .debug_abbrev  0x000000000000214b      0x1c1 obj/tower_user_thread_period_90ms.o
+ .debug_abbrev  0x000000000000230c      0x16c obj/tower_gen_thread_period_90ms.o
+ .debug_abbrev  0x0000000000002478      0x218 obj/tower_user_thread_init.o
+ .debug_abbrev  0x0000000000002690      0x169 obj/tower_gen_thread_init.o
+ .debug_abbrev  0x00000000000027f9       0x8d obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_abbrev  0x0000000000002886       0xd0 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_abbrev  0x0000000000002956       0x13 obj/tower_state_monitor_rngPeripheral.o
+ .debug_abbrev  0x0000000000002969       0xd0 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_abbrev  0x0000000000002a39       0x9d obj/tower_init.o
+ .debug_abbrev  0x0000000000002ad6      0x19d obj/stm32_main.o
+ .debug_abbrev  0x0000000000002c73       0x99 obj/tower_time.o
+ .debug_abbrev  0x0000000000002d0c      0x14d obj/stm32_freertos_init.o
+ .debug_abbrev  0x0000000000002e59       0x14 obj/vector_table.o
+ .debug_abbrev  0x0000000000002e6d       0x31 obj/stm32_freertos_user_assert.o
+ .debug_abbrev  0x0000000000002e9e       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_abbrev  0x0000000000002eb2       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000000000002ec6      0x163 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x0000000000003029       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x000000000000303d       0x8d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00000000000030ca       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+
+.debug_info     0x0000000000000000     0xd880
+ *(.debug_info)
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_info    0x0000000000000026      0x100 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .debug_info    0x0000000000000126      0x969 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .debug_info    0x0000000000000a8f      0x102 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .debug_info    0x0000000000000b91      0x92a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .debug_info    0x00000000000014bb      0x11a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .debug_info    0x00000000000015d5      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .debug_info    0x000000000000170c      0x9b0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .debug_info    0x00000000000020bc      0xa3d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000002af9       0xc8 obj/freertos_atomic_wrapper.o
+ .debug_info    0x0000000000002bc1      0x270 obj/freertos_semaphore_wrapper.o
+ .debug_info    0x0000000000002e31      0x1f6 obj/freertos_mutex_wrapper.o
+ .debug_info    0x0000000000003027      0x1f6 obj/freertos_task_wrapper.o
+ .debug_info    0x000000000000321d      0x189 obj/freertos_time_wrapper.o
+ .debug_info    0x00000000000033a6      0x2c6 obj/list.o
+ .debug_info    0x000000000000366c     0x1642 obj/queue.o
+ .debug_info    0x0000000000004cae     0x25fc obj/tasks.o
+ .debug_info    0x00000000000072aa       0x6f obj/timers.o
+ .debug_info    0x0000000000007319      0x50a obj/port.o
+ .debug_info    0x0000000000007823      0x1dc obj/heap_1.o
+ .debug_info    0x00000000000079ff      0x4d7 obj/syscalls.o
+ .debug_info    0x0000000000007ed6      0x596 obj/tower_user_thread_period_1ms.o
+ .debug_info    0x000000000000846c      0x491 obj/tower_gen_thread_period_1ms.o
+ .debug_info    0x00000000000088fd     0x1ff8 obj/tower_user_thread_period_90ms.o
+ .debug_info    0x000000000000a8f5      0x28a obj/tower_gen_thread_period_90ms.o
+ .debug_info    0x000000000000ab7f      0xb21 obj/tower_user_thread_init.o
+ .debug_info    0x000000000000b6a0      0x366 obj/tower_gen_thread_init.o
+ .debug_info    0x000000000000ba06      0x1fd obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_info    0x000000000000bc03      0x174 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_info    0x000000000000bd77       0x21 obj/tower_state_monitor_rngPeripheral.o
+ .debug_info    0x000000000000bd98      0x174 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_info    0x000000000000bf0c      0x141 obj/tower_init.o
+ .debug_info    0x000000000000c04d      0xb46 obj/stm32_main.o
+ .debug_info    0x000000000000cb93      0x158 obj/tower_time.o
+ .debug_info    0x000000000000cceb      0x24c obj/stm32_freertos_init.o
+ .debug_info    0x000000000000cf37       0x26 obj/vector_table.o
+ .debug_info    0x000000000000cf5d       0x3c obj/stm32_freertos_user_assert.o
+ .debug_info    0x000000000000cf99       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_info    0x000000000000cfbf       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x000000000000cfe5      0x717 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x000000000000d6fc       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000000000000d722      0x138 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .debug_info    0x000000000000d85a       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+
+.debug_line     0x0000000000000000     0xa9f4
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x87 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_line    0x0000000000000087       0xc0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .debug_line    0x0000000000000147      0x179 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .debug_line    0x00000000000002c0       0xed /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .debug_line    0x00000000000003ad       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .debug_line    0x0000000000000491      0x138 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .debug_line    0x00000000000005c9      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .debug_line    0x0000000000000788      0x19e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000000926      0x28d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000000bb3      0x133 obj/freertos_atomic_wrapper.o
+ .debug_line    0x0000000000000ce6      0x252 obj/freertos_semaphore_wrapper.o
+ .debug_line    0x0000000000000f38      0x1fa obj/freertos_mutex_wrapper.o
+ .debug_line    0x0000000000001132      0x323 obj/freertos_task_wrapper.o
+ .debug_line    0x0000000000001455      0x16c obj/freertos_time_wrapper.o
+ .debug_line    0x00000000000015c1      0x35a obj/list.o
+ .debug_line    0x000000000000191b     0x11ec obj/queue.o
+ .debug_line    0x0000000000002b07     0x1f63 obj/tasks.o
+ .debug_line    0x0000000000004a6a      0x21b obj/timers.o
+ .debug_line    0x0000000000004c85      0x47f obj/port.o
+ .debug_line    0x0000000000005104      0x2e0 obj/heap_1.o
+ .debug_line    0x00000000000053e4      0x2eb obj/syscalls.o
+ .debug_line    0x00000000000056cf      0x649 obj/tower_user_thread_period_1ms.o
+ .debug_line    0x0000000000005d18      0x569 obj/tower_gen_thread_period_1ms.o
+ .debug_line    0x0000000000006281     0x1273 obj/tower_user_thread_period_90ms.o
+ .debug_line    0x00000000000074f4      0x466 obj/tower_gen_thread_period_90ms.o
+ .debug_line    0x000000000000795a      0x891 obj/tower_user_thread_init.o
+ .debug_line    0x00000000000081eb      0x47a obj/tower_gen_thread_init.o
+ .debug_line    0x0000000000008665      0x25a obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_line    0x00000000000088bf      0x31d obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_line    0x0000000000008bdc       0x44 obj/tower_state_monitor_rngPeripheral.o
+ .debug_line    0x0000000000008c20      0x323 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_line    0x0000000000008f43      0x49c obj/tower_init.o
+ .debug_line    0x00000000000093df      0x65f obj/stm32_main.o
+ .debug_line    0x0000000000009a3e      0x26f obj/tower_time.o
+ .debug_line    0x0000000000009cad      0x392 obj/stm32_freertos_init.o
+ .debug_line    0x000000000000a03f       0x3e obj/vector_table.o
+ .debug_line    0x000000000000a07d       0x53 obj/stm32_freertos_user_assert.o
+ .debug_line    0x000000000000a0d0       0x7e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line    0x000000000000a14e       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x000000000000a1ae      0x5ae /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x000000000000a75c       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000000a7bc      0x17a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .debug_line    0x000000000000a936       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_aranges  0x0000000000000000      0x550
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_aranges
+                0x0000000000000020       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000040       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .debug_aranges
+                0x0000000000000080       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000098       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .debug_aranges
+                0x00000000000000b8       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000000d8       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x00000000000000f8       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000120       0x20 obj/freertos_atomic_wrapper.o
+ .debug_aranges
+                0x0000000000000140       0x20 obj/freertos_semaphore_wrapper.o
+ .debug_aranges
+                0x0000000000000160       0x20 obj/freertos_mutex_wrapper.o
+ .debug_aranges
+                0x0000000000000180       0x20 obj/freertos_task_wrapper.o
+ .debug_aranges
+                0x00000000000001a0       0x20 obj/freertos_time_wrapper.o
+ .debug_aranges
+                0x00000000000001c0       0x20 obj/list.o
+ .debug_aranges
+                0x00000000000001e0       0x20 obj/queue.o
+ .debug_aranges
+                0x0000000000000200       0x20 obj/tasks.o
+ .debug_aranges
+                0x0000000000000220       0x18 obj/timers.o
+ .debug_aranges
+                0x0000000000000238       0x20 obj/port.o
+ .debug_aranges
+                0x0000000000000258       0x20 obj/heap_1.o
+ .debug_aranges
+                0x0000000000000278       0x20 obj/syscalls.o
+ .debug_aranges
+                0x0000000000000298       0x20 obj/tower_user_thread_period_1ms.o
+ .debug_aranges
+                0x00000000000002b8       0x20 obj/tower_gen_thread_period_1ms.o
+ .debug_aranges
+                0x00000000000002d8       0x20 obj/tower_user_thread_period_90ms.o
+ .debug_aranges
+                0x00000000000002f8       0x20 obj/tower_gen_thread_period_90ms.o
+ .debug_aranges
+                0x0000000000000318       0x20 obj/tower_user_thread_init.o
+ .debug_aranges
+                0x0000000000000338       0x20 obj/tower_gen_thread_init.o
+ .debug_aranges
+                0x0000000000000358       0x18 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_aranges
+                0x0000000000000370       0x20 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_aranges
+                0x0000000000000390       0x18 obj/tower_state_monitor_rngPeripheral.o
+ .debug_aranges
+                0x00000000000003a8       0x20 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_aranges
+                0x00000000000003c8       0x20 obj/tower_init.o
+ .debug_aranges
+                0x00000000000003e8       0x20 obj/stm32_main.o
+ .debug_aranges
+                0x0000000000000408       0x20 obj/tower_time.o
+ .debug_aranges
+                0x0000000000000428       0x28 obj/stm32_freertos_init.o
+ .debug_aranges
+                0x0000000000000450       0x20 obj/vector_table.o
+ .debug_aranges
+                0x0000000000000470       0x20 obj/stm32_freertos_user_assert.o
+ .debug_aranges
+                0x0000000000000490       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_aranges
+                0x00000000000004b0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000000000004d0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x00000000000004f0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x0000000000000510       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000530       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+LOAD obj/freertos_atomic_wrapper.o
+LOAD obj/freertos_semaphore_wrapper.o
+LOAD obj/freertos_mutex_wrapper.o
+LOAD obj/freertos_task_wrapper.o
+LOAD obj/freertos_time_wrapper.o
+LOAD obj/list.o
+LOAD obj/queue.o
+LOAD obj/tasks.o
+LOAD obj/timers.o
+LOAD obj/port.o
+LOAD obj/heap_1.o
+LOAD obj/syscalls.o
+LOAD obj/tower_user_thread_period_1ms.o
+LOAD obj/tower_gen_thread_period_1ms.o
+LOAD obj/tower_user_thread_period_90ms.o
+LOAD obj/tower_gen_thread_period_90ms.o
+LOAD obj/tower_user_thread_init.o
+LOAD obj/tower_gen_thread_init.o
+LOAD obj/tower_state_monitor_i2c_fuzzer.o
+LOAD obj/tower_gen_monitor_i2c_fuzzer.o
+LOAD obj/tower_state_monitor_rngPeripheral.o
+LOAD obj/tower_gen_monitor_rngPeripheral.o
+LOAD obj/tower_init.o
+LOAD obj/stm32_main.o
+LOAD obj/tower_time.o
+LOAD obj/stm32_freertos_init.o
+LOAD obj/vector_table.o
+LOAD obj/stm32_freertos_user_assert.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+END GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+OUTPUT(image elf32-littlearm)
+LOAD linker stubs
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
+
+.debug_str      0x0000000000000000    0x11262
+ .debug_str     0x0000000000000000       0x98 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_str     0x0000000000000098     0x5bba obj/freertos_atomic_wrapper.o
+                                       0x5d8c (size before relaxing)
+ .debug_str     0x0000000000005c52     0x1405 obj/freertos_semaphore_wrapper.o
+                                       0x7176 (size before relaxing)
+ .debug_str     0x0000000000007057       0xb6 obj/freertos_mutex_wrapper.o
+                                       0x70da (size before relaxing)
+ .debug_str     0x000000000000710d     0x4906 obj/freertos_task_wrapper.o
+                                       0xa7db (size before relaxing)
+ .debug_str     0x000000000000ba13       0xf3 obj/freertos_time_wrapper.o
+                                       0x698d (size before relaxing)
+ .debug_str     0x000000000000bb06      0x1ff obj/list.o
+                                       0x9120 (size before relaxing)
+ .debug_str     0x000000000000bd05      0x705 obj/queue.o
+                                       0xa6d4 (size before relaxing)
+ .debug_str     0x000000000000c40a     0x1972 obj/tasks.o
+                                       0xb193 (size before relaxing)
+ .debug_str     0x000000000000dd7c        0x9 obj/timers.o
+                                       0xa5e0 (size before relaxing)
+ .debug_str     0x000000000000dd85      0x67e obj/port.o
+                                       0x709b (size before relaxing)
+ .debug_str     0x000000000000e403       0xb5 obj/heap_1.o
+                                       0x9535 (size before relaxing)
+ .debug_str     0x000000000000e4b8     0x185d obj/syscalls.o
+                                       0x740e (size before relaxing)
+ .debug_str     0x000000000000fd15      0x383 obj/tower_user_thread_period_1ms.o
+                                       0xb134 (size before relaxing)
+ .debug_str     0x0000000000010098      0x222 obj/tower_gen_thread_period_1ms.o
+                                       0xb230 (size before relaxing)
+ .debug_str     0x00000000000102ba      0x26c obj/tower_user_thread_period_90ms.o
+                                       0xb0f3 (size before relaxing)
+ .debug_str     0x0000000000010526       0x5c obj/tower_gen_thread_period_90ms.o
+                                       0xafc5 (size before relaxing)
+ .debug_str     0x0000000000010582      0x159 obj/tower_user_thread_init.o
+                                       0xb121 (size before relaxing)
+ .debug_str     0x00000000000106db      0x113 obj/tower_gen_thread_init.o
+                                       0xb0b0 (size before relaxing)
+ .debug_str     0x00000000000107ee       0x21 obj/tower_state_monitor_i2c_fuzzer.o
+                                       0x79e2 (size before relaxing)
+ .debug_str     0x000000000001080f       0x37 obj/tower_gen_monitor_i2c_fuzzer.o
+                                       0xae49 (size before relaxing)
+ .debug_str     0x0000000000010846       0x24 obj/tower_state_monitor_rngPeripheral.o
+                                       0x2cf0 (size before relaxing)
+ .debug_str     0x000000000001086a       0x3d obj/tower_gen_monitor_rngPeripheral.o
+                                       0xae5b (size before relaxing)
+ .debug_str     0x00000000000108a7       0x2b obj/tower_init.o
+                                       0xafa7 (size before relaxing)
+ .debug_str     0x00000000000108d2       0xfd obj/stm32_main.o
+                                       0x7ad2 (size before relaxing)
+ .debug_str     0x00000000000109cf       0x2b obj/tower_time.o
+                                       0x79ac (size before relaxing)
+ .debug_str     0x00000000000109fa       0x79 obj/stm32_freertos_init.o
+                                       0xa828 (size before relaxing)
+ .debug_str     0x0000000000010a73       0x1b obj/vector_table.o
+                                         0x6f (size before relaxing)
+ .debug_str     0x0000000000010a8e       0x1d obj/stm32_freertos_user_assert.o
+                                       0x2d00 (size before relaxing)
+ .debug_str     0x0000000000010aab       0x9a /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+                                         0xa6 (size before relaxing)
+ .debug_str     0x0000000000010b45       0xa6 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_str     0x0000000000010b45      0x544 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                                        0x647 (size before relaxing)
+ .debug_str     0x0000000000011089       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                                         0xaa (size before relaxing)
+ .debug_str     0x00000000000110b9      0x104 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+                                        0x1a7 (size before relaxing)
+ .debug_str     0x00000000000111bd       0xa5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcpy.o)
+                                         0xb1 (size before relaxing)
+
+.debug_macro    0x0000000000000000     0x55f1
+ .debug_macro   0x0000000000000000       0x79 obj/freertos_atomic_wrapper.o
+ .debug_macro   0x0000000000000079      0xa78 obj/freertos_atomic_wrapper.o
+ .debug_macro   0x0000000000000af1      0x16d obj/freertos_atomic_wrapper.o
+ .debug_macro   0x0000000000000c5e      0x34e obj/freertos_atomic_wrapper.o
+ .debug_macro   0x0000000000000fac      0x113 obj/freertos_atomic_wrapper.o
+ .debug_macro   0x00000000000010bf       0x52 obj/freertos_atomic_wrapper.o
+ .debug_macro   0x0000000000001111       0xe4 obj/freertos_atomic_wrapper.o
+ .debug_macro   0x00000000000011f5       0x10 obj/freertos_atomic_wrapper.o
+ .debug_macro   0x0000000000001205       0x1f obj/freertos_atomic_wrapper.o
+ .debug_macro   0x0000000000001224      0x38b obj/freertos_atomic_wrapper.o
+ .debug_macro   0x00000000000015af       0x9a obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000001649       0x2e obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000001677       0xb0 obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x0000000000001727       0x7f obj/freertos_semaphore_wrapper.o
+ .debug_macro   0x00000000000017a6       0x9a obj/freertos_mutex_wrapper.o
+ .debug_macro   0x0000000000001840      0x1b2 obj/freertos_task_wrapper.o
+ .debug_macro   0x00000000000019f2       0xc0 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001ab2       0x70 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001b22       0x22 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001b44       0x52 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001b96       0x18 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001bae       0x94 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001c42       0x35 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001c77       0x34 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001cab       0x16 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001cc1       0x43 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001d04       0x57 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001d5b       0x34 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001d8f       0x10 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001d9f       0x52 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001df1      0x182 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000001f73      0x356 obj/freertos_task_wrapper.o
+ .debug_macro   0x00000000000022c9      0x1a9 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000002472       0x16 obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000002488       0x35 obj/freertos_task_wrapper.o
+ .debug_macro   0x00000000000024bd      0x10c obj/freertos_task_wrapper.o
+ .debug_macro   0x00000000000025c9       0x22 obj/freertos_task_wrapper.o
+ .debug_macro   0x00000000000025eb       0x5e obj/freertos_task_wrapper.o
+ .debug_macro   0x0000000000002649      0x188 obj/freertos_task_wrapper.o
+ .debug_macro   0x00000000000027d1       0x91 obj/freertos_time_wrapper.o
+ .debug_macro   0x0000000000002862      0x156 obj/list.o
+ .debug_macro   0x00000000000029b8       0x16 obj/list.o
+ .debug_macro   0x00000000000029ce      0x10e obj/list.o
+ .debug_macro   0x0000000000002adc       0x86 obj/list.o
+ .debug_macro   0x0000000000002b62       0x16 obj/list.o
+ .debug_macro   0x0000000000002b78       0x29 obj/list.o
+ .debug_macro   0x0000000000002ba1      0x1dc obj/queue.o
+ .debug_macro   0x0000000000002d7d      0x20e obj/tasks.o
+ .debug_macro   0x0000000000002f8b       0x97 obj/tasks.o
+ .debug_macro   0x0000000000003022       0x17 obj/tasks.o
+ .debug_macro   0x0000000000003039      0x183 obj/timers.o
+ .debug_macro   0x00000000000031bc      0x138 obj/port.o
+ .debug_macro   0x00000000000032f4      0x177 obj/heap_1.o
+ .debug_macro   0x000000000000346b      0x1dd obj/syscalls.o
+ .debug_macro   0x0000000000003648       0x16 obj/syscalls.o
+ .debug_macro   0x000000000000365e       0x97 obj/syscalls.o
+ .debug_macro   0x00000000000036f5       0xf6 obj/syscalls.o
+ .debug_macro   0x00000000000037eb       0x10 obj/syscalls.o
+ .debug_macro   0x00000000000037fb       0x10 obj/syscalls.o
+ .debug_macro   0x000000000000380b       0x6a obj/syscalls.o
+ .debug_macro   0x0000000000003875       0x1c obj/syscalls.o
+ .debug_macro   0x0000000000003891       0x52 obj/syscalls.o
+ .debug_macro   0x00000000000038e3       0x22 obj/syscalls.o
+ .debug_macro   0x0000000000003905       0x10 obj/syscalls.o
+ .debug_macro   0x0000000000003915       0x40 obj/syscalls.o
+ .debug_macro   0x0000000000003955       0xd5 obj/syscalls.o
+ .debug_macro   0x0000000000003a2a       0x1c obj/syscalls.o
+ .debug_macro   0x0000000000003a46       0x3d obj/syscalls.o
+ .debug_macro   0x0000000000003a83       0x16 obj/syscalls.o
+ .debug_macro   0x0000000000003a99      0x16f obj/syscalls.o
+ .debug_macro   0x0000000000003c08       0x4c obj/syscalls.o
+ .debug_macro   0x0000000000003c54       0x16 obj/syscalls.o
+ .debug_macro   0x0000000000003c6a       0x10 obj/syscalls.o
+ .debug_macro   0x0000000000003c7a       0x10 obj/syscalls.o
+ .debug_macro   0x0000000000003c8a       0x35 obj/syscalls.o
+ .debug_macro   0x0000000000003cbf      0x12c obj/syscalls.o
+ .debug_macro   0x0000000000003deb      0x21a obj/tower_user_thread_period_1ms.o
+ .debug_macro   0x0000000000004005      0x21a obj/tower_gen_thread_period_1ms.o
+ .debug_macro   0x000000000000421f      0x206 obj/tower_user_thread_period_90ms.o
+ .debug_macro   0x0000000000004425      0x206 obj/tower_gen_thread_period_90ms.o
+ .debug_macro   0x000000000000462b      0x210 obj/tower_user_thread_init.o
+ .debug_macro   0x000000000000483b      0x210 obj/tower_gen_thread_init.o
+ .debug_macro   0x0000000000004a4b      0x154 obj/tower_state_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000004b9f      0x1bc obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_macro   0x0000000000004d5b       0x11 obj/tower_state_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000004d6c      0x1bc obj/tower_gen_monitor_rngPeripheral.o
+ .debug_macro   0x0000000000004f28      0x254 obj/tower_init.o
+ .debug_macro   0x000000000000517c      0x15e obj/stm32_main.o
+ .debug_macro   0x00000000000052da      0x154 obj/tower_time.o
+ .debug_macro   0x000000000000542e      0x1b2 obj/stm32_freertos_init.o
+ .debug_macro   0x00000000000055e0       0x11 obj/stm32_freertos_user_assert.o
+
+.debug_frame    0x0000000000000000      0xf18
+ .debug_frame   0x0000000000000000       0x30 obj/freertos_atomic_wrapper.o
+ .debug_frame   0x0000000000000030       0x88 obj/freertos_semaphore_wrapper.o
+ .debug_frame   0x00000000000000b8       0x70 obj/freertos_mutex_wrapper.o
+ .debug_frame   0x0000000000000128       0x30 obj/freertos_task_wrapper.o
+ .debug_frame   0x0000000000000158       0x50 obj/freertos_time_wrapper.o
+ .debug_frame   0x00000000000001a8       0x6c obj/list.o
+ .debug_frame   0x0000000000000214      0x218 obj/queue.o
+ .debug_frame   0x000000000000042c      0x4d4 obj/tasks.o
+ .debug_frame   0x0000000000000900       0xf0 obj/port.o
+ .debug_frame   0x00000000000009f0       0x5c obj/heap_1.o
+ .debug_frame   0x0000000000000a4c       0xb0 obj/syscalls.o
+ .debug_frame   0x0000000000000afc       0x5c obj/tower_user_thread_period_1ms.o
+ .debug_frame   0x0000000000000b58       0x50 obj/tower_gen_thread_period_1ms.o
+ .debug_frame   0x0000000000000ba8       0x2c obj/tower_user_thread_period_90ms.o
+ .debug_frame   0x0000000000000bd4       0x2c obj/tower_gen_thread_period_90ms.o
+ .debug_frame   0x0000000000000c00       0x64 obj/tower_user_thread_init.o
+ .debug_frame   0x0000000000000c64       0x3c obj/tower_gen_thread_init.o
+ .debug_frame   0x0000000000000ca0       0x40 obj/tower_gen_monitor_i2c_fuzzer.o
+ .debug_frame   0x0000000000000ce0       0x40 obj/tower_gen_monitor_rngPeripheral.o
+ .debug_frame   0x0000000000000d20       0x2c obj/tower_init.o
+ .debug_frame   0x0000000000000d4c       0x30 obj/stm32_main.o
+ .debug_frame   0x0000000000000d7c       0x28 obj/tower_time.o
+ .debug_frame   0x0000000000000da4       0x84 obj/stm32_freertos_init.o
+ .debug_frame   0x0000000000000e28       0x20 obj/stm32_freertos_user_assert.o
+ .debug_frame   0x0000000000000e48       0x44 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x0000000000000e8c       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000000eb8       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000000eec       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+
+.debug_loc      0x0000000000000000     0x6d07
+ .debug_loc     0x0000000000000000       0xae obj/freertos_semaphore_wrapper.o
+ .debug_loc     0x00000000000000ae       0x89 obj/freertos_mutex_wrapper.o
+ .debug_loc     0x0000000000000137       0xc8 obj/freertos_task_wrapper.o
+ .debug_loc     0x00000000000001ff       0x6f obj/freertos_time_wrapper.o
+ .debug_loc     0x000000000000026e       0xaf obj/list.o
+ .debug_loc     0x000000000000031d      0xd41 obj/queue.o
+ .debug_loc     0x000000000000105e     0x1609 obj/tasks.o
+ .debug_loc     0x0000000000002667       0xc4 obj/port.o
+ .debug_loc     0x000000000000272b       0x98 obj/heap_1.o
+ .debug_loc     0x00000000000027c3      0x13a obj/syscalls.o
+ .debug_loc     0x00000000000028fd      0x410 obj/tower_user_thread_period_1ms.o
+ .debug_loc     0x0000000000002d0d      0x1ea obj/tower_gen_thread_period_1ms.o
+ .debug_loc     0x0000000000002ef7     0x19d2 obj/tower_user_thread_period_90ms.o
+ .debug_loc     0x00000000000048c9      0x152 obj/tower_gen_thread_period_90ms.o
+ .debug_loc     0x0000000000004a1b      0x827 obj/tower_user_thread_init.o
+ .debug_loc     0x0000000000005242       0xbe obj/tower_gen_thread_init.o
+ .debug_loc     0x0000000000005300      0x715 obj/stm32_main.o
+ .debug_loc     0x0000000000005a15       0xe3 obj/tower_time.o
+ .debug_loc     0x0000000000005af8       0x25 obj/stm32_freertos_init.o
+ .debug_loc     0x0000000000005b1d     0x100f /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_loc     0x0000000000006b2c      0x1db /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+
+.debug_ranges   0x0000000000000000      0x5d8
+ .debug_ranges  0x0000000000000000       0x48 obj/queue.o
+ .debug_ranges  0x0000000000000048       0xf0 obj/tasks.o
+ .debug_ranges  0x0000000000000138       0x40 obj/port.o
+ .debug_ranges  0x0000000000000178       0x60 obj/tower_user_thread_period_1ms.o
+ .debug_ranges  0x00000000000001d8       0xa8 obj/tower_gen_thread_period_1ms.o
+ .debug_ranges  0x0000000000000280      0x100 obj/tower_user_thread_period_90ms.o
+ .debug_ranges  0x0000000000000380       0x30 obj/tower_gen_thread_period_90ms.o
+ .debug_ranges  0x00000000000003b0       0x48 obj/tower_user_thread_init.o
+ .debug_ranges  0x00000000000003f8       0x30 obj/tower_gen_thread_init.o
+ .debug_ranges  0x0000000000000428       0xb0 obj/stm32_main.o
+ .debug_ranges  0x00000000000004d8       0x18 obj/stm32_freertos_init.o
+ .debug_ranges  0x00000000000004f0       0xe8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)

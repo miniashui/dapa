@@ -1,0 +1,21 @@
+Task: oCfQVU-client-repositories
+==============================================================================
+
+Motivation
+----------
+
+To protect the intellectual property of our clients, all client-specific code, configuration, documentation, and tooling needs to reside in client-specific repositories to be able to enforce access control.
+Ideally, developing and using the RTOS in the core repository or in a client repository is very similar.
+
+Goals
+--------
+
+- allow client repositories to integrate the RTOS core repository by including it as a sub-directory
+
+- support that a wrapper in a client repository re-uses the x tool in the core repository and exposes the same interface
+
+
+Test plan
+---------
+
+- the x tool must pass all tests

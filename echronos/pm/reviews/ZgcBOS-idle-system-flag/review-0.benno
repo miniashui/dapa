@@ -1,0 +1,44 @@
+RTOS Task Review
+=======================
+
+Task name: ZgcBOS-idle-system-flag
+Version reviewed: 374f92a3a7ec808252f50831dc464d62699bb052
+Reviewer: benno
+Date: 2013-11-01
+Conclusion: Rework
+
+
+Specific comments
+=================
+
+Location: components/interrupt-event.c:66
+
+I'm not sure if this bit of code:
+
+        system_is_idle = (next == TASK_ID_NONE);
+
+        if (next == TASK_ID_NONE)
+        {
+            interrupt_event_wait();
+        }
+        else
+        {
+            break;
+        }
+
+Might be clearer and/or tigher code if it is written:
+
+        if (next == TASK_ID_NONE)
+        {
+            system_id_idle = true;
+            interrupt_event_wait();
+        }
+        else
+        {
+            system_id_idle = false;
+            break;
+        }
+
+Not essential, but should be considered.
+
+[stg: adopted suggested code]

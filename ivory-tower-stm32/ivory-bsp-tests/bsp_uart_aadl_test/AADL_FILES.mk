@@ -1,0 +1,1 @@
+AADL_LIST="Data_Types.aadl,thread_init.aadl,thread_period_1ms.aadl,thread_period_10ms.aadl,thread_signal_USART2_IRQHandler.aadl,dma.aadl,uart_unbuffer.aadl,echoprompt.aadl,settableLED.aadl,sys.aadl"

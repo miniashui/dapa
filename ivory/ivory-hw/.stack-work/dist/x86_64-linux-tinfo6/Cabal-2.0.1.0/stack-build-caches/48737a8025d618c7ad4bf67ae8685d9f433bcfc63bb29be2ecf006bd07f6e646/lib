@@ -1,0 +1,26 @@
+/home/x2/.stack/programs/x86_64-linux/ghc-tinfo6-8.2.2/lib/ghc-8.2.2/include/ghcversion.h:
+  hash: e803b62244dbe2a2413f5c2cd68110a5cc21f1167bc36e77db7c55974024764b
+? /home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/Paths_ivory_hw.hs
+: hash: b4a980cfbffe5bf2b6a747ce7aa2414335d594659a6e8e11911b54d2b4c07283
+? /home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/autogen/cabal_macros.h
+: hash: 1c0c9d697b92e926218dab47aa7ad47b39b43be7b77a91416a13ec4acbe83765
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/examples/ExampleTypes.hs:
+  hash: a45c9feaef1deee6587e93a0951f6f470719b7c4cf78981d8af08e39add1b19a
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/ivory-hw.cabal:
+  hash: 6f85429ff3122a4ec3e1b5c7f5effb6d4d8e97a8d854c72e9ca728f6c12fc656
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/src/Ivory/HW.hs:
+  hash: 1e298ce8b08eb441e7a07329be8eeb612466c246a85f6c5ba9bc3b385135e622
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/src/Ivory/HW/BitData.hs:
+  hash: ea131c5ca549ca54076df8b652dfbd32ff3982f8bbc910c18369f0e88cb70eba
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/src/Ivory/HW/IOArea.hs:
+  hash: 3305e28a133e64cb90ec0f198b3d2821a08f37ca872977747033b11516a250ae
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/src/Ivory/HW/Module.hs:
+  hash: 803861db73ee8071b0abf3a6df68e83c56d563d4e15ffa16d582afad4022d2b4
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/src/Ivory/HW/Prim.hs:
+  hash: 506848849a6bf52a9de1042f17dab86dc0fbae1f7da3bbaf6d62454cb6975c3e
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/src/Ivory/HW/Reg.hs:
+  hash: 2fa1ff3b2fcda9036d282e198593a127be54100458785b9dcb49eb735f89a3de
+/home/x2/FlyCube/smaccmpilot-build/ivory/ivory-hw/support/ivory_hw_prim.h:
+  hash: dfcc2357df967938540ac087beb47370b5fe42f533399a57165afccf6fd7d503
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

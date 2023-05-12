@@ -1,0 +1,910 @@
+digraph Tower {
+    thread_signal_SPI1_IRQHandler [style=filled];
+    thread_signal_DMA1_Stream2_IRQHandler [style=filled];
+    thread_signal_DMA1_Stream4_IRQHandler [style=filled];
+    thread_signal_I2C1_ER_IRQHandler [style=filled];
+    thread_signal_I2C1_EV_IRQHandler [style=filled];
+    thread_signal_I2C2_ER_IRQHandler [style=filled];
+    thread_signal_I2C2_EV_IRQHandler [style=filled];
+    thread_signal_CAN1_RX0_IRQHandler [style=filled];
+    thread_signal_CAN1_RX1_IRQHandler [style=filled];
+    thread_signal_CAN1_TX_IRQHandler [style=filled];
+    thread_period_1ms [style=filled];
+    thread_period_5ms [style=filled];
+    thread_period_10ms [style=filled];
+    thread_period_20ms [style=filled];
+    thread_period_33ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_accel_output_attrProxy {
+        color = blue;
+        node [style=filled];
+        write_accel_output_attr;
+        label = "monitor accel_output_attrProxy";
+    }
+    subgraph  cluster_accel_output_attrServer {
+        color = blue;
+        node [style=filled];
+        accel_output_attrGet;
+        accel_output_attr_update;
+        label = "monitor accel_output_attrServer";
+    }
+    subgraph  cluster_alt_control_debug_attrServer {
+        color = blue;
+        node [style=filled];
+        alt_control_debug_attrGet;
+        alt_control_debug_attr_update;
+        label = "monitor alt_control_debug_attrServer";
+    }
+    subgraph  cluster_altitude_position_pid_attrServer {
+        color = blue;
+        node [style=filled];
+        altitude_position_pid_attrGet;
+        altitude_position_pid_attrSet;
+        altitude_position_pid_attr_update;
+        label = "monitor altitude_position_pid_attrServer";
+    }
+    subgraph  cluster_altitude_rate_pid_attrServer {
+        color = blue;
+        node [style=filled];
+        altitude_rate_pid_attrGet;
+        altitude_rate_pid_attrSet;
+        altitude_rate_pid_attr_update;
+        label = "monitor altitude_rate_pid_attrServer";
+    }
+    subgraph  cluster_arming_request_attrServer {
+        color = blue;
+        node [style=filled];
+        arming_request_attrGet;
+        arming_request_attrSet;
+        arming_request_attr_update;
+        label = "monitor arming_request_attrServer";
+    }
+    subgraph  cluster_arming_status_attrServer {
+        color = blue;
+        node [style=filled];
+        arming_status_attrGet;
+        arming_status_attr_update;
+        label = "monitor arming_status_attrServer";
+    }
+    subgraph  cluster_att_control_debug_attrServer {
+        color = blue;
+        node [style=filled];
+        att_control_debug_attrGet;
+        att_control_debug_attr_update;
+        label = "monitor att_control_debug_attrServer";
+    }
+    subgraph  cluster_att_est_sensor_fusion {
+        color = blue;
+        node [style=filled];
+        att_est_accel;
+        att_est_gyro;
+        att_est_init;
+        att_est_mag;
+        att_est_motion;
+        label = "monitor att_est_sensor_fusion";
+    }
+    subgraph  cluster_attitude_pitch_stab_attrServer {
+        color = blue;
+        node [style=filled];
+        attitude_pitch_stab_attrGet;
+        attitude_pitch_stab_attrSet;
+        attitude_pitch_stab_attr_update;
+        label = "monitor attitude_pitch_stab_attrServer";
+    }
+    subgraph  cluster_attitude_roll_stab_attrServer {
+        color = blue;
+        node [style=filled];
+        attitude_roll_stab_attrGet;
+        attitude_roll_stab_attrSet;
+        attitude_roll_stab_attr_update;
+        label = "monitor attitude_roll_stab_attrServer";
+    }
+    subgraph  cluster_baro_output_attrProxy {
+        color = blue;
+        node [style=filled];
+        write_baro_output_attr;
+        label = "monitor baro_output_attrProxy";
+    }
+    subgraph  cluster_baro_output_attrServer {
+        color = blue;
+        node [style=filled];
+        baro_output_attrGet;
+        baro_output_attr_update;
+        label = "monitor baro_output_attrServer";
+    }
+    subgraph  cluster_battery_voltage_attrServer {
+        color = blue;
+        node [style=filled];
+        battery_voltage_attrGet;
+        battery_voltage_attr_update;
+        label = "monitor battery_voltage_attrServer";
+    }
+    subgraph  cluster_camera_target_input_attrServer {
+        color = blue;
+        node [style=filled];
+        camera_target_input_attrGet;
+        camera_target_input_attr_update;
+        label = "monitor camera_target_input_attrServer";
+    }
+    subgraph  cluster_can1PeripheralDriver {
+        color = blue;
+        node [style=filled];
+        abort;
+        abort_2;
+        abort_3;
+        init;
+        request;
+        request_2;
+        request_3;
+        rx0_irq;
+        rx1_irq;
+        tx_irq;
+        label = "monitor can1PeripheralDriver";
+    }
+    subgraph  cluster_can_init {
+        color = blue;
+        node [style=filled];
+        can_init_2;
+        label = "monitor can_init";
+    }
+    subgraph  cluster_control_law_attrServer {
+        color = blue;
+        node [style=filled];
+        control_law_attrGet;
+        control_law_attr_update;
+        label = "monitor control_law_attrServer";
+    }
+    subgraph  cluster_control_modes_request_attrServer {
+        color = blue;
+        node [style=filled];
+        control_modes_request_attrGet;
+        control_modes_request_attrSet;
+        control_modes_request_attr_update;
+        label = "monitor control_modes_request_attrServer";
+    }
+    subgraph  cluster_control_output_attrServer {
+        color = blue;
+        node [style=filled];
+        control_output_attrGet;
+        control_output_attr_update;
+        label = "monitor control_output_attrServer";
+    }
+    subgraph  cluster_control_setpoint_attrServer {
+        color = blue;
+        node [style=filled];
+        control_setpoint_attrGet;
+        control_setpoint_attr_update;
+        label = "monitor control_setpoint_attrServer";
+    }
+    subgraph  cluster_controllableVehicleConsumerOutput {
+        color = blue;
+        node [style=filled];
+        parse_frame;
+        label = "monitor controllableVehicleConsumerOutput";
+    }
+    subgraph  cluster_controllableVehicleProducerInput {
+        color = blue;
+        node [style=filled];
+        accelOutputGetRespProducer;
+        altControlDebugGetRespProducer;
+        altitudePositionPidGetRespProducer;
+        altitudePositionPidSetRespProducer;
+        altitudeRatePidGetRespProducer;
+        altitudeRatePidSetRespProducer;
+        armingRequestGetRespProducer;
+        armingRequestSetRespProducer;
+        armingStatusGetRespProducer;
+        attControlDebugGetRespProducer;
+        attitudePitchStabGetRespProducer;
+        attitudePitchStabSetRespProducer;
+        attitudeRollStabGetRespProducer;
+        attitudeRollStabSetRespProducer;
+        baroOutputGetRespProducer;
+        batteryVoltageGetRespProducer;
+        cameraTargetInputGetRespProducer;
+        controlLawGetRespProducer;
+        controlModesRequestGetRespProducer;
+        controlModesRequestSetRespProducer;
+        controlOutputGetRespProducer;
+        controlSetpointGetRespProducer;
+        gpsOutputGetRespProducer;
+        gyroOutputGetRespProducer;
+        heartbeatProducer;
+        lidarliteOutputGetRespProducer;
+        magOutputGetRespProducer;
+        motorOutputGetRespProducer;
+        nominalThrottleGetRespProducer;
+        nominalThrottleSetRespProducer;
+        packedStatusGetRespProducer;
+        px4flowIntOutputGetRespProducer;
+        px4flowOutputGetRespProducer;
+        px4ioStateGetRespProducer;
+        rcInputGetRespProducer;
+        rebootReqSetRespProducer;
+        rgbLedGetRespProducer;
+        rgbLedSetRespProducer;
+        sensorsOutputGetRespProducer;
+        throttleUiGetRespProducer;
+        throttleUiSetRespProducer;
+        userInputGetRespProducer;
+        userInputRequestGetRespProducer;
+        userInputRequestSetRespProducer;
+        yawPositionPidGetRespProducer;
+        yawPositionPidSetRespProducer;
+        yawRatePidGetRespProducer;
+        yawRatePidSetRespProducer;
+        label = "monitor controllableVehicleProducerInput";
+    }
+    subgraph  cluster_detectMotion {
+        color = blue;
+        node [style=filled];
+        detectMotion_2_accel;
+        detectMotion_2_gyro;
+        detectMotion_2_init;
+        label = "monitor detectMotion";
+    }
+    subgraph  cluster_fragment_0x100 {
+        color = blue;
+        node [style=filled];
+        fragment_abort_0x100;
+        fragment_complete_0x100;
+        fragment_req_0x100;
+        label = "monitor fragment_0x100";
+    }
+    subgraph  cluster_fragment_blindly_0x100 {
+        color = blue;
+        node [style=filled];
+        fragment_done;
+        new_msg;
+        label = "monitor fragment_blindly_0x100";
+    }
+    subgraph  cluster_fragment_reassembly {
+        color = blue;
+        node [style=filled];
+        receive_msg;
+        label = "monitor fragment_reassembly";
+    }
+    subgraph  cluster_frameBuffer {
+        color = blue;
+        node [style=filled];
+        periodic_pop;
+        push;
+        label = "monitor frameBuffer";
+    }
+    subgraph  cluster_gps_output_attrProxy {
+        color = blue;
+        node [style=filled];
+        write_gps_output_attr;
+        label = "monitor gps_output_attrProxy";
+    }
+    subgraph  cluster_gps_output_attrServer {
+        color = blue;
+        node [style=filled];
+        gps_output_attrGet;
+        gps_output_attr_update;
+        label = "monitor gps_output_attrServer";
+    }
+    subgraph  cluster_gyro_output_attrProxy {
+        color = blue;
+        node [style=filled];
+        write_gyro_output_attr;
+        label = "monitor gyro_output_attrProxy";
+    }
+    subgraph  cluster_gyro_output_attrServer {
+        color = blue;
+        node [style=filled];
+        gyro_output_attrGet;
+        gyro_output_attr_update;
+        label = "monitor gyro_output_attrServer";
+    }
+    subgraph  cluster_i2c1PeripheralDriver {
+        color = blue;
+        node [style=filled];
+        i2c1_error_irq;
+        i2c1_event_irq;
+        i2c1_init;
+        i2c1_ready_period;
+        i2c1_request;
+        i2c1_watchdog;
+        label = "monitor i2c1PeripheralDriver";
+    }
+    subgraph  cluster_i2c1_schedulerasync {
+        color = blue;
+        node [style=filled];
+        i2c1_schedulerasync_lidarlite;
+        i2c1_schedulerasync_px4flow;
+        i2c1_schedulerasync_ready;
+        i2c1_schedulerasync_reschedule;
+        i2c1_schedulerasync_response;
+        label = "monitor i2c1_schedulerasync";
+    }
+    subgraph  cluster_i2c2PeripheralDriver {
+        color = blue;
+        node [style=filled];
+        i2c2_error_irq;
+        i2c2_event_irq;
+        i2c2_init;
+        i2c2_ready_period;
+        i2c2_request;
+        i2c2_watchdog;
+        label = "monitor i2c2PeripheralDriver";
+    }
+    subgraph  cluster_l3gd20Ctl {
+        color = blue;
+        node [style=filled];
+        l3gd20;
+        l3gd20_init;
+        l3gd20_raw;
+        label = "monitor l3gd20Ctl";
+    }
+    subgraph  cluster_lidarlite_output_attrProxy {
+        color = blue;
+        node [style=filled];
+        write_lidarlite_output_attr;
+        label = "monitor lidarlite_output_attrProxy";
+    }
+    subgraph  cluster_lidarlite_output_attrServer {
+        color = blue;
+        node [style=filled];
+        lidarlite_output_attrGet;
+        lidarlite_output_attr_update;
+        label = "monitor lidarlite_output_attrServer";
+    }
+    subgraph  cluster_lidarlite_sensor_manager {
+        color = blue;
+        node [style=filled];
+        lidarlite_coroutine;
+        lidarlite_coroutine_init;
+        lidarlite_coroutine_raw;
+        lidarlite_periodic_read;
+        lidarlite_ready;
+        label = "monitor lidarlite_sensor_manager";
+    }
+    subgraph  cluster_lsm303dSensorManager {
+        color = blue;
+        node [style=filled];
+        lsm303d_coroutine;
+        lsm303d_coroutine_init;
+        lsm303d_coroutine_raw;
+        periodic_read;
+        label = "monitor lsm303dSensorManager";
+    }
+    subgraph  cluster_mag_output_attrProxy {
+        color = blue;
+        node [style=filled];
+        write_mag_output_attr;
+        label = "monitor mag_output_attrProxy";
+    }
+    subgraph  cluster_mag_output_attrServer {
+        color = blue;
+        node [style=filled];
+        mag_output_attrGet;
+        mag_output_attr_update;
+        label = "monitor mag_output_attrServer";
+    }
+    subgraph  cluster_motion_light_debug {
+        color = blue;
+        node [style=filled];
+        motion_light_debug_2;
+        label = "monitor motion_light_debug";
+    }
+    subgraph  cluster_motor_output_attrServer {
+        color = blue;
+        node [style=filled];
+        motor_output_attrGet;
+        motor_output_attr_update;
+        label = "monitor motor_output_attrServer";
+    }
+    subgraph  cluster_mpu6kCtl {
+        color = blue;
+        node [style=filled];
+        mpu6000;
+        mpu6000_init;
+        mpu6000_raw;
+        period;
+        label = "monitor mpu6kCtl";
+    }
+    subgraph  cluster_ms5611SPISensorManager {
+        color = blue;
+        node [style=filled];
+        ms5611;
+        ms5611_init;
+        ms5611_raw;
+        periodic;
+        label = "monitor ms5611SPISensorManager";
+    }
+    subgraph  cluster_nominal_throttle_attrServer {
+        color = blue;
+        node [style=filled];
+        nominal_throttle_attrGet;
+        nominal_throttle_attrSet;
+        nominal_throttle_attr_update;
+        label = "monitor nominal_throttle_attrServer";
+    }
+    subgraph  cluster_packed_status_attrServer {
+        color = blue;
+        node [style=filled];
+        packed_status_attrGet;
+        packed_status_attr_update;
+        label = "monitor packed_status_attrServer";
+    }
+    subgraph  cluster_px4flow_int_output_attrServer {
+        color = blue;
+        node [style=filled];
+        px4flow_int_output_attrGet;
+        px4flow_int_output_attr_update;
+        label = "monitor px4flow_int_output_attrServer";
+    }
+    subgraph  cluster_px4flow_output_attrProxy {
+        color = blue;
+        node [style=filled];
+        write_px4flow_output_attr;
+        label = "monitor px4flow_output_attrProxy";
+    }
+    subgraph  cluster_px4flow_output_attrServer {
+        color = blue;
+        node [style=filled];
+        px4flow_output_attrGet;
+        px4flow_output_attr_update;
+        label = "monitor px4flow_output_attrServer";
+    }
+    subgraph  cluster_px4flow_sensor_manager {
+        color = blue;
+        node [style=filled];
+        px4flow_coroutine;
+        px4flow_coroutine_init;
+        px4flow_coroutine_raw;
+        px4flow_periodic_read;
+        px4flow_ready;
+        label = "monitor px4flow_sensor_manager";
+    }
+    subgraph  cluster_px4io_state_attrServer {
+        color = blue;
+        node [style=filled];
+        px4io_state_attrGet;
+        px4io_state_attr_update;
+        label = "monitor px4io_state_attrServer";
+    }
+    subgraph  cluster_rc_input_attrServer {
+        color = blue;
+        node [style=filled];
+        rc_input_attrGet;
+        rc_input_attr_update;
+        label = "monitor rc_input_attrServer";
+    }
+    subgraph  cluster_reboot_req_attrServer {
+        color = blue;
+        node [style=filled];
+        reboot_req_attrSet;
+        label = "monitor reboot_req_attrServer";
+    }
+    subgraph  cluster_rgb_led_attrServer {
+        color = blue;
+        node [style=filled];
+        rgb_led_attrGet;
+        rgb_led_attrSet;
+        rgb_led_attr_update;
+        label = "monitor rgb_led_attrServer";
+    }
+    subgraph  cluster_rgbled {
+        color = blue;
+        node [style=filled];
+        i2c_response;
+        init_3;
+        set;
+        label = "monitor rgbled";
+    }
+    subgraph  cluster_sensor_enable {
+        color = blue;
+        node [style=filled];
+        init_2;
+        label = "monitor sensor_enable";
+    }
+    subgraph  cluster_sensor_fusion_proxy {
+        color = blue;
+        node [style=filled];
+        new_state;
+        save_last_accel;
+        save_last_baro;
+        save_last_gyro;
+        save_last_lidar;
+        save_last_mag;
+        label = "monitor sensor_fusion_proxy";
+    }
+    subgraph  cluster_sensors_output_attrServer {
+        color = blue;
+        node [style=filled];
+        sensors_output_attrGet;
+        sensors_output_attr_update;
+        label = "monitor sensors_output_attrServer";
+    }
+    subgraph  cluster_spi1PeripheralDriver {
+        color = blue;
+        node [style=filled];
+        initialize_hardware;
+        irq;
+        request_4;
+        spi_shutdown_watchdog;
+        label = "monitor spi1PeripheralDriver";
+    }
+    subgraph  cluster_spi1_scheduler {
+        color = blue;
+        node [style=filled];
+        spi1_scheduler_l3gd20;
+        spi1_scheduler_lsm303d;
+        spi1_scheduler_mpu6000;
+        spi1_scheduler_ms5611;
+        spi1_scheduler_ready;
+        spi1_scheduler_response;
+        label = "monitor spi1_scheduler";
+    }
+    subgraph  cluster_throttle_ui_attrServer {
+        color = blue;
+        node [style=filled];
+        throttle_ui_attrGet;
+        throttle_ui_attrSet;
+        throttle_ui_attr_update;
+        label = "monitor throttle_ui_attrServer";
+    }
+    subgraph  cluster_uart4_dma_rx_byte_shim {
+        color = blue;
+        node [style=filled];
+        uart4_buf_rx;
+        label = "monitor uart4_dma_rx_byte_shim";
+    }
+    subgraph  cluster_uart_dma {
+        color = blue;
+        node [style=filled];
+        dmauart_hw_init;
+        dmauart_rx_init;
+        dmauart_tx_init;
+        req_chan;
+        rx_flush;
+        rx_stream_interrupt;
+        tx_stream_interrupt;
+        label = "monitor uart_dma";
+    }
+    subgraph  cluster_ubloxGPS {
+        color = blue;
+        node [style=filled];
+        ublox_init;
+        ublox_istream;
+        label = "monitor ubloxGPS";
+    }
+    subgraph  cluster_user_input_attrServer {
+        color = blue;
+        node [style=filled];
+        user_input_attrGet;
+        user_input_attr_update;
+        label = "monitor user_input_attrServer";
+    }
+    subgraph  cluster_user_input_request_attrServer {
+        color = blue;
+        node [style=filled];
+        user_input_request_attrGet;
+        user_input_request_attrSet;
+        user_input_request_attr_update;
+        label = "monitor user_input_request_attrServer";
+    }
+    subgraph  cluster_yaw_position_pid_attrServer {
+        color = blue;
+        node [style=filled];
+        yaw_position_pid_attrGet;
+        yaw_position_pid_attrSet;
+        yaw_position_pid_attr_update;
+        label = "monitor yaw_position_pid_attrServer";
+    }
+    subgraph  cluster_yaw_rate_pid_attrServer {
+        color = blue;
+        node [style=filled];
+        yaw_rate_pid_attrGet;
+        yaw_rate_pid_attrSet;
+        yaw_rate_pid_attr_update;
+        label = "monitor yaw_rate_pid_attrServer";
+    }
+    thread_signal_SPI1_IRQHandler -> irq;
+    thread_signal_DMA1_Stream2_IRQHandler -> rx_stream_interrupt;
+    thread_signal_DMA1_Stream4_IRQHandler -> tx_stream_interrupt;
+    thread_signal_I2C1_ER_IRQHandler -> i2c1_error_irq;
+    thread_signal_I2C1_EV_IRQHandler -> i2c1_event_irq;
+    thread_signal_I2C2_ER_IRQHandler -> i2c2_error_irq;
+    thread_signal_I2C2_EV_IRQHandler -> i2c2_event_irq;
+    thread_signal_CAN1_RX0_IRQHandler -> rx0_irq;
+    thread_signal_CAN1_RX1_IRQHandler -> rx1_irq;
+    thread_signal_CAN1_TX_IRQHandler -> tx_irq;
+    thread_period_1ms -> periodic_pop;
+    thread_period_1ms -> spi_shutdown_watchdog;
+    thread_period_1ms -> i2c1_ready_period;
+    thread_period_1ms -> i2c1_schedulerasync_reschedule;
+    thread_period_1ms -> i2c2_ready_period;
+    thread_period_5ms -> period;
+    thread_period_10ms -> periodic;
+    thread_period_20ms -> periodic_read;
+    thread_period_20ms -> i2c1_watchdog;
+    thread_period_20ms -> lidarlite_periodic_read;
+    thread_period_20ms -> px4flow_periodic_read;
+    thread_period_20ms -> i2c2_watchdog;
+    thread_period_33ms -> rx_flush;
+    thread_init -> init;
+    thread_init -> can_init_2;
+    thread_init -> ublox_init;
+    thread_init -> initialize_hardware;
+    thread_init -> i2c1_init;
+    thread_init -> detectMotion_2_init;
+    thread_init -> att_est_init;
+    thread_init -> dmauart_hw_init;
+    thread_init -> i2c2_init;
+    write_accel_output_attr -> accel_output_attr_update;
+    accel_output_attrGet -> accelOutputGetRespProducer;
+    alt_control_debug_attrGet -> altControlDebugGetRespProducer;
+    altitude_position_pid_attrGet -> altitudePositionPidGetRespProducer;
+    altitude_position_pid_attrSet -> altitude_position_pid_attr_update;
+    altitude_position_pid_attrSet -> altitudePositionPidSetRespProducer;
+    altitude_rate_pid_attrGet -> altitudeRatePidGetRespProducer;
+    altitude_rate_pid_attrSet -> altitude_rate_pid_attr_update;
+    altitude_rate_pid_attrSet -> altitudeRatePidSetRespProducer;
+    arming_request_attrGet -> armingRequestGetRespProducer;
+    arming_request_attrSet -> arming_request_attr_update;
+    arming_request_attrSet -> armingRequestSetRespProducer;
+    arming_status_attrGet -> armingStatusGetRespProducer;
+    att_control_debug_attrGet -> attControlDebugGetRespProducer;
+    att_est_accel -> new_state;
+    att_est_gyro -> new_state;
+    att_est_mag -> new_state;
+    attitude_pitch_stab_attrGet -> attitudePitchStabGetRespProducer;
+    attitude_pitch_stab_attrSet -> attitude_pitch_stab_attr_update;
+    attitude_pitch_stab_attrSet -> attitudePitchStabSetRespProducer;
+    attitude_roll_stab_attrGet -> attitudeRollStabGetRespProducer;
+    attitude_roll_stab_attrSet -> attitude_roll_stab_attr_update;
+    attitude_roll_stab_attrSet -> attitudeRollStabSetRespProducer;
+    write_baro_output_attr -> baro_output_attr_update;
+    baro_output_attrGet -> baroOutputGetRespProducer;
+    battery_voltage_attrGet -> batteryVoltageGetRespProducer;
+    camera_target_input_attrGet -> cameraTargetInputGetRespProducer;
+    rx0_irq -> push;
+    rx1_irq -> push;
+    tx_irq -> fragment_complete_0x100;
+    control_law_attrGet -> controlLawGetRespProducer;
+    control_modes_request_attrGet -> controlModesRequestGetRespProducer;
+    control_modes_request_attrSet -> control_modes_request_attr_update;
+    control_modes_request_attrSet -> controlModesRequestSetRespProducer;
+    control_output_attrGet -> controlOutputGetRespProducer;
+    control_setpoint_attrGet -> controlSetpointGetRespProducer;
+    parse_frame -> reboot_req_attrSet;
+    parse_frame -> nominal_throttle_attrSet;
+    parse_frame -> nominal_throttle_attrGet;
+    parse_frame -> altitude_rate_pid_attrSet;
+    parse_frame -> altitude_rate_pid_attrGet;
+    parse_frame -> altitude_position_pid_attrSet;
+    parse_frame -> altitude_position_pid_attrGet;
+    parse_frame -> throttle_ui_attrSet;
+    parse_frame -> throttle_ui_attrGet;
+    parse_frame -> attitude_roll_stab_attrSet;
+    parse_frame -> attitude_roll_stab_attrGet;
+    parse_frame -> attitude_pitch_stab_attrSet;
+    parse_frame -> attitude_pitch_stab_attrGet;
+    parse_frame -> yaw_rate_pid_attrSet;
+    parse_frame -> yaw_rate_pid_attrGet;
+    parse_frame -> yaw_position_pid_attrSet;
+    parse_frame -> yaw_position_pid_attrGet;
+    parse_frame -> arming_request_attrSet;
+    parse_frame -> arming_request_attrGet;
+    parse_frame -> control_modes_request_attrSet;
+    parse_frame -> control_modes_request_attrGet;
+    parse_frame -> user_input_request_attrSet;
+    parse_frame -> user_input_request_attrGet;
+    parse_frame -> rgb_led_attrSet;
+    parse_frame -> rgb_led_attrGet;
+    parse_frame -> camera_target_input_attrGet;
+    parse_frame -> packed_status_attrGet;
+    parse_frame -> control_law_attrGet;
+    parse_frame -> rc_input_attrGet;
+    parse_frame -> user_input_attrGet;
+    parse_frame -> sensors_output_attrGet;
+    parse_frame -> gyro_output_attrGet;
+    parse_frame -> accel_output_attrGet;
+    parse_frame -> baro_output_attrGet;
+    parse_frame -> lidarlite_output_attrGet;
+    parse_frame -> mag_output_attrGet;
+    parse_frame -> px4flow_int_output_attrGet;
+    parse_frame -> px4flow_output_attrGet;
+    parse_frame -> gps_output_attrGet;
+    parse_frame -> control_setpoint_attrGet;
+    parse_frame -> control_output_attrGet;
+    parse_frame -> motor_output_attrGet;
+    parse_frame -> att_control_debug_attrGet;
+    parse_frame -> alt_control_debug_attrGet;
+    parse_frame -> px4io_state_attrGet;
+    parse_frame -> arming_status_attrGet;
+    parse_frame -> battery_voltage_attrGet;
+    accelOutputGetRespProducer -> new_msg;
+    altControlDebugGetRespProducer -> new_msg;
+    altitudePositionPidGetRespProducer -> new_msg;
+    altitudePositionPidSetRespProducer -> new_msg;
+    altitudeRatePidGetRespProducer -> new_msg;
+    altitudeRatePidSetRespProducer -> new_msg;
+    armingRequestGetRespProducer -> new_msg;
+    armingRequestSetRespProducer -> new_msg;
+    armingStatusGetRespProducer -> new_msg;
+    attControlDebugGetRespProducer -> new_msg;
+    attitudePitchStabGetRespProducer -> new_msg;
+    attitudePitchStabSetRespProducer -> new_msg;
+    attitudeRollStabGetRespProducer -> new_msg;
+    attitudeRollStabSetRespProducer -> new_msg;
+    baroOutputGetRespProducer -> new_msg;
+    batteryVoltageGetRespProducer -> new_msg;
+    cameraTargetInputGetRespProducer -> new_msg;
+    controlLawGetRespProducer -> new_msg;
+    controlModesRequestGetRespProducer -> new_msg;
+    controlModesRequestSetRespProducer -> new_msg;
+    controlOutputGetRespProducer -> new_msg;
+    controlSetpointGetRespProducer -> new_msg;
+    gpsOutputGetRespProducer -> new_msg;
+    gyroOutputGetRespProducer -> new_msg;
+    heartbeatProducer -> new_msg;
+    lidarliteOutputGetRespProducer -> new_msg;
+    magOutputGetRespProducer -> new_msg;
+    motorOutputGetRespProducer -> new_msg;
+    nominalThrottleGetRespProducer -> new_msg;
+    nominalThrottleSetRespProducer -> new_msg;
+    packedStatusGetRespProducer -> new_msg;
+    px4flowIntOutputGetRespProducer -> new_msg;
+    px4flowOutputGetRespProducer -> new_msg;
+    px4ioStateGetRespProducer -> new_msg;
+    rcInputGetRespProducer -> new_msg;
+    rebootReqSetRespProducer -> new_msg;
+    rgbLedGetRespProducer -> new_msg;
+    rgbLedSetRespProducer -> new_msg;
+    sensorsOutputGetRespProducer -> new_msg;
+    throttleUiGetRespProducer -> new_msg;
+    throttleUiSetRespProducer -> new_msg;
+    userInputGetRespProducer -> new_msg;
+    userInputRequestGetRespProducer -> new_msg;
+    userInputRequestSetRespProducer -> new_msg;
+    yawPositionPidGetRespProducer -> new_msg;
+    yawPositionPidSetRespProducer -> new_msg;
+    yawRatePidGetRespProducer -> new_msg;
+    yawRatePidSetRespProducer -> new_msg;
+    detectMotion_2_accel -> motion_light_debug_2;
+    detectMotion_2_accel -> att_est_motion;
+    fragment_abort_0x100 -> abort;
+    fragment_complete_0x100 -> request;
+    fragment_complete_0x100 -> fragment_done;
+    fragment_req_0x100 -> request;
+    fragment_done -> fragment_req_0x100;
+    new_msg -> fragment_req_0x100;
+    new_msg -> fragment_abort_0x100;
+    receive_msg -> parse_frame;
+    periodic_pop -> receive_msg;
+    write_gps_output_attr -> gps_output_attr_update;
+    gps_output_attrGet -> gpsOutputGetRespProducer;
+    write_gyro_output_attr -> gyro_output_attr_update;
+    gyro_output_attrGet -> gyroOutputGetRespProducer;
+    i2c1_error_irq -> i2c1_schedulerasync_response;
+    i2c1_event_irq -> i2c1_schedulerasync_response;
+    i2c1_ready_period -> lidarlite_coroutine_init;
+    i2c1_ready_period -> lidarlite_ready;
+    i2c1_ready_period -> px4flow_coroutine_init;
+    i2c1_ready_period -> px4flow_ready;
+    i2c1_ready_period -> i2c1_schedulerasync_ready;
+    i2c1_request -> i2c1_schedulerasync_response;
+    i2c1_watchdog -> i2c1_schedulerasync_response;
+    i2c1_schedulerasync_lidarlite -> i2c1_request;
+    i2c1_schedulerasync_px4flow -> i2c1_request;
+    i2c1_schedulerasync_reschedule -> i2c1_request;
+    i2c1_schedulerasync_reschedule -> lidarlite_coroutine_raw;
+    i2c1_schedulerasync_reschedule -> px4flow_coroutine_raw;
+    i2c2_error_irq -> i2c_response;
+    i2c2_event_irq -> i2c_response;
+    i2c2_ready_period -> init_3;
+    i2c2_request -> i2c_response;
+    i2c2_watchdog -> i2c_response;
+    l3gd20 -> spi1_scheduler_l3gd20;
+    l3gd20 -> mpu6000_init;
+    l3gd20 -> lsm303d_coroutine_init;
+    l3gd20 -> ms5611_init;
+    l3gd20_init -> l3gd20;
+    l3gd20_raw -> l3gd20;
+    write_lidarlite_output_attr -> lidarlite_output_attr_update;
+    lidarlite_output_attrGet -> lidarliteOutputGetRespProducer;
+    lidarlite_coroutine -> i2c1_schedulerasync_lidarlite;
+    lidarlite_coroutine -> write_lidarlite_output_attr;
+    lidarlite_coroutine -> save_last_lidar;
+    lidarlite_coroutine_init -> lidarlite_coroutine;
+    lidarlite_coroutine_raw -> lidarlite_coroutine;
+    lidarlite_periodic_read -> i2c1_schedulerasync_lidarlite;
+    lsm303d_coroutine -> spi1_scheduler_lsm303d;
+    lsm303d_coroutine -> write_mag_output_attr;
+    lsm303d_coroutine -> att_est_mag;
+    lsm303d_coroutine -> save_last_mag;
+    lsm303d_coroutine_init -> lsm303d_coroutine;
+    lsm303d_coroutine_raw -> lsm303d_coroutine;
+    periodic_read -> spi1_scheduler_lsm303d;
+    write_mag_output_attr -> mag_output_attr_update;
+    mag_output_attrGet -> magOutputGetRespProducer;
+    motion_light_debug_2 -> rgb_led_attr_update;
+    motion_light_debug_2 -> set;
+    motor_output_attrGet -> motorOutputGetRespProducer;
+    mpu6000 -> spi1_scheduler_mpu6000;
+    mpu6000 -> detectMotion_2_gyro;
+    mpu6000 -> write_gyro_output_attr;
+    mpu6000 -> att_est_gyro;
+    mpu6000 -> save_last_gyro;
+    mpu6000 -> detectMotion_2_accel;
+    mpu6000 -> write_accel_output_attr;
+    mpu6000 -> att_est_accel;
+    mpu6000 -> save_last_accel;
+    mpu6000_init -> mpu6000;
+    mpu6000_raw -> mpu6000;
+    period -> spi1_scheduler_mpu6000;
+    period -> detectMotion_2_gyro;
+    period -> write_gyro_output_attr;
+    period -> att_est_gyro;
+    period -> save_last_gyro;
+    period -> detectMotion_2_accel;
+    period -> write_accel_output_attr;
+    period -> att_est_accel;
+    period -> save_last_accel;
+    ms5611 -> spi1_scheduler_ms5611;
+    ms5611 -> write_baro_output_attr;
+    ms5611 -> save_last_baro;
+    ms5611_init -> ms5611;
+    ms5611_raw -> ms5611;
+    periodic -> spi1_scheduler_ms5611;
+    nominal_throttle_attrGet -> nominalThrottleGetRespProducer;
+    nominal_throttle_attrSet -> nominal_throttle_attr_update;
+    nominal_throttle_attrSet -> nominalThrottleSetRespProducer;
+    packed_status_attrGet -> packedStatusGetRespProducer;
+    px4flow_int_output_attrGet -> px4flowIntOutputGetRespProducer;
+    write_px4flow_output_attr -> px4flow_output_attr_update;
+    px4flow_output_attrGet -> px4flowOutputGetRespProducer;
+    px4flow_coroutine -> i2c1_schedulerasync_px4flow;
+    px4flow_coroutine -> write_px4flow_output_attr;
+    px4flow_coroutine_init -> px4flow_coroutine;
+    px4flow_coroutine_raw -> px4flow_coroutine;
+    px4flow_periodic_read -> i2c1_schedulerasync_px4flow;
+    px4io_state_attrGet -> px4ioStateGetRespProducer;
+    rc_input_attrGet -> rcInputGetRespProducer;
+    reboot_req_attrSet -> rebootReqSetRespProducer;
+    rgb_led_attrGet -> rgbLedGetRespProducer;
+    rgb_led_attrSet -> rgb_led_attr_update;
+    rgb_led_attrSet -> set;
+    rgb_led_attrSet -> rgbLedSetRespProducer;
+    init_3 -> i2c2_request;
+    set -> i2c2_request;
+    init_2 -> l3gd20_init;
+    new_state -> sensors_output_attr_update;
+    sensors_output_attrGet -> sensorsOutputGetRespProducer;
+    initialize_hardware -> init_2;
+    initialize_hardware -> spi1_scheduler_ready;
+    spi_shutdown_watchdog -> spi1_scheduler_response;
+    spi1_scheduler_l3gd20 -> request_4;
+    spi1_scheduler_lsm303d -> request_4;
+    spi1_scheduler_mpu6000 -> request_4;
+    spi1_scheduler_ms5611 -> request_4;
+    spi1_scheduler_ready -> request_4;
+    spi1_scheduler_response -> request_4;
+    spi1_scheduler_response -> mpu6000_raw;
+    spi1_scheduler_response -> lsm303d_coroutine_raw;
+    spi1_scheduler_response -> ms5611_raw;
+    spi1_scheduler_response -> l3gd20_raw;
+    throttle_ui_attrGet -> throttleUiGetRespProducer;
+    throttle_ui_attrSet -> throttle_ui_attr_update;
+    throttle_ui_attrSet -> throttleUiSetRespProducer;
+    uart4_buf_rx -> ublox_istream;
+    dmauart_hw_init -> dmauart_tx_init;
+    dmauart_hw_init -> dmauart_rx_init;
+    rx_flush -> uart4_buf_rx;
+    ublox_init -> write_gps_output_attr;
+    ublox_istream -> write_gps_output_attr;
+    user_input_attrGet -> userInputGetRespProducer;
+    user_input_request_attrGet -> userInputRequestGetRespProducer;
+    user_input_request_attrSet -> user_input_request_attr_update;
+    user_input_request_attrSet -> userInputRequestSetRespProducer;
+    yaw_position_pid_attrGet -> yawPositionPidGetRespProducer;
+    yaw_position_pid_attrSet -> yaw_position_pid_attr_update;
+    yaw_position_pid_attrSet -> yawPositionPidSetRespProducer;
+    yaw_rate_pid_attrGet -> yawRatePidGetRespProducer;
+    yaw_rate_pid_attrSet -> yaw_rate_pid_attr_update;
+    yaw_rate_pid_attrSet -> yawRatePidSetRespProducer;
+}

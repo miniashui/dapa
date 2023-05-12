@@ -1,0 +1,18 @@
+digraph Tower {
+    thread_period_1ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_m1 {
+        color = blue;
+        node [style=filled];
+        tick;
+        label = "monitor m1";
+    }
+    subgraph  cluster_m2 {
+        color = blue;
+        node [style=filled];
+        chan1msg;
+        label = "monitor m2";
+    }
+    thread_period_1ms -> tick;
+    tick -> chan1msg;
+}

@@ -1,0 +1,1 @@
+AADL_LIST="Data_Types.aadl,thread_init.aadl,thread_period_1ms.aadl,thread_period_20ms.aadl,thread_period_250ms.aadl,thread_signal_I2C1_ER_IRQHandler.aadl,thread_signal_I2C1_EV_IRQHandler.aadl,i2c1PeripheralDriver.aadl,simplecontroller.aadl,sys.aadl"

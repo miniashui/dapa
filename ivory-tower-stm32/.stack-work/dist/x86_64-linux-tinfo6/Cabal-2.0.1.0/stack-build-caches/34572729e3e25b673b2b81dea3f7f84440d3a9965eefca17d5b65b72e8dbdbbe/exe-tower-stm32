@@ -1,0 +1,8 @@
+? /home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.0.1.0/build/tower-stm32/autogen/Paths_tower_stm32.hs
+: hash: 469a06bdc280b6866df363dc35eec0f8646f131ac0cc1aa9716f04a130342860
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/Main.hs:
+  hash: 5582ea699800cf70d32bbe5cdc7c553fcf1ac56e89a110687fad6857766245ea
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/package.yaml:
+  hash: 10e44436bf24ed72c2477fae2bb59a9a8e3014d2538b419614df83296f566392
+/home/x2/FlyCube/smaccmpilot-build/ivory-tower-stm32/tower-stm32.cabal:
+  hash: 676a0bb6be24a4cbe82a6dc3c69c1be71c7b8c105de8c3f6e8cdbbdee7b069a0

@@ -1,0 +1,30 @@
+digraph Tower {
+    thread_period_1ms [style=filled];
+    thread_period_90ms [style=filled];
+    thread_init [style=filled];
+    subgraph  cluster_i2c_fuzzer {
+        color = blue;
+        node [style=filled];
+        chaos;
+        init;
+        use_rng;
+        use_rng_init;
+        use_rng_raw;
+        label = "monitor i2c_fuzzer";
+    }
+    subgraph  cluster_rngPeripheral {
+        color = blue;
+        node [style=filled];
+        rngInit;
+        rngPoll;
+        label = "monitor rngPeripheral";
+    }
+    thread_period_1ms -> rngPoll;
+    thread_period_90ms -> chaos;
+    thread_init -> rngInit;
+    thread_init -> init;
+    thread_init -> use_rng_init;
+    use_rng_init -> use_rng;
+    use_rng_raw -> use_rng;
+    rngPoll -> use_rng_raw;
+}

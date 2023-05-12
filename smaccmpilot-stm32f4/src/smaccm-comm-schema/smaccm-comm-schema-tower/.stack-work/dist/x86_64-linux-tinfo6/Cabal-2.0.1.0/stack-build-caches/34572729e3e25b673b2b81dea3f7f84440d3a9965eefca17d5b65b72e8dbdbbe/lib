@@ -1,0 +1,178 @@
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/smaccm-comm-schema-tower.cabal
+: hash: e7f6c994b78d74e90cee84c7baf277d2125594c6ab102f25f3812700138ab6f6
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Interface/ControllableVehicle/Consumer.hs
+: hash: 7155c8a1a51cc8c769f4d0c190ac9f51d7ebba5a6181b5c126d2258666c6f077
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Interface/ControllableVehicle/Producer.hs
+: hash: 742bf9c287cd36cdc2eeabe5fbe4483dd7a94bc9f360dcecf904b8d5b4a33d78
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Interface/Vehicle/Consumer.hs
+: hash: 60253dce4ef14cc960e9f6b54ccf946019eaaf52940968d5710aa914d28128be
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Interface/Vehicle/Producer.hs
+: hash: 3e7f5ee86e8f31a16b95c7c1bc1f22da3a3120cd189d838bf8886415ae069ebb
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types.hs
+: hash: 716a44f2382cf1d79280ecccde0536c5de15eb905e96d076c52a3fb569fbe407
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/AccelerometerSample.hs
+: hash: 74928eddf45d43aa6859f8853555c6c9595e30c70899a43d5550852e022e826a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/AltControlDebug.hs
+: hash: 9e152952c0421e0fc8819ad1b0aa7c6015be572875b72a68511238d62fe01d47
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/ArmingMode.hs
+: hash: b64a82f5b2e9fd198b86ca7e8cf1a2ca221b8637d99cf389f346287466717d38
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/ArmingStatus.hs
+: hash: 34e43ad71c6336116f137769029e25a29f6e0467f5f3bb15bcef903019c91ae6
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/AttControlDebug.hs
+: hash: 32d89782d16bc6a64f2625eb73810324a4e439b09b24cf3c931a71ec1ee21df2
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/BarometerSample.hs
+: hash: 7cf883cfb768dcc9f4884fba7d22270152ace5eb1f010c880b0307e671acf3f8
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/CameraTarget.hs
+: hash: 6698fe17f96aef0799dbf6d9c92f5cb6b59e501ce0518617c631e6c132bbd73e
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/ControlLaw.hs
+: hash: 0b797e6591d84746b60124885304690554d5897ea5e41417a1f28910ca7f3d5b
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/ControlModes.hs
+: hash: 636b48782ed492cca456ad9a327e5b9986783e5b17c510e9d4a93f8e686f6b47
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/ControlOutput.hs
+: hash: b9c9a75e811abf858f70a09810f43d7f8ef464a233777dad0e8103d05035d3a7
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/ControlSetpoint.hs
+: hash: bfc47e204e44d6a83654d652ed399c19d10d751083bd466670b854da512e6847
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/ControlSource.hs
+: hash: 06e283b7f8383a6a8b3c62c0ad947e1406a17296315843270cb6c52b96623a88
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/GpsFix.hs
+: hash: 371ecac6df5938179384d3a3917f6f45a2a77ad7b9e880d0528ccabc55b25f6c
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/GyroscopeSample.hs
+: hash: bfce9df293b6983cd44a9a7d326a328d1cbfd09791733be613781ba719e17aad
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/Heartbeat.hs
+: hash: 8c332a7036b2a30f1a86a495988524d2ee6a6852b583c603cbd838de091b8c8d
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/LidarliteSample.hs
+: hash: 3408d61e753310a9969c575873ffee020618645e924013f9b6ce25ea7bbd0141
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/MagnetometerSample.hs
+: hash: 3de7bfbf491cb52e8da1a256ecbcd62fd44da54be80d2b63eedef3b0100594c3
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/PackedStatus.hs
+: hash: 4e53a0b08384016da487903f176d44e78ac59f8a929c4bda844d1ad411f086f2
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/PidConfig.hs
+: hash: 988e93d71e6784e5da051c53758c7fc4e38ca4ac87da146f074ee81553f76929
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/PidState.hs
+: hash: 39fb0e91195d1fb921654277d592945d6fc2328d4732a27cb11a7e2f7f27773a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/PositionSample.hs
+: hash: 639b77e2a1aeb72aefbaf6cbd295636710facab48859ee2bae3908d17af5e6db
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/Px4flowIntegralSample.hs
+: hash: da0be3fadb88b795bcd60eaf93473c1ba8abfc2807793d2794f10514997e47dd
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/Px4flowSample.hs
+: hash: 6a576d0d3c3f967ec8367e48b40951d7b3254d2916ca11b3884d922a1792f9f1
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/Px4ioAlarms.hs
+: hash: cece6b12a155a18a7391df4c2bb58e03e091c4bbe382ddc57ca550835556bb34
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/Px4ioState.hs
+: hash: 2c696438c228c233b5ea6b061f42f3c85ab3071bd0f919389f69660a8d357297
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/Px4ioStatus.hs
+: hash: 14921a3970c16970bf69d90b7ce40d39c03ae7cdc94fbb3e4751388c99ec5345
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/QuadcopterMotors.hs
+: hash: 7e05774600523278200e573aad4449deb8d88bee6fb9d4c85387cdd1227d0c99
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/Quaternion.hs
+: hash: d46af2afc1968bb57410c4ddae6cb4fc24e814677acdc7cb1c04ae842ba68e87
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/RcInput.hs
+: hash: 2e9385d5ad6855749e5031dd29b54185ddff4298cd48784eca12140d4d303921
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/RebootMagic.hs
+: hash: 97ae0d0c58f13ec09552df42eabab19688b5ce7d85a968c55f78e6eacd244e62
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/RebootReq.hs
+: hash: 979345a95df0c16c141cc35966e39bcc03e40b6d94864ba1955644c4ebcef185
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/RgbLedSetting.hs
+: hash: 96923555e53b5dde880eb3bdd8fd73149b9c8ff7bf97dab6e8789f7bf39a5c78
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SensorsResult.hs
+: hash: 34def257b93fdb2bb1599e89d35a9bfa3660f52d41909ad0bb56d7a600ac3221
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNum.hs
+: hash: 95f6407a1b8e20ef3aa1fa6ea4e74e0989f35285616ba1a126b586c0c25ed62a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedAccelerometerSample.hs
+: hash: 65bac97cdd1ba3cd9856997639156ab0312527ffd485681cef1566eabd1ef38b
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedAltControlDebug.hs
+: hash: 1245047ae42b9104d34657bccfe84dba0a4efbca563e3c0dcdeecf7dc24ef39e
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedArmingStatus.hs
+: hash: 8123076fbaa1b2bdb4576b11ae55836e4a8b955f78a89bef90988bb1e22626f8
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedAttControlDebug.hs
+: hash: 219c0fe29394f797d8c8f81fa7784157dc01ccddf6c54fb8a1be1f719f88ba3a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedBarometerSample.hs
+: hash: 56a4b69db3a6221678296886e5f0b0aa5688474545868b9d9bc03bbd12ddcf3d
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedCameraTarget.hs
+: hash: 2f6267d27692faaaa563c784d08a47385f11fcae7d637caa6b0d26533747338d
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedControlLaw.hs
+: hash: 76717955877ff8d2e1344e216b8abd913ff5c6c8c1f7b522e33648db2ea61023
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedControlModes.hs
+: hash: 24ff481a313d8be8f2adef6658c8b4617d0b7356040bb5a27c6143a15412cf47
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedControlOutput.hs
+: hash: 5c0f319aab9b971382dd147ec4e285da6930c5688c6b321ee5baff21741561b0
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedControlSetpoint.hs
+: hash: 2b34d84674246febc8e278c7842a6a0c4fd4c7961b48ff4004eedf421bf406ee
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedFloat.hs
+: hash: 4cc5b5ab476f5607c7468482d6848f6370793d50221d80e85a0c3c2b547c0915
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedGyroscopeSample.hs
+: hash: 9d4556edfe342ce81440648b8fd5356077add1177af9b8f1513590c6fefe5ffb
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedLidarliteSample.hs
+: hash: 38b77befd394e55bb4b284d1257a0e57334cc06e0c029280c9e3c547ca0ef71a
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedMagnetometerSample.hs
+: hash: 5ea6bc2b46f92de53dca4769806d3f2d9bc29b497278ba4bdf9e309ed1bdf62f
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedPackedStatus.hs
+: hash: 09ff07b2226fd08939f7d270540c1c59c94663df148a14bf827bbd694d1d9c97
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedPidConfig.hs
+: hash: ece8ce697ca7862ea4ea1d063b3bc2d3e6255c51364c515efdd6521d71abf2e3
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedPositionSample.hs
+: hash: c9268a2912677fa57aba788efe31d2fd6e6c997235e3684c1bcf98f7635c2682
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedPx4flowIntegralSample.hs
+: hash: 2ff116134538b1eb784a1b8a05af02b80ed397adb13be22b6acf4e0fdebe39bd
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedPx4flowSample.hs
+: hash: 9abad6c198af484ef2aa089a80f78a2500266eba23dc22bbd795b96b6e06cdb5
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedPx4ioState.hs
+: hash: 6b153a2450cbeb77344cc1e651312785a60d47eb1a18caf7b7433238e3eda78c
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedQuadcopterMotors.hs
+: hash: 24134b8a9df87e9bc56cb06292416013417cc17b12f0e46d332de5f22c0fb9d9
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedRcInput.hs
+: hash: 36f888de1625c3cfd14ca242641a24e88641cc8d23e4ddf1a2122d57e42c2172
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedRebootReq.hs
+: hash: 2760f49848b4cdb737f79d36a92bb03de88893f9ad87bd1d5c718bb51bcc9626
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedRgbLedSetting.hs
+: hash: b831a9bb19840bafaf39c85c507fffde1aede5a772e9c2820f453f871fac856d
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedSensorsResult.hs
+: hash: 5694358636a31baa68f05c155d2a887c7a65992aa88ba99d58f4bc63c2821fab
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedStabConfig.hs
+: hash: ec2b3bdd14b1142fced793bf9a77c6f62fd92d4396cc5b911ff2aca05c5e776c
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedThrottleUi.hs
+: hash: d82b84db2d6ccdc2029e9979fc69f838a5bf62bfd3dee0a88e4fb0a5c66bfe59
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedTristate.hs
+: hash: 5cb8dadff015ef06c07ab4447c1cbce04b5620c81ba4f35dbdf7d99f064b20bd
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedUserInput.hs
+: hash: fc0b880a35ec17fffddc7a743522163783d266a320651d603a383f4fb52ed59c
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/SequenceNumberedUserInputResult.hs
+: hash: d087318efd4712d278e2c89d0291f8cb7f17c1a0d50464652b51922e4b34158e
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/StabConfig.hs
+: hash: 3d6870043f926666c89b1dbb0b674da66f9aa56a1fea6509f8eee0206f99eb98
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/ThrottleMode.hs
+: hash: 733b093c4c9cef5be79ad27a091765754a2c8d1319c30dc0ba7554fc83587928
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/ThrottleUi.hs
+: hash: ee731e5ae5c8a706a1148031f0126e9671f5b1c831c802af07b8f50ee8762dbd
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/TimeMicros.hs
+: hash: 881edb256a36b00a4817abeaaae4da58fc7bf77dd6d33c8dc11f05cf1f154e81
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/Tristate.hs
+: hash: e801b37479e56e4f281f4f23bd1e08b85088578ae01f23c143f29232d0347d6e
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/UserInput.hs
+: hash: d2bd626e610377b4c0e7227aeee80086660c6305067fbced8097ce9a701a0e61
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/UserInputResult.hs
+: hash: f1cdd48edbb146a69255f366da2f9aa2e1c6548de3be1725e1548afa74d4bc26
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/Xyz.hs
+: hash: 7adaa20e2b091c33d5508df079937bf0d95f1fe03f934166b7d9a00a01be9e98
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Types/YawMode.hs
+: hash: 861351dee1f784c7caf65611ea010004917ad92b2406d9d23693e5be1ab1b48c
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Ivory/Unpack.hs
+: hash: 16d67327c3d6c93d5db2c6e1b21b0292172683d6e9113efb878e346a739f5f41
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Tower/Attr.hs
+: hash: ea5ed48e72b47a77f1b9a612f6597e199bf48b83db117bde85ab3769dcdaa829
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Tower/Interface/ControllableVehicle.hs
+: hash: f4a207383512aea7080eb2bab177eb0f51f902c5a61bb91c73227894c632f4ae
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Tower/Interface/ControllableVehicle/Consumer.hs
+: hash: 52aa3ac197b058b52f02f45784ea129c7809f01b4983bbae67b18ed8212216e5
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Tower/Interface/ControllableVehicle/Producer.hs
+: hash: 56f94771e6b00826f7636ec482e1c2b64645ce522c59030528e8a7cf20d64456
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Tower/Interface/ControllableVehicle/Server.hs
+: hash: 4ee90334d69e026fb286f86575c65f6857fd22d701183b35db22e9aee51773c8
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Tower/Interface/Vehicle.hs
+: hash: 73323997ee66ad8ec5994ba05e69de7863646e60ed1283e8f9332c38e5eaf793
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Tower/Interface/Vehicle/Consumer.hs
+: hash: d1da714b2376e2e8827083a0ebf6883d385b0273f875399b142bc665e8d3da3d
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Tower/Interface/Vehicle/Producer.hs
+: hash: e247c7dc3f0923c67c4d32518b5a937be72ecfe183ddd70fd2acd14063e3fa61
+? /home/x2/FlyCube/smaccmpilot-build/smaccmpilot-stm32f4/src/smaccm-comm-schema/smaccm-comm-schema-tower/src/SMACCMPilot/Comm/Tower/Interface/Vehicle/Server.hs
+: hash: 1358d02bec505e7247808d6ddd8048c041e873baca7b5ae63bf42328ad6212d1

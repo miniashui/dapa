@@ -1,0 +1,58 @@
+sudo: false
+language: c
+
+cache:
+  directories:
+    - $HOME/.gcc-arm-embedded
+    - $HOME/.stack
+    - $HOME/.ccache
+
+matrix:
+  include:
+    - env: GHCVER=7.10.3 STACK_YAML=stack.yaml
+      addons: {apt: {packages: [ghc-7.10.3,gcc-multilib,libev-dev,ccache], sources: [hvr-ghc]}}
+    - env: GHCVER=8.0.2 STACK_YAML=stack-8.0.2.yaml
+      addons: {apt: {packages: [ghc-8.0.2,gcc-multilib,libev-dev,ccache], sources: [hvr-ghc]}}
+
+before_install:
+  # Download and unpack the stack executable
+  - mkdir -p ~/.local/bin
+  - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
+  - export PATH=$HOME/.local/bin:/opt/ghc/$GHCVER/bin:$PATH
+  # Set up the ARM GCC toolchain
+  - if [ ! -d $HOME/.gcc-arm-embedded/*/bin ];
+    then
+      mkdir -p $HOME/.gcc-arm-embedded;
+      wget https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2 -O- | tar xjf - -C $HOME/.gcc-arm-embedded;
+    fi
+  - echo $HOME/.gcc-arm-embedded/*/bin
+  - ls $HOME/.gcc-arm-embedded/*/bin
+  - export PATH="$(echo $HOME/.gcc-arm-embedded/*/bin):$PATH"
+  # Set up ccache
+  - if [ ! -d $HOME/.ccache/bin ];
+    then
+      mkdir -p $HOME/.ccache/bin;
+      for exe in $(ls $HOME/.gcc-arm-embedded/*/bin); do ln -s ccache $HOME/.ccache/bin/$exe; done
+    fi
+  - echo $HOME/.ccache/bin
+  - ls $HOME/.ccache/bin
+  - export PATH="$(echo $HOME/.ccache/bin):$PATH"
+  - ghc --version
+  - stack --version
+  - arm-none-eabi-gcc --version
+
+install:
+  # make sure we stay pointed at the right stack file
+  - export STACK_YAML=$PWD/$STACK_YAML
+  # check out repositories and modify stack file to point to them
+  - ./standalone-setup.sh
+  - export IVORY_REPO=$PWD/ivory
+  - export TOWER_REPO=$PWD/tower
+  - export IVORY_TOWER_STM32_REPO=$PWD/ivory-tower-stm32
+  - export IVORY_TOWER_POSIX_REPO=$PWD/ivory-tower-posix
+  - export TOWER_CAMKES_ODROID_REPO=$PWD/tower-camkes-odroid
+  - export GIDL_REPO=$PWD/gidl
+  - export GEC_REPO=$PWD/gec
+
+script:
+  - make travis-test

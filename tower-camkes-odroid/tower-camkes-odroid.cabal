@@ -1,0 +1,73 @@
+name:                tower-camkes-odroid
+synopsis:            Driver interface for seL4/Camkes on ODROID.
+version:             0.0.1.0
+author:              Galois, Inc.
+maintainer:          leepike@galois.com
+category:            Language
+build-type:          Simple
+cabal-version:       >= 1.10
+license:             BSD3
+
+source-repository    this
+  type:     git
+  location: https://github.com/GaloisInc/tower-camkes-odroid
+  tag:      hackage-backend-0101
+
+library
+  exposed-modules: Tower.Odroid.UART,
+                   Tower.Odroid.CAN,
+                   Tower.Odroid.CameraVM
+  build-depends:   base >= 4.6
+                 , filepath
+                 , ivory >= 0.1.0.2
+                 , ivory-artifact
+                 , ivory-backend-c
+                 , tower
+                 , tower-aadl
+                 , tower-hal
+                 -- XXX testing
+                 , ivory-stdlib
+  other-modules: Paths_tower_camkes_odroid
+
+  hs-source-dirs:       src
+  default-language:     Haskell2010
+  ghc-options:          -Wall -fno-warn-orphans
+
+executable serial-test
+  hs-source-dirs:   test
+  main-is:          SerialTest.hs
+  build-depends: base >= 4.6
+               , ivory >= 0.1.0.1
+               , ivory-stdlib
+               , tower
+               , tower-aadl
+               , tower-hal
+               , tower-camkes-odroid
+  default-language: Haskell2010
+  ghc-options:        -Wall
+
+executable can-test
+  hs-source-dirs:   test/can_test
+  main-is:          CANTest.hs
+  build-depends: base >= 4.6
+               , ivory >= 0.1.0.1
+               , ivory-stdlib
+               , tower
+               , tower-aadl
+               , tower-hal
+               , tower-camkes-odroid
+  default-language: Haskell2010
+  ghc-options:        -Wall
+
+executable camera_vm-test
+  hs-source-dirs:   test/camera_vm
+  main-is:          CameraVMTest.hs
+  build-depends: base >= 4.6
+               , ivory >= 0.1.0.1
+               , ivory-stdlib
+               , tower
+               , tower-aadl
+               , tower-hal
+               , tower-camkes-odroid
+  default-language: Haskell2010
+  ghc-options:        -Wall

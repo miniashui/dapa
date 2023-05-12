@@ -1,0 +1,255 @@
+Tower
+  { tower_monitors =
+      [ Monitor
+          { monitor_name =
+              Unique { unique_name = "i2c1PeripheralDriver" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name =
+                      Unique { unique_name = "i2c1_init" , unique_fresh = 1 }
+                  , handler_chan = ChanInit Init
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_i2c1_init" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "i2c1_ready_period" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 1000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_i2c1_ready_period_chan_3"
+                                , unique_fresh = 1
+                                }
+                          , emitter_chan =
+                              SyncChan { sync_chan_label = 3 , sync_chan_type = TyInt Int64 }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_i2c1_ready_period" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "i2c1_watchdog" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 20000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_i2c1_watchdog_chan_2" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 2
+                                , sync_chan_type = TyStruct "i2c_transaction_result"
+                                }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_i2c1_watchdog" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "i2c1_error_irq" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSignal
+                        Signal
+                          { signal_deadline = Microseconds 50
+                          , signal_name = "I2C1_ER_IRQHandler"
+                          , signal_number = 32
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_i2c1_error_irq_chan_2"
+                                , unique_fresh = 1
+                                }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 2
+                                , sync_chan_type = TyStruct "i2c_transaction_result"
+                                }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_i2c1_error_irq" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "i2c1_event_irq" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSignal
+                        Signal
+                          { signal_deadline = Microseconds 50
+                          , signal_name = "I2C1_EV_IRQHandler"
+                          , signal_number = 31
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_i2c1_event_irq_chan_2"
+                                , unique_fresh = 1
+                                }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 2
+                                , sync_chan_type = TyStruct "i2c_transaction_result"
+                                }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_i2c1_event_irq" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "i2c1_request" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan
+                          { sync_chan_label = 1
+                          , sync_chan_type = TyStruct "i2c_transaction_request"
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_i2c1_request_chan_2" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 2
+                                , sync_chan_type = TyStruct "i2c_transaction_result"
+                                }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique
+                          { unique_name = "callback_i2c1_request" , unique_fresh = 1 }
+                      ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      , Monitor
+          { monitor_name =
+              Unique { unique_name = "simplecontroller" , unique_fresh = 1 }
+          , monitor_handlers =
+              [ Handler
+                  { handler_name =
+                      Unique { unique_name = "periodic" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanPeriod
+                        Period
+                          { period_dt = Microseconds 250000
+                          , period_ty = TyInt Int64
+                          , period_phase = Microseconds 0
+                          }
+                  , handler_emitters =
+                      [ Emitter
+                          { emitter_name =
+                              Unique
+                                { unique_name = "emitter_periodic_chan_1" , unique_fresh = 1 }
+                          , emitter_chan =
+                              SyncChan
+                                { sync_chan_label = 1
+                                , sync_chan_type = TyStruct "i2c_transaction_request"
+                                }
+                          , emitter_bound = 1
+                          }
+                      ]
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_periodic" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              , Handler
+                  { handler_name =
+                      Unique { unique_name = "result" , unique_fresh = 1 }
+                  , handler_chan =
+                      ChanSync
+                        SyncChan
+                          { sync_chan_label = 2
+                          , sync_chan_type = TyStruct "i2c_transaction_result"
+                          }
+                  , handler_emitters = []
+                  , handler_callbacks =
+                      [ Unique { unique_name = "callback_result" , unique_fresh = 1 } ]
+                  , handler_comments = []
+                  }
+              ]
+          , monitor_external = MonitorDefined
+          }
+      ]
+  , tower_syncchans =
+      [ SyncChan
+          { sync_chan_label = 1
+          , sync_chan_type = TyStruct "i2c_transaction_request"
+          }
+      , SyncChan
+          { sync_chan_label = 2
+          , sync_chan_type = TyStruct "i2c_transaction_result"
+          }
+      ]
+  , tower_signals =
+      [ Signal
+          { signal_deadline = Microseconds 50
+          , signal_name = "I2C1_ER_IRQHandler"
+          , signal_number = 32
+          }
+      , Signal
+          { signal_deadline = Microseconds 50
+          , signal_name = "I2C1_EV_IRQHandler"
+          , signal_number = 31
+          }
+      ]
+  , tower_periods =
+      [ Period
+          { period_dt = Microseconds 1000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      , Period
+          { period_dt = Microseconds 20000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      , Period
+          { period_dt = Microseconds 250000
+          , period_ty = TyInt Int64
+          , period_phase = Microseconds 0
+          }
+      ]
+  }

@@ -1,0 +1,73 @@
+-- File generated from Tower-AADL compiler
+
+package sys
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+  with thread_init;
+  with thread_period_11ms;
+  with thread_period_50ms;
+  with thread_period_333ms;
+  with thread_signal_DMA1_Stream5_IRQHandler;
+  with thread_signal_DMA1_Stream6_IRQHandler;
+  with blinker;
+  with led;
+  with uart2_dma_rx_byte_shim;
+  with dma;
+  with echoprompt;
+  with settableLED;
+
+process sys_process
+  
+end sys_process;
+
+process implementation sys_process.impl
+  subcomponents
+    th0: thread thread_init::thread_init;
+    th1: thread thread_period_11ms::thread_period_11ms;
+    th2: thread thread_period_50ms::thread_period_50ms;
+    th3: thread thread_period_333ms::thread_period_333ms;
+    th4: thread thread_signal_DMA1_Stream5_IRQHandler::thread_signal_DMA1_Stream5_IRQHandler;
+    th5: thread thread_signal_DMA1_Stream6_IRQHandler::thread_signal_DMA1_Stream6_IRQHandler;
+    th6: thread blinker::blinker;
+    th7: thread led::led;
+    th8: thread uart2_dma_rx_byte_shim::uart2_dma_rx_byte_shim;
+    th9: thread dma::dma;
+    th10: thread echoprompt::echoprompt;
+    th11: thread settableLED::settableLED;
+  connections
+    th6_to_th7_0: port th6.Output_per_0 -> th7.Input_newoutput;
+    th10_to_th11_1: port th10.Output_ostream_1 -> th11.Input_newoutput_2;
+    th10_to_th9_2: port th10.Output_flush_0 -> th9.Input_req_chan;
+    th10_to_th9_3: port th10.Output_ostream_0 -> th9.Input_req_chan;
+    th9_to_th10_4: port th9.Output_tx_stream_interrupt_0 -> th10.Input_result;
+    th9_to_th8_5: port th9.Output_rx_flush_0 -> th8.Input_uart2_buf_rx;
+    th9_to_th9_6: port th9.Output_dmauart_hw_init_0 -> th9.Input_dmauart_rx_init;
+    th9_to_th9_7: port th9.Output_dmauart_hw_init_0 -> th9.Input_dmauart_tx_init;
+    th8_to_th10_8: port th8.Output_uart2_buf_rx_0 -> th10.Input_ostream;
+    th4_to_th9_9: port th4.Output_DMA1_Stream5_IRQHandler -> th9.Input_rx_stream_interrupt;
+    th5_to_th9_10: port th5.Output_DMA1_Stream6_IRQHandler -> th9.Input_tx_stream_interrupt;
+    th1_to_th9_11: port th1.Output_11ms -> th9.Input_rx_flush;
+    th2_to_th10_12: port th2.Output_50ms -> th10.Input_flush;
+    th3_to_th6_13: port th3.Output_333ms -> th6.Input_per;
+    th0_to_th11_14: port th0.Output_systemInit -> th11.Input_hardwareinit_2;
+    th0_to_th7_15: port th0.Output_systemInit -> th7.Input_hardwareinit;
+    th0_to_th9_16: port th0.Output_systemInit -> th9.Input_dmauart_hw_init;
+end sys_process.impl;
+
+system sys
+  
+end sys;
+
+system implementation sys.impl
+  subcomponents
+    p0:process sys_process.impl;
+  properties
+    SMACCM_SYS::OS => eChronos;
+    SMACCM_SYS::HW => PIXHAWK;
+    
+end sys.impl;
+
+end sys;

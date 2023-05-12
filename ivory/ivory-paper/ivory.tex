@@ -1,0 +1,239 @@
+%-----------------------------------------------------------------------------
+%
+%               Template for sigplanconf LaTeX Class
+%
+% Name:         sigplanconf-template.tex
+%
+% Purpose:      A template for sigplanconf.cls, which is a LaTeX 2e class
+%               file for SIGPLAN conference proceedings.
+%
+% Guide:        Refer to "Author's Guide to the ACM SIGPLAN Class,"
+%               sigplanconf-guide.pdf
+%
+% Author:       Paul C. Anagnostopoulos
+%               Windfall Software
+%               978 371-2316
+%               paul@windfall.com
+%
+% Created:      15 February 2005
+%
+%-----------------------------------------------------------------------------
+
+
+\documentclass{sigplanconf}
+
+% The following \documentclass options may be useful:
+
+% preprint      Remove this option only once the paper is in final form.
+% 10pt          To set in 10-point type instead of 9-point.
+% 11pt          To set in 11-point type instead of 9-point.
+% authoryear    To obtain author/year citation style instead of numeric.
+
+\usepackage{ifthen}
+\usepackage{color}
+\usepackage{framed}
+\usepackage{paralist}
+\usepackage{mathtools}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{fixltx2e}
+\usepackage{url}
+\usepackage{flushend}
+\usepackage{bold-extra}
+%% \usepackage{array} %sjw, for <{$} etc.
+\usepackage{hyperref} %sjw, for \autoref
+\usepackage{stmaryrd} %sjw, for oxford brackets (\llbracket, \rrbracket)
+\usepackage{amssymb}  %sjw, mainly for mathbb
+%% \usepackage{bytefield} %jjb, for bit data, not used yet
+\usepackage{hyphenat} %js to control hyphenation
+\usepackage{theorem}
+\usepackage{balance}
+\usepackage{courier}
+
+\newtheorem{theorem}{Theorem}
+
+%% For inference rules
+\usepackage{mathpartir}
+
+\hyphenation{SMACCM-Pilot Co-pilot}
+
+% Language definition for both quasi-quoted Ivory, and Haskell.
+\lstdefinelanguage{Ivory}
+{morekeywords={struct,data,where,let,in,class,instance,type,family},
+ sensitive=true,
+ morestring=[b]",
+ escapeinside={\%*}{*)},
+ commentstyle=\ttfamily,
+ morecomment=[l]{--},
+ morecomment=[s]{\{-}{-\}}
+}
+
+\lstset{language=Ivory}
+
+\newboolean{td}
+  \setboolean{td}{false} % modify here
+  \ifthenelse{\boolean{td}}
+             {\newcommand{\pat}[1]{\textcolor{blue}{PH: #1}}
+              \newcommand{\lee}[1]{\textcolor{blue}{LP: #1}}
+              \newcommand{\sjw}[1]{\textcolor{blue}{SW: #1}}
+              \newcommand{\trevor}[1]{\textcolor{blue}{TE: #1}}
+              \newcommand{\james}[1]{\textcolor{blue}{JB: #1}}
+              \newcommand{\eric}[1]{\textcolor{blue}{ES: #1}}
+              \newcommand{\jamey}[1]{\textcolor{blue}{JS: #1}}
+             }
+             {\newcommand{\pat}[1]{}
+              \newcommand{\lee}[1]{}
+              \newcommand{\sjw}[1]{}
+              \newcommand{\trevor}[1]{}
+              \newcommand{\james}[1]{}
+              \newcommand{\eric}[1]{}
+              \newcommand{\jamey}[1]{}
+             }
+
+\newcommand{\mytilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}
+\lstnewenvironment{code}[1][]
+  {\lstset{basicstyle=\scriptsize\ttfamily,#1}}
+  {}
+%% \lstnewenvironment{smcode}[1][]
+%%   {\lstset{basicstyle=\scriptsize\ttfamily,#1}}
+%%   {}
+
+%% \newenvironment{cols}{\begin{tabular}{m{3.6cm}|m{3.6cm}} &
+%%     \\\hline}{\end{tabular}}
+
+
+\renewcommand{\sectionautorefname}{Section}
+\renewcommand{\subsectionautorefname}{Section}
+
+\newcommand{\cd}[1]{\texttt{#1}}
+
+\begin{document}
+\toappear{}
+
+\special{papersize=8.5in,11in}
+\setlength{\pdfpageheight}{\paperheight}
+\setlength{\pdfpagewidth}{\paperwidth}
+
+%% XXX fix when we have the right info
+\conferenceinfo{Haskell Symposium~'15}{}
+\copyrightyear{2015}
+\copyrightdata{}
+\doi{}
+
+% Uncomment one of the following two, if you are not going for the 
+% traditional copyright transfer agreement.
+
+%\exclusivelicense                % ACM gets exclusive license to publish, 
+                                  % you retain copyright
+
+\permissiontopublish             % ACM gets nonexclusive license to publish
+                                  % (paid open-access papers, 
+                                  % short abstracts)
+
+\titlebanner{Under submission}        % These are ignored unless
+\preprintfooter{short description of paper}   % 'preprint' option specified.
+
+\title{Guilt Free Ivory}
+%\subtitle{}
+
+\authorinfo{Trevor Elliott\and Lee Pike\and Simon Winwood\and Pat Hickey\and %
+            James Bielman\and Jamey Sharp}
+           {Galois, Inc., USA}
+           {\{firstname.lastname\}@galois.com}
+
+\authorinfo{Eric Seidel}
+           {UC San Diego, USA}
+           {eseidel@cs.ucsd.edu}
+
+\authorinfo{John Launchbury}
+           {Willamette University, USA}
+           {jlaunchb@willamette.edu}
+%% \authorinfo{Name2\and Name3}
+%%            {Affiliation2/3}
+%%            {Email2/3}
+
+\maketitle
+
+\begin{abstract}
+Ivory is a language that enforces memory safety and avoids most undefined
+behaviors while providing low-level control of memory-manipulation. Ivory is
+embedded in a modern variant of Haskell, as implemented by the GHC compiler. The
+main contributions of the paper are two-fold. First, we demonstrate how to
+embed the type-system of a safe-C language into the type
+extensions of GHC. Second, Ivory is of interest in its own right, as a powerful
+language for writing high-assurance embedded programs. Beyond invariants
+enforced by its type-system, Ivory has direct support for model-checking,
+theorem-proving, and property-based testing. Ivory's semantics have been
+formalized and proved to guarantee memory safety.
+\end{abstract}
+
+\category{D.3.2}{Language Classifications}{Applicative (functional) languages}
+
+% general terms are not compulsory anymore,
+% you may leave them out
+%% \terms
+%% term1, term2
+
+\keywords
+Embedded Domain Specific Languages; Embedded Systems
+
+\input{intro}
+
+\input{overview}
+
+\input{ivory-embedding}
+
+\input{semantics}
+
+\input{tools}
+
+\input{edsl}
+
+\input{related-work}
+
+\input{conclusion}
+
+%% \appendix
+%% \section{Appendix Title}
+
+\acks
+
+We thank Kathleen Fisher, Iavor Diatchki, Mike Whalen, Gerwin Klein,
+Ben Lippmeier, and the
+members of the SMACCM team from Rockwell Collins, Boeing, NICTA for comments on
+this paper as well as stimulating discussions in the development of Ivory.  This
+work is supported by DARPA under contract no. FA8750-12-9-0169.  Opinions
+expressed herein are our own.
+
+% We recommend abbrvnat bibliography style.
+
+\bibliographystyle{abbrvnat}
+\balance
+\bibliography{paper}
+
+% appendices
+\appendix
+\onecolumn
+\clearpage
+%\input{appendix-rules.tex}
+
+% The bibliography should be embedded for final submission.
+
+%% \begin{thebibliography}{}
+%% \softraggedright
+
+%% \bibitem[Smith et~al.(2009)Smith, Jones]{smith02}
+%% P. Q. Smith, and X. Y. Jones. ...reference text...
+
+%% \end{thebibliography}
+
+
+\end{document}
+
+%                       Revision History
+%                       -------- -------
+%  Date         Person  Ver.    Change
+%  ----         ------  ----    ------
+
+%  2013.06.29   TU      0.1--4  comments on permission/copyright notices
+

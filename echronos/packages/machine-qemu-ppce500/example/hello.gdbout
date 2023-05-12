@@ -1,0 +1,15 @@
+entry () at out/machine-qemu-ppce500/example/hello/ppce500.vectable.s:500
+500	        li %r13,0
+Breakpoint 1 at 0x618: file out/machine-qemu-ppce500/example/hello/generic.debug.c, line 58.
+Breakpoint 2 at 0x7d8: file out/machine-qemu-ppce500/example/hello/generic.hello.c, line 41.
+
+Breakpoint 2, main () at out/machine-qemu-ppce500/example/hello/generic.hello.c:41
+41	    debug_println("Hello, PowerPC!");
+
+Breakpoint 1, debug_println (msg=0x7e8 "Hello, PowerPC!") at out/machine-qemu-ppce500/example/hello/generic.debug.c:58
+58	    debug_print(msg);
+A debugging session is active.
+
+	Inferior 1 [Remote target] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

@@ -1,0 +1,21 @@
+RTOS Task Review
+=======================
+
+Task name: oCfQVU-client-repositories
+Version reviewed: dc8790e7b2b80e3e3d7c9807445e1f0bbfd892c7
+Reviewer: benno
+Date: 2013-05-12
+Conclusion: Rework
+
+Overall comments:
+
+
+Specific comments
+=================
+
+Location: prj/app/prj.py:868ff
+Comment: I think I'd actually reverted this exact code (or something very similar) in a recent branch.
+I don't think the accessor function like this shouldn't actual creation.
+I think an explicit creation at the higher level is more appropriate.
+
+[[stg: moved into System.build()]]

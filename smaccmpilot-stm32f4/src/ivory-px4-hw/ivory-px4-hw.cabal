@@ -1,0 +1,465 @@
+name:                ivory-px4-hw
+version:             0.1.0.0
+license:             BSD3
+author:              Galois, Inc.
+maintainer:          pat@galois.com
+copyright:           Galois, Inc. 2013
+category:            System
+build-type:          Simple
+cabal-version:       >= 1.10
+
+library
+  exposed-modules:     SMACCMPilot.Hardware.GPS.UBlox,
+                       SMACCMPilot.Hardware.GPS.UBlox.Types,
+
+                       SMACCMPilot.Hardware.MPU6000,
+                       SMACCMPilot.Hardware.MPU6000.Regs,
+                       SMACCMPilot.Hardware.MPU6000.SPI,
+                       SMACCMPilot.Hardware.MPU6000.Types,
+                       SMACCMPilot.Hardware.MS5611,
+                       SMACCMPilot.Hardware.MS5611.Calibration,
+                       SMACCMPilot.Hardware.MS5611.Types,
+                       SMACCMPilot.Hardware.MS5611.Regs,
+                       SMACCMPilot.Hardware.MS5611.Mode,
+                       SMACCMPilot.Hardware.MS5611.I2C,
+                       SMACCMPilot.Hardware.MS5611.SPI,
+                       SMACCMPilot.Hardware.HMC5883L,
+                       SMACCMPilot.Hardware.HMC5883L.Regs,
+                       SMACCMPilot.Hardware.HMC5883L.I2C,
+                       SMACCMPilot.Hardware.LSM303D,
+                       SMACCMPilot.Hardware.LSM303D.Regs,
+                       SMACCMPilot.Hardware.LSM303D.SPI,
+
+                       SMACCMPilot.Hardware.L3GD20,
+                       SMACCMPilot.Hardware.L3GD20.SPI,
+
+                       SMACCMPilot.Hardware.PPM,
+                       SMACCMPilot.Hardware.PPM.PulseCapture,
+                       SMACCMPilot.Hardware.PPM.PulseCapture.Types,
+                       SMACCMPilot.Hardware.PPM.Decode,
+                       SMACCMPilot.Hardware.PPM.Decode.Types,
+
+                       SMACCMPilot.Hardware.PX4FMU17,
+                       SMACCMPilot.Hardware.PX4FMU17.MotorControl
+
+                       SMACCMPilot.Hardware.CAN,
+                       SMACCMPilot.Hardware.CANMessages,
+
+                       SMACCMPilot.Hardware.Sensors,
+                       SMACCMPilot.Hardware.SensorManager,
+
+                       SMACCMPilot.Hardware.RGBLED,
+
+                       SMACCMPilot.Hardware.ADC,
+
+                       SMACCMPilot.Hardware.PX4IO,
+                       SMACCMPilot.Hardware.PX4IO.Types,
+                       SMACCMPilot.Hardware.PX4IO.Types.Regs,
+                       SMACCMPilot.Hardware.PX4IO.Types.Request,
+                       SMACCMPilot.Hardware.PX4IO.Types.RequestCode,
+                       SMACCMPilot.Hardware.PX4IO.Types.Buffer,
+                       SMACCMPilot.Hardware.PX4IO.CRC,
+                       SMACCMPilot.Hardware.PX4IO.Pack,
+
+                       SMACCMPilot.Hardware.Platforms,
+                       SMACCMPilot.Hardware.Platforms.ParserUtils,
+                       SMACCMPilot.Hardware.Serialize,
+
+                       SMACCMPilot.Time
+
+  build-depends:       base >= 4.6,
+                       base-compat >= 0.6,
+                       monadLib,
+                       ivory,
+                       ivory-artifact,
+                       ivory-stdlib,
+                       ivory-serialize,
+                       ivory-hw,
+                       tower >= 0.9,
+                       tower-config,
+                       ivory-bsp-stm32,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower-hal,
+                       linear >= 1.20
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             copter-motor-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             CopterMotorTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.CopterMotors
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-stdlib,                       
+                       ivory-bsp-stm32,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       smaccm-datalink,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             copter-motor-test-client
+  type: exitcode-stdio-1.0
+  main-is:             CopterMotorTestClient.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       bytestring,
+                       haskeline,
+                       pipes,
+                       parsec,
+                       transformers,
+                       smaccm-commsec,
+                       smaccm-datalink
+
+
+test-suite             ublox-gps-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             UbloxGPSTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.Ublox
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-mpu6k-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             MPU6000Test.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.MPU6000
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4_mpu6k_aadl_test_gen
+  type: exitcode-stdio-1.0
+  main-is:             MPU6000AADLTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.MPU6000
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-aadl,
+                       tower-freertos-stm32,
+                       tower-echronos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-baro-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             BaroTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.Baro
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-mag-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             MagTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.Magnetometer
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-ppm-in-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             PPMInTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.PPMIn
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-rgbled-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             RGBLEDTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.RGBLED
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4_rgbled_aadl_test_gen
+  type: exitcode-stdio-1.0
+  main-is:             RGBLEDAADLTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.RGBLED
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-aadl,
+                       tower-config,
+                       tower-echronos-stm32,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+
+test-suite             px4-all-sensors-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             AllSensorsTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.AllSensors,
+      SMACCMPilot.Hardware.Tests.Ublox
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4_all_sensors_aadl_test_gen
+  type: exitcode-stdio-1.0
+  main-is:             AllSensorsTestAADL.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.AllSensors,
+      SMACCMPilot.Hardware.Tests.Ublox
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-aadl,
+                       tower-echronos-stm32,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-all-sensors-ext-mag-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             AllSensorsExtMagTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.AllSensorsExtMag,
+      SMACCMPilot.Hardware.Tests.Ublox
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-stm32,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-sensors-monitor-gen
+  type: exitcode-stdio-1.0
+  main-is:             SensorsMonitor.hs
+  hs-source-dirs:      tests
+  build-depends:       base >= 4.6,
+                       filepath,
+                       ivory,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       ivory-tower-posix,
+                       smaccm-datalink,
+                       tower,
+                       tower-hal,
+                       ivory-px4-hw,
+                       smaccm-comm-schema-tower
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-px4io-packing-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             PX4IOPackingTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.PX4IO,
+      SMACCMPilot.Hardware.Tests.PX4IOPacking
+  build-depends:       base >= 4.6,
+                       filepath,
+                       ivory,
+                       ivory-bsp-tests,
+                       ivory-artifact,
+                       ivory-stdlib,
+                       ivory-serialize,
+                       ivory-backend-c,
+                       smaccm-datalink,
+                       ivory-px4-hw,
+                       tower,
+                       smaccm-comm-schema-tower
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-px4io-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             PX4IOTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.PX4IO
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-bsp-tests,
+                       smaccm-comm-schema-tower,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       ivory-px4-hw
+
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+test-suite             px4-adc-test-gen
+  type: exitcode-stdio-1.0
+  main-is:             ADCTest.hs
+  hs-source-dirs:      tests
+  other-modules:
+      SMACCMPilot.Hardware.Tests.ADC
+  build-depends:       base >= 4.6,
+                       monadLib,
+                       ivory,
+                       ivory-serialize,
+                       ivory-stdlib,
+                       smaccm-comm-schema-tower,
+                       smaccm-datalink,
+                       tower              >= 0.9,
+                       tower-config,
+                       tower-freertos-stm32,
+                       tower-hal,
+                       ivory-px4-hw
+

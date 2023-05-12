@@ -1,0 +1,29 @@
+-- File generated from Tower-AADL compiler
+
+package uart2_dma_rx_byte_shim
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+
+thread uart2_dma_rx_byte_shim
+  features
+    Input_uart2_buf_rx: in event data port Data_Types::ivory_string_UARTBuffer
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_uart2_buf_rx");
+        Source_Text => ("user_code/uart2_dma_rx_byte_shim_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{128 Output_uart2_buf_rx_0}}";
+      };
+    Output_uart2_buf_rx_0: out event data port Base_Types::Unsigned_8
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_uart2_buf_rx_chan_7";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Passive;
+    Dispatch_Protocol => Aperiodic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    Source_Text => ();
+end uart2_dma_rx_byte_shim;
+
+end uart2_dma_rx_byte_shim;

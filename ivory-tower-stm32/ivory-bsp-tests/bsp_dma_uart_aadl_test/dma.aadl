@@ -1,0 +1,73 @@
+-- File generated from Tower-AADL compiler
+
+package dma
+public
+  with Base_Types;
+  with Data_Model;
+  with Data_Types;
+  with SMACCM_SYS;
+
+thread dma
+  features
+    Input_dmauart_hw_init: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_dmauart_hw_init");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_dmauart_hw_init_0}}";
+      };
+    Input_dmauart_tx_init: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_dmauart_tx_init");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_req_chan: in event data port Data_Types::ivory_string_UARTBuffer
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_req_chan");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_tx_stream_interrupt: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_tx_stream_interrupt");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{1 Output_tx_stream_interrupt_0}}";
+      };
+    Input_dmauart_rx_init: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_dmauart_rx_init");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_rx_stream_interrupt: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_rx_stream_interrupt");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{}}";
+      };
+    Input_rx_flush: in event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::Compute_Entrypoint_Source_Text => ("callback_rx_flush");
+        Source_Text => ("user_code/dma_monitor.c");
+        SMACCM_SYS::Sends_Events_To => "{{2 Output_rx_flush_0}}";
+      };
+    Output_dmauart_hw_init_0: out event data port Base_Types::Integer_64
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_dmauart_hw_init_chan_6";
+      };
+    Output_tx_stream_interrupt_0: out event data port Base_Types::Boolean
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_tx_stream_interrupt_chan_4";
+      };
+    Output_rx_flush_0: out event data port Data_Types::ivory_string_UARTBuffer
+      {
+        SMACCM_SYS::CommPrim_Source_Text => "emitter_rx_flush_chan_5";
+      };
+  properties
+    SMACCM_SYS::Thread_Type => Passive;
+    Dispatch_Protocol => Aperiodic;
+    Compute_Execution_Time => 10 us .. 100 us;
+    Source_Text => ();
+end dma;
+
+end dma;

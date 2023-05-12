@@ -1,0 +1,19 @@
+RTOS Task Review
+=======================
+
+Task name: LaaR3C-improved-signal-labels
+Version reviewed: 221c4ec60a0ca5fce516d35e74c523797494e01f
+Reviewer: joseph
+Date: 2013-10-30
+Conclusion: Rework
+
+Overall comments:
+
+
+Specific comments
+=================
+
+Location: prj.py:582
+Comment: Spelling mistake, should be "constraint" rather than "constraant"
+
+[[(benno): Fixed.]]
